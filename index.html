@@ -1,8 +1,24 @@
-<p>Test pandoc setup</p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<h1 id="the-markdown-resume">The Markdown Resume</h1>
+<p>Christophe-Marie Duquesne has a great <a href="chmd">blog post</a> wherein he shows that using <a href="pandoc">pandoc</a>, you can maintain your resume in markdown format and convert to other formats such as html and Word at will. However, the recommendation for obtaining a pdf is to use the <a href="wkhtmltopdf">wkhtmltopdf tool</a>, which takes the pandoc-generated HTML and uses the webkit browser engine to generate a pdf.</p>
+<p>Unfortunately, webkit is not a typesetting engine, so the pdf output is suboptimal; most importantly, it does not handle page breaks well, in some cases even putting a page break right across a line of text.</p>
+<p>TeX-based typesetting systems are designed for this task however, and fortunately pandoc supports two types of TeX output: LaTeX and <a href="context">ConTeXt</a>. I chose the latter since it seemed interesting, is more focused on page layout, and is not specialized for scientific documents. Using a style.tex which emulates Christophe-Marie's style.css, we can create a nicely typeset pdf document which looks quite similar to the HTML:</p>
 <p>HTML version of the resume:</p>
-<iframe src="resume.html"></iframe>
+<iframe src="resume.html" width=100% height=500px></iframe>
 
 <p>PDF version of the resume:</p>
-<object data="resume.pdf" type="application/pdf"></object>
+<object data="resume.pdf" type="application/pdf" width=100% height=500px></object>
 
-<p>Final words</p>
+<p>The repository is located <a href="repo">here</a> (pull requests welcome), so you can clone it, insert your own resume.md, and have your own sweet pdf resume in no time!</p>
+</body>
+</html>

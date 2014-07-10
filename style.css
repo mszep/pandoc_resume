@@ -1,0 +1,32 @@
+
+body {
+  background: #fff;
+  color: #222;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 300px;
+}
+
+body, textarea, pre, input {
+  font-family: 'Lato', Helvetica, sans-serif;
+  line-height: 1.8em;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,#text-title pre {
+  font-weight: 900;
+  word-wrap: break-word;
+  line-height: 1.3em;
+}
+
+h1,
+#text-title pre,
+#text-title textarea {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+p {
+  color: #555;
+}
