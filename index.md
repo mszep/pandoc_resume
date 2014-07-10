@@ -19,11 +19,11 @@ documents. Using a style.tex which emulates Christophe-Marie's
 style.css, we can create a nicely typeset pdf document which looks
 quite similar to the HTML:
 
-[HTML version][resume.html] of the resume:
+[HTML version](resume.html) of the resume:
 
 <iframe src="resume.html" width=100% height=500px></iframe>
 
-[PDF version][resume.pdf] of the resume:
+[PDF version](resume.pdf) of the resume:
 
 <object data="resume.pdf" type="application/pdf" width=100% height=500px></object>
 
