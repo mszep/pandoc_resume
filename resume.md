@@ -75,7 +75,7 @@ Programming Languages
 :   **obscure-but-impressive-lang:** We both know this one's pushing
     it.
 
-:   Basic knowledge of **C**, **Brainfuck**, **forth**, **Common Lisp**
+:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
