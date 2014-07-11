@@ -1,4 +1,4 @@
-# The Markdown Resume
+% The Markdown Resume
 
 Maintaining a resume is one of those annoying tasks that always takes
 up much more of your time than it should. Compounding this is the fact
