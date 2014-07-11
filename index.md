@@ -1,15 +1,15 @@
 % The Markdown Resume
 
 Maintaining a resume is one of those annoying tasks that always takes
-up much more of your time than it should. Compounding this is the fact
-that resumes can be requested in different formats: raw text, pdf,
+up much more time than it should. Compounding this is the fact
+that resumes are regularly requested in different formats: raw text, pdf,
 Microsoft Word, etc. In addition, it might be desirable to have a HTML
 version online somewhere for added visibility. How then to manage this
 complexity? No one wants to manually update four versions of their
 resume, and the pdf conversion tools included with word processors
 leave much to be desired.
 
-Christophe-Marie Duquesne has a great [blog post][chmd] wherein he
+Christophe-Marie Duquesne has a great [blog post][chmd] in which he
 shows that using the document translation tool [pandoc][pandoc], you
 can maintain your resume in [markdown format][markdown] and convert
 to other formats such as html and Word at will.
@@ -32,14 +32,14 @@ This is what a simple resume in markdown format looks like:
 However, in the above approach the generation of a pdf version
 (arguably the most important) is problematic. The suggestion is to use
 the [wkhtmltopdf tool][wkhtmltopdf], which takes the pandoc-generated
-HTML and uses the webkit browser engine to generate a pdf. This will
-preserve the look and feel of the resume, but unfortunately, webkit is
-not a typesetting engine, so the pdf output is suboptimal. Most
-importantly, it does not handle page breaks well, in some cases even
+HTML and uses the webkit browser engine to generate a pdf. While this
+will preserve the look and feel of the resume, the pdf output is
+suboptimal, as webkit is not a typesetting engine. Most
+importantly, it does not handle page breaks well -- in some cases even
 putting a page break right across a line of text.
 
-TeX-based typesetting systems are designed for this task however, and
-fortunately pandoc supports two types of TeX output: LaTeX and
+On the other hand, TeX-based typesetting systems are designed for this
+task. Moreover, pandoc supports two types of TeX output: LaTeX and
 [ConTeXt][context]. I chose the latter since it seemed interesting, is
 more focused on page layout, and is not specifically geared towards
 scientific documents. Through trial and error, I was able to create a
