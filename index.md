@@ -15,12 +15,13 @@ can maintain your resume in [markdown format][markdown] and convert
 to other formats such as html and Word at will.
 
 This is convenient because:
+
  * It means there is only one file you need to update to make any
    changes.
- * You can generate a .doc version of your resume without having to use
-   a word processor.
  * Markdown is designed to be human-readable, so if you need a raw text
    version of your resume, no transformation is needed.
+ * Markdown has syntax for section headers, lists, tables and more, so
+   you can add as much structure as you want to your resume.
  * Being a format designed (partly) for human consumption and creation,
    it is also an appropriate format to keep in version control.
 
