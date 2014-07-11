@@ -2,7 +2,7 @@
 body {
   background: #fff;
   color: #222;
-  width: 50%;
+  width: 60%;
   margin-left: 25%;
   margin-bottom: 300px;
 }
@@ -30,3 +30,7 @@ h1,
 p {
   color: #555;
 }
+
+.gist {width:100% !important;}
+.gist-file
+.gist-data {max-height: 500px;max-width: 100%;}
