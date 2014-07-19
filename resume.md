@@ -1,11 +1,21 @@
 Johnny Coder
 ============
 
+----
+
+>  Optionally, start your resume with a salient quotation.\
+>  Ending the line with a backslash forces a line break.\
+>  Alternatively, you can have a table, as implemented below:
+
+----
+
 -------------------     ----------------------------
 1 MyAddress                        email@example.com
 MyTown 1000                          @twitter_handle
 MyCountry                           1800 my-phone-nr
 -------------------     ----------------------------
+
+----
 
 Education
 ---------
