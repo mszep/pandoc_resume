@@ -1,12 +1,12 @@
 <style type="text/css">
 /*
- *  * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
- *   *
- *    * CSS for making a resume with pandoc. Inspired by moderncv.
- *     *
- *      * This CSS document is delivered to you under the CC BY-SA 3.0 License.
- *       * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
- *        */
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
 
 /* Whole document */
 body {
@@ -24,6 +24,11 @@ h1 {
     text-align:center;
     margin-bottom:15px;
 }
+h1:hover {
+    background-color: #757575;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
+}
 
 /* Titles of categories */
 h2 {
@@ -38,13 +43,18 @@ h2:before {
     height: 10px;
     background-color: #9CB770;
 }
+h2:hover {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
+}
 
 /* Definitions */
 dt {
     float: left;
     clear: left;
     width: 17%;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 dd {
     margin-left: 17%;
@@ -62,6 +72,13 @@ blockquote {
 /* Links */
 a {
     text-decoration: none;
+    color: #397249;
+}
+a:hover, a:active {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
 }
 
 /* Horizontal separators */
@@ -71,6 +88,5 @@ hr {
 
 table {
     width: 100%;
-    border-color:#999999;
 }
 </style>
