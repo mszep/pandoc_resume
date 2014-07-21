@@ -3,17 +3,9 @@ Johnny Coder
 
 ----
 
->  Optionally, start your resume with a salient quotation.\
->  Ending the line with a backslash forces a line break.\
->  Alternatively, you can have a table, as implemented below:
-
-----
-
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
+>  In this style, the resume starts with a blockquote, where
+>  you can briefly list your specialties, or include a salient
+>  quote. Ending a line with a backslash forces a line break.
 
 ----
 
@@ -101,3 +93,8 @@ Extra Section, Call it Whatever You Want
 * Random tidbit
 
 * Other sort of impressive-sounding thing you did
+
+----
+
+> <email@example.com> • +00 (0)00 000 0000 • XX years old\
+> address - Mytown, Mycountry
