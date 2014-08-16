@@ -1,14 +1,14 @@
 all: html pdf
 
 pdf: resume.md
-	pandoc --standalone --template style_green.tex \
+	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
 	-o resume.tex resume.md; \
 	context resume.tex
 
-html: style_green.css resume.md
-	pandoc --standalone -H style_green.css \
+html: style_chmduquesne.css resume.md
+	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
         -o resume.html resume.md
 
