@@ -1,4 +1,4 @@
-all: html pdf
+all: html pdf docx rtf
 
 pdf: resume.md
 	pandoc --standalone --template style_chmduquesne.tex \
@@ -12,9 +12,17 @@ html: style_chmduquesne.css resume.md
         --from markdown --to html \
         -o resume.html resume.md
 
+docx: resume.md
+	pandoc -s -S resume.md -o resume.docx
+
+rtf: resume.md
+	pandoc -s -S resume.md -o resume.rtf
+
 clean:
 	rm resume.html
 	rm resume.tex
 	rm resume.tuc
 	rm resume.log
 	rm resume.pdf
+	rm resume.docx
+	rm resume.rtf
