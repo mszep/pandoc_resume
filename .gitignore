@@ -1,9 +1,3 @@
-*.tuc
-*.log
-*.pdf
-*.html
-resume.tex
 *.swo
 *.swp
-*.docx
-*.rtf
+node_modules/
