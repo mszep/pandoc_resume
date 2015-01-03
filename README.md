@@ -3,12 +3,16 @@ The Markdown Resume
 
 Instructions:
 
-    git clone https://github.com/mszep/pandoc_resume
-    cd pandoc_resume
-    vim resume.md   #insert your own resume info
-    make
+```bash
+$ git clone https://github.com/mszep/pandoc_resume
+$ cd pandoc_resume
+$ vim resume.md   #insert your own resume info
+$ npm install && grunt all
+```
 
 Requirements:
 
- * ConTteXt
- * pandoc
+* ConTteXt
+* pandoc
+* node.js
+* Grunt
