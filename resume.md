@@ -1,9 +1,7 @@
 Igor Kaplounenko
 ================
 
-----------------------------
-**senior software engineer**
-----------------------------
+> **senior software engineer**
 
 -------------------------------------------------------				---------------------------
 <https://github.com/megawidget>																<megawidget@gmail.com>
@@ -179,6 +177,4 @@ Minor
 *	Over a year's worth of coursework in Digital Signal Processing and Synthesis as it applies to sound, incl. graduate level work. (*Pure Data*, *C*, *C++*)
 *	Familiarity with computer graphics, esp. raytracing and radiosity techniques. (*C++*, *OpenGL*)
 
----------------------------------
-references available upon request
----------------------------------
+> references available upon request
