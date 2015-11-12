@@ -34,7 +34,9 @@ $endif$
 
 \setupwhitespace[medium]
 
-\setupblackrules[width=31mm, color=rulecolor]
+
+
+\setupblackrules[width=25mm, color=rulecolor]
 
 \setuphead[chapter]      [style=\tfd]
 \setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
@@ -60,13 +62,14 @@ $endif$
 \setupfloat[figure][default={here,nonumber}]
 \setupfloat[table][default={here,nonumber}]
 
-\setuptables[textwidth=max, HL=none]
+\setuptables[textwidth=max]
 
 \setupthinrules[width=15em] % width of horizontal rules
 
 \setupdelimitedtext
   [blockquote]
-  [before={\setupalign[middle]},
+  [before={\blank[medium]},
+   after={\blank[medium]},
    indentnext=no,
   ]
 
