@@ -12,22 +12,36 @@ Special Qualifications
 
 **Languages**
 
+* CoffeeScript, LiveScript with React, Redux, Immutable.js, Lodash, Bootstrap
 *	Python with Tornado
 *	C++14 with STL and Boost
-*	CoffeeScript with Ender.js and JQuery frameworks
 
 **Other Technologies**
 
 *	elliptic curve cryptography, NaCl
-*	SQLite, MySQL
+*	SQLite, MySQL, PostgreSQL, Redis
 *	Linux, FreeBSD
 *	AWS S3 and EC2
 * Git
 
-I am familiar with a variety of other languages and technologies as well, but am primarily a Python and C++14 aficionado.
+I am familiar with a variety of other languages and technologies as well, but am
+primarily a LiveScript, Python, and C++14 aficionado.
 
 Work Experience
 ---------------
+
+2015-2016
+: **Software Engineer** at **Hipmunk**
+
+* Designed and implemented an admin panel for managing server alerters for
+  PagerDuty. (*Python*, *Tornado*, *React*, *Lodash*, *Bootstrap*)
+* Implemented a bot detection system that uses browser profiling and geoIP
+  tracking to tarpit and feed fake data to bots. (*Python*, *Tornado*)
+* Interfaced with Qatar's flight search API. (*Python*, *Tornado*)
+* Implemented the second version of the United Airlines' booking API. (*Python*,
+  *Tornado*)
+* Implemented the generation of booking links from Sabre travel network's API.
+  (*Python*, *Tornado*)
 
 2012-2015
 :	**Python Developer** at **BitTorrent, Inc.**
@@ -49,7 +63,7 @@ Work Experience
 :	**Senior Software Engineer** at **Sony Network Entertainment, Inc.**
 
 *	Implemented a simulator of a PSN video store and was responsible for extending
-	it with prototypal functionality.  This was showcased at E3.(*Python*,
+	it with prototypal functionality.  This was showcased at E3. (*Python*,
 	*Tornado*)
 
 2008-2010
