@@ -31,7 +31,7 @@ Work Experience
 ---------------
 
 2015-2016
-: **Software Engineer** at **Hipmunk**
+:	**Software Engineer** at **Hipmunk**
 
 * Designed and implemented an admin panel for managing server alerters for
   PagerDuty. (*Python*, *Tornado*, *React*, *Lodash*, *Bootstrap*)
