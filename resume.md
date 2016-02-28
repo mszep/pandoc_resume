@@ -34,7 +34,7 @@ Work Experience
 :	**Software Engineer** at **Hipmunk**
 
 * Designed and implemented an admin panel for managing server alerters for
-  PagerDuty. (*Python*, *Tornado*, *React*, *Lodash*, *Bootstrap*)
+  PagerDuty. (*Python*, *Tornado*, *CoffeeScript*, *React*, *Lodash*, *Bootstrap*)
 * Implemented a bot detection system that uses browser profiling and geoIP
   tracking to tarpit and feed fake data to bots. (*Python*, *Tornado*)
 * Interfaced with Qatar's flight search API. (*Python*, *Tornado*)
