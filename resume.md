@@ -39,6 +39,32 @@ Experience
     * Maintain Highly Available LAMP infrastructure for Acquia Hosting
     * Troubleshoot, maintain and create configuration files for Varnish
 
+10/2011-7/2013
+:   **Linux Systems Adminstrator**; PlumChoice (Lowell, MA)
+
+    * Linux System Administration, including configuration and security updates for Red Hat, CentOS, and Ubuntu Servers
+    * Configured and deployed network monitoring across multiple sites worldwide (150+ servers running 800+ services)
+    * Use of tools like Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others for performance and monitoring
+    * Wrote scripts using bash/perl/python for system tasks and customer monitoring plugins
+    * System Administration of internal chat server using Isode M-Link on Red Hat Enterprise
+    * Configuration and deployment of Linux and Windows servers, both physical and virtual (VMWare ESX & VCenter)
+    * Deployed F5 Big-IP LTM for load balancing, reverse proxy, and SSL offloading
+    * Deployed F5 Big-IP ASM Web Application Firewall for application security
+    * Windows System Administration, including User, Group Policy, DNS management in Active Directory
+    * Act as company Security Administrator, responsible for many parts of PCI-DSS compliance including File Integrity Monitoring
+    (OSSEC), Vunerability scanning (Qualys), assist in writing policies, review all security incidents
+    * Co-Wrote and deployed customer reporting REST API on Amazon EC2 using Node.js and Nginx
+
+02/2011-10/2011
+:   **Linux Systems Adminstrator**; PlumChoice (Lowell, MA)
+
+    * Configuration and deployment of PC cloning and imaging solution using Clonezilla and DRBL on Debian Linux
+    * Configuration and support of Windows and Macintosh OS X systems
+    * Configuration and support of Thin Clients in a Citrix environment
+    * Provided desktop support to over 700 users, both internal and remote
+    * Assisted in design and implementation of escalation procedures for operations to development
+    * Advanced troubleshooting of undocumented issues
+
 Technical Experience
 --------------------
 
