@@ -1,46 +1,43 @@
-Johnny Coder
-============
+Bradford Clark
+==============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+Summary of Qualifications
+-------------------------
+
+>  Takes ownership of problems and sees them through to resolution. I’d rather
+>  automate something than repeat the same task over and over. I love
+>  monitoring and metrics and using data to make smart decisions. I find
+>  performance work and capacity planning especially interesting. I work well
+>  both on teams and alone.
 
 ----
-
-Education
----------
-
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+8/2014-Present
+:   **Site Reliability Engineer**; Acquia, Inc. (Boston, MA)
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+    * Dedicated operations resource for large enterprise customer
+    * Maintain High Availability Infrastructure for customer sites & ensure uptime during high traffic events
+    * Develop tools for auditing and automation
+    * Work in a high-touch relationship with the customer, including regular calls and on-site visits
+    * Function as a technical and strategic contact and partner
+    * Ensured site availability during some of the world's largest events, including the Olympics, the Superbowl, and more.
+    * Improve platform monitoring and create auditing tools to improve stability
+    * Built tooling to use metrics to provide proactive notifications of pending issues before they occur
 
-* First item
+7/2013-8/2014
+:   **Senior Cloud Systems Engineer**; Acquia, Inc. (Boston, MA)
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
+    * Manage and maintain 8000+ Linux Systems on Amazon EC2.
+    * Assist in redesign of monitoring system to accommodate 10,000+ systems and 300,000+ services
+    * Develop command line tool in Ruby for automating ticket creation in ZenDesk and Jira.
+    * Created a standardized development environment using Vagrant
+    * Maintain Highly Available LAMP infrastructure for Acquia Hosting
+    * Troubleshoot, maintain and create configuration files for Varnish
 
 Technical Experience
 --------------------
@@ -81,6 +78,22 @@ Programming Languages
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
+Education
+---------
+
+2010-2014 (expected)
+:   **PhD, Computer Science**; Awesome University (MyTown)
+
+    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
+     Estimation Problem*
+
+2007-2010
+:   **BSc, Computer Science and Electrical Engineering**; University of
+    HomeTown (HomeTown)
+
+    *Minor: Awesomeology*
+
+
 Extra Section, Call it Whatever You Want
 ----------------------------------------
 
@@ -96,5 +109,5 @@ Extra Section, Call it Whatever You Want
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <bdashrad@gmail.com> • +1 (978)822-0077 • @bdashrad
+> 84 Tennis Plaza Rd, Unit 60, Dracut, MA, 01826, USA
