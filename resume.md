@@ -7,9 +7,6 @@ Dracut, MA 01826                           @bdashrad
 USA                                  +1 978 822-0077
 -----------------------      -----------------------
 
-
-----
-
 Summary
 -------
 * Prefer to fix a problem correctly than leave it to blow up later.
@@ -111,13 +108,12 @@ Education
 :   **Computer Science**; Worcester Polytechnic University (Worcester, MA)
 
 2002-2003
-:   **Management Information Systems**; University of Massachusetts - Lowell
-    (Lowell, MA)
+:   **Management Information Systems**; UMass Lowell (Lowell, MA)
 
 2003-2006
 :   **Management Information Systems**; Middlesex Community College (Lowell, MA)
 
 ----
 
-> <bdashrad@gmail.com> • +1 (978)822-0077 • @bdashrad
-> 84 Tennis Plaza Rd, Unit 60, Dracut, MA, 01826, USA
+> <bdashrad@gmail.com> • +1 978 822-0077 • @bdashrad \
+> 84 Tennis Plaza Rd Unit 60, Dracut, MA, 01826, USA
