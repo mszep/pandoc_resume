@@ -17,36 +17,33 @@ Summary
 Experience
 ----------
 
-8/2014-Present
-:   **Site Reliability Engineer**; Acquia, Inc. (Boston, MA)
+### Acquia (Boston, MA)
+**Site Reliability Engineer**; 8/2014-Present
+  * Dedicated operations resource for large enterprise customer
+  * Maintain High Availability Infrastructure for customer sites & ensure uptime
+    during high traffic events
+  * Develop tools for auditing and automation
+  * Work in a high-touch relationship with the customer, including regular calls
+    and on-site visits
+  * Function as a technical and strategic contact and partner
+  * Ensured site availability during some of the world's largest events, including
+    the Olympics, the Superbowl, and more.
+  * Improve platform monitoring and create auditing tools to improve stability
+  * Built tooling to use metrics to provide proactive notifications of pending
+    issues before they occur
 
-* Dedicated operations resource for large enterprise customer
-* Maintain High Availability Infrastructure for customer sites & ensure uptime
-  during high traffic events
-* Develop tools for auditing and automation
-* Work in a high-touch relationship with the customer, including regular calls
-  and on-site visits
-* Function as a technical and strategic contact and partner
-* Ensured site availability during some of the world's largest events, including
-  the Olympics, the Superbowl, and more.
-* Improve platform monitoring and create auditing tools to improve stability
-* Built tooling to use metrics to provide proactive notifications of pending
-  issues before they occur
+**Senior Cloud Systems Engineer**; 7/2013-8/2014
+  * Manage and maintain 8000+ Linux Systems on Amazon EC2.
+  * Assist in redesign of monitoring system to accommodate 10,000+ systems and
+    300,000+ services
+  * Develop command line tool in Ruby for automating ticket creation in ZenDesk
+    and Jira.
+  * Created a standardized development environment using Vagrant
+  * Maintain Highly Available LAMP infrastructure for Acquia Hosting
+  * Troubleshoot, maintain and create configuration files for Varnish
 
-7/2013-8/2014
-:   **Senior Cloud Systems Engineer**; Acquia, Inc. (Boston, MA)
-
-* Manage and maintain 8000+ Linux Systems on Amazon EC2.
-* Assist in redesign of monitoring system to accommodate 10,000+ systems and
-  300,000+ services
-* Develop command line tool in Ruby for automating ticket creation in ZenDesk
-  and Jira.
-* Created a standardized development environment using Vagrant
-* Maintain Highly Available LAMP infrastructure for Acquia Hosting
-* Troubleshoot, maintain and create configuration files for Varnish
-
-10/2011-7/2013
-:   **Linux Systems Adminstrator**; PlumChoice (Lowell, MA)
+### PlumChoice (Lowell, MA)
+**Linux Systems Adminstrator**; 10/2011-7/2013
 
 * Centralized management configuration and security updates for Red Hat,
   CentOS, and Ubuntu Servers
@@ -68,8 +65,7 @@ Experience
 * Co-Wrote and deployed customer reporting REST API on Amazon EC2 using Node.js
   and Nginx
 
-02/2011-10/2011
-:   **Linux Systems Adminstrator**; PlumChoice (Lowell, MA)
+**Linux Systems Adminstrator**; 02/2011-10/2011 (Lowell, MA)
 
 * Configuration and deployment of PC cloning and imaging solution using
   Clonezilla and DRBL on Debian Linux
