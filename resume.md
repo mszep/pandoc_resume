@@ -3,8 +3,7 @@ Bradford Clark
 
 -----------------------      -----------------------
 84 Tennis Plaza Rd #60            bdashrad@gmail.com
-Dracut, MA 01826                           @bdashrad
-USA                                  +1 978 822-0077
+Dracut, MA 01826                     +1 978 822-0077
 -----------------------      -----------------------
 
 Summary
@@ -13,6 +12,31 @@ Summary
 * Automatation is always better than repitition.
 * Monitoring and metrics are key to making smart decisions.
 * Knows getting things done is the most important part.
+
+Relevant Skills
+---------------
+
+Core
+:   Linux, Bash, Ruby, Varnish, Nagios, Apache, Nginx, git, HTML, CSS,
+    performance and capacity planning
+
+Familiar
+:   Python, Perl, Puppet, Vagrant, node.js, MySQL, PostgreSQL, Graphite, OSSEC,
+    Logstash
+
+OS
+:   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
+
+Cloud
+:   EC2, Digital Ocean, Rackspace, Softlayer
+
+Virtualization
+:   VMWare Workstation, VSphere/ESXi, Citrix
+
+Other
+:   Mediawiki, markdown, Jira, kanban, scrum, regex
+
+:   Read and comprehend most C-Family languages
 
 Experience
 ----------
@@ -27,8 +51,8 @@ Experience
   * Work in a high-touch relationship with the customer, including regular calls
     and on-site visits
   * Function as a technical and strategic contact and partner
-  * Ensured site availability during some of the world's largest events, including
-    the Olympics, the Superbowl, and more.
+  * Ensured site availability during some of the world's largest events,
+    including the Olympics, the Superbowl, and more.
   * Improve platform monitoring and create auditing tools to improve stability
   * Built tooling to use metrics to provide proactive notifications of pending
     issues before they occur
@@ -49,55 +73,76 @@ Experience
 
   * Centralized management configuration and security updates for Red Hat,
     CentOS, and Ubuntu Servers
-  * Configured and deployed network monitoring across multiple sites worldwide
-    (150+ servers running 800+ services)
-  * Use of tools like Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others
-    for performance and monitoring
-  * Wrote scripts using bash/perl/python for system tasks and customer monitoring
-    plugins
-  * Administration of internal chat server using Isode M-Link on RHEL 5
-  * Configuration and deployment of Linux and Windows servers, both physical and
+  * Architected system and network monitoring across multiple sites worldwide
+    (250+ servers running 800+ services)
+  * Use Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others for
+    performance and monitoring
+  * Wrote scripts using bash/perl/python for system tasks and monitoring plugins
+  * Administration of internal xmpp chat server
+  * Configuration and deployment of Linux and Windows systems, both physical and
     virtual (VMWare ESX & VCenter)
   * Deployed F5 Big-IP LTM for load balancing, reverse proxy, and SSL offloading
   * Deployed F5 Big-IP ASM Web Application Firewall
-  * Windows System Administration, including User, Group Policy, DNS management in
-    Active Directory
+  * Windows System Administration, including User, Group Policy, DNS management
+    in Active Directory
   * Act as company Security Administrator, responsible for many parts of PCI-DSS
     compliance, assist in writing policies, review all security incidents
-  * Co-Wrote and deployed customer reporting REST API on Amazon EC2 using Node.js
-  and Nginx
+  * Co-wrote and deployed reporting REST API on Amazon EC2 using Node.js and
+    Nginx
 
-**Linux Systems Adminstrator**; 02/2011-10/2011
+**IT Infrastructure Consultant**; 2/2011-10/2011
 
   * Configuration and deployment of PC cloning and imaging solution using
     Clonezilla and DRBL on Debian Linux
   * Configuration and support of Windows and Macintosh OS X systems
-  * Configuration and support of Thin Clients in a Citrix environment
   * Provided desktop support to over 700 users, both internal and remote
   * Assisted in design and implementation of escalation procedures for
     operations to development
-  * Advanced troubleshooting of undocumented issues
 
-Relevant Skills
----------------
+### Sophos (Burlington, MA)
+**Techinical Support Engineer**; 7/2010 - 1/2011
 
-Core
-:   Linux, Bash, Ruby, Varnish, Nagios, Apache, Nginx, git, HTML, CSS, regex
+  * Provided technical support for the SafeGuard line of encryption software for
+    a variety of clients
+  * Assist Global Escalations and development with testing and reproducing bugs
+  * Provided customers with SQL and VB scripts based on specific needs to
+    supplement software functionality
+  * Developed support tools and procedures for new products, migrated existing
+    tools to work with new products
+  * Worked to discover and resolve bugs and defects
+  * Completed a variety of testing daily on both physical and virtual machines
+    in order to re-create and resolve customer issues
+  * Implemented enterprise level software solutions in many environments from
+    extremely large (20,000+) to single workstations.
 
-Familiar
-:   Python, Perl, Puppet, Vagrant, node.js, MySQL, PostgreSQL, Graphite, OSSEC
-    Logstash
 
-OS
-:   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
+### Constant Contact (Waltham, MA)
+**Tier II Technical Support**; 10/2008 – 06/2009
+  * Acted as a gateway between customers and engineering
+  * Assist QA and engineering by testing products before live release
+  * Provided internal technical support to Tier I representatives
+  * Handle technical escalations submitted by Tier I customer support
+  * Create training materials for new hires and instruct them in a classroom
+    environment
+  * Worked with engineering and QA to create and implement statistical tracking
+    system for on-going defects that helped to narrow down and eliminate
+    multiple customer issues
+  * Tracking and escalation of potential security risks
+  * Assist mail operations and deliverability team in resolving blocking issues
+    and preventing delivery problems
+  * Created web-based interface for support to view current issues and
+    troubleshooting steps
+  * Solely responsible for the majority of Mac/OS X troubleshooting
+  * Designed Mac/OS X support training curriculum
 
-Cloud
-:   EC2, Digital Ocean, Rackspace, Softlayer
+**Tier I Technical Support**; 05/2008 – 10/2008
+  * Provided technical support to users of our web-based SaaS application via
+    phone, email, and live chat
+  * Minor web programming (html/xhtml/css)
+  * Write documentation and procedures, both internal and external
+  * Handle product inquiries from customers, including feature requests
+  * Assist technical support with troubleshooting issues on Mac OS X
 
-Other
-:   Mediawiki, markdown, Jira, kanban, scrum 
-
-:   Read and comprehend most C-Family languages
 
 Education
 ---------
