@@ -7,12 +7,15 @@ Dracut, MA 01826                           @bdashrad
 USA                                  +1 978 822-0077
 -----------------------      -----------------------
 
->  * Prefer to fix a problem correctly than leave it to blow up later.
->  * Automatation is always better than repitition.
->  * Monitoring and metrics are key to making smart decisions.
->  * Knows getting things done is the most important part.
 
 ----
+
+Summary
+-------
+* Prefer to fix a problem correctly than leave it to blow up later.
+* Automatation is always better than repitition.
+* Monitoring and metrics are key to making smart decisions.
+* Knows getting things done is the most important part.
 
 Experience
 ----------
@@ -113,19 +116,6 @@ Education
 
 2003-2006
 :   **Management Information Systems**; Middlesex Community College (Lowell, MA)
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
 
 ----
 
