@@ -35,7 +35,7 @@ Experience
 
 **Senior Cloud Systems Engineer**; 7/2013-8/2014
 
-  * Manage and maintain 8000+ Linux Systems on Amazon EC2.
+  * Manage and maintain 13,000+ Linux Systems on Amazon EC2.
   * Assist in redesign of monitoring system to accommodate 10,000+ systems and
     300,000+ services
   * Develop command line tool in Ruby for automating ticket creation in ZenDesk
