@@ -118,6 +118,7 @@ Experience
 
 ### Constant Contact (Waltham, MA)
 **Tier II Technical Support**; 10/2008 – 06/2009
+
   * Acted as a gateway between customers and engineering
   * Assist QA and engineering by testing products before live release
   * Provided internal technical support to Tier I representatives
@@ -136,6 +137,7 @@ Experience
   * Designed Mac/OS X support training curriculum
 
 **Tier I Technical Support**; 05/2008 – 10/2008
+
   * Provided technical support to users of our web-based SaaS application via
     phone, email, and live chat
   * Minor web programming (html/xhtml/css)
