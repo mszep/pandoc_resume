@@ -19,6 +19,7 @@ Experience
 
 ### Acquia (Boston, MA)
 **Site Reliability Engineer**; 8/2014-Present
+
   * Dedicated operations resource for large enterprise customer
   * Maintain High Availability Infrastructure for customer sites & ensure uptime
     during high traffic events
@@ -33,6 +34,7 @@ Experience
     issues before they occur
 
 **Senior Cloud Systems Engineer**; 7/2013-8/2014
+
   * Manage and maintain 8000+ Linux Systems on Amazon EC2.
   * Assist in redesign of monitoring system to accommodate 10,000+ systems and
     300,000+ services
@@ -45,36 +47,36 @@ Experience
 ### PlumChoice (Lowell, MA)
 **Linux Systems Adminstrator**; 10/2011-7/2013
 
-* Centralized management configuration and security updates for Red Hat,
-  CentOS, and Ubuntu Servers
-* Configured and deployed network monitoring across multiple sites worldwide
-  (150+ servers running 800+ services)
-* Use of tools like Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others
-  for performance and monitoring
-* Wrote scripts using bash/perl/python for system tasks and customer monitoring
-  plugins
-* Administration of internal chat server using Isode M-Link on RHEL 5
-* Configuration and deployment of Linux and Windows servers, both physical and
-  virtual (VMWare ESX & VCenter)
-* Deployed F5 Big-IP LTM for load balancing, reverse proxy, and SSL offloading
-* Deployed F5 Big-IP ASM Web Application Firewall
-* Windows System Administration, including User, Group Policy, DNS management in
-  Active Directory
-* Act as company Security Administrator, responsible for many parts of PCI-DSS
-  compliance, assist in writing policies, review all security incidents
-* Co-Wrote and deployed customer reporting REST API on Amazon EC2 using Node.js
+  * Centralized management configuration and security updates for Red Hat,
+    CentOS, and Ubuntu Servers
+  * Configured and deployed network monitoring across multiple sites worldwide
+    (150+ servers running 800+ services)
+  * Use of tools like Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others
+    for performance and monitoring
+  * Wrote scripts using bash/perl/python for system tasks and customer monitoring
+    plugins
+  * Administration of internal chat server using Isode M-Link on RHEL 5
+  * Configuration and deployment of Linux and Windows servers, both physical and
+    virtual (VMWare ESX & VCenter)
+  * Deployed F5 Big-IP LTM for load balancing, reverse proxy, and SSL offloading
+  * Deployed F5 Big-IP ASM Web Application Firewall
+  * Windows System Administration, including User, Group Policy, DNS management in
+    Active Directory
+  * Act as company Security Administrator, responsible for many parts of PCI-DSS
+    compliance, assist in writing policies, review all security incidents
+  * Co-Wrote and deployed customer reporting REST API on Amazon EC2 using Node.js
   and Nginx
 
-**Linux Systems Adminstrator**; 02/2011-10/2011 (Lowell, MA)
+**Linux Systems Adminstrator**; 02/2011-10/2011
 
-* Configuration and deployment of PC cloning and imaging solution using
-  Clonezilla and DRBL on Debian Linux
-* Configuration and support of Windows and Macintosh OS X systems
-* Configuration and support of Thin Clients in a Citrix environment
-* Provided desktop support to over 700 users, both internal and remote
-* Assisted in design and implementation of escalation procedures for
-  operations to development
-* Advanced troubleshooting of undocumented issues
+  * Configuration and deployment of PC cloning and imaging solution using
+    Clonezilla and DRBL on Debian Linux
+  * Configuration and support of Windows and Macintosh OS X systems
+  * Configuration and support of Thin Clients in a Citrix environment
+  * Provided desktop support to over 700 users, both internal and remote
+  * Assisted in design and implementation of escalation procedures for
+    operations to development
+  * Advanced troubleshooting of undocumented issues
 
 Relevant Skills
 ---------------
