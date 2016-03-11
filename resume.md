@@ -7,10 +7,10 @@ Dracut, MA 01826                           @bdashrad
 USA                                  +1 978 822-0077
 -----------------------      -----------------------
 
->  Prefer to fix a problem correctly than leave it to blow up later.
->  Automatation is always better than repitition.
->  Monitoring and metrics are key to making smart decisions.
->  Knows getting things done is the most important part.
+>  * Prefer to fix a problem correctly than leave it to blow up later.
+>  * Automatation is always better than repitition.
+>  * Monitoring and metrics are key to making smart decisions.
+>  * Knows getting things done is the most important part.
 
 ----
 
