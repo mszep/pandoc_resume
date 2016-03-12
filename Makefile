@@ -1,11 +1,14 @@
-all: docx html pdf rtf
+all: context docx html pdf rtf
 
-pdf: resume.pdf
-resume.pdf: resume.md
+context: resume.tex
+resume.tex: resume.md
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=letter \
-	-o output/resume.tex resume.md; \
+	-o output/resume.tex resume.md
+
+pdf: resume.pdf
+resume.pdf: context resume.tex
 	pushd output; \
 	context resume.tex; \
 	popd
