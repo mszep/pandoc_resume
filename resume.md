@@ -158,5 +158,5 @@ Education
 
 ----
 
-> <bdashrad@gmail.com> • +1 978 822-0077 • @bdashrad \
-> 84 Tennis Plaza Rd Unit 60, Dracut, MA, 01826, USA
+> <bdashrad@gmail.com> • +1 978 822-0077 \
+> 84 Tennis Plaza Rd Unit 60, Dracut, MA, 01826
