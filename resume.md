@@ -32,13 +32,14 @@ OS
 Cloud
 :   EC2, Digital Ocean, Rackspace, Softlayer
 
-Virtualization
-:   VMWare Workstation, VSphere/ESXi, Citrix
+
 
 Other
 :   Mediawiki, markdown, Jira, kanban, scrum, regex
 
 :   Read and comprehend most C-Family languages
+
+:   Virtualization (VSphere/ESXi,Citrix,VirtualBox)
 
 Experience
 ----------
