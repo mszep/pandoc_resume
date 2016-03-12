@@ -54,8 +54,8 @@ Experience
   * Work in a high-touch relationship with the customer, including regular calls
     and on-site visits
   * Function as a technical and strategic contact and partner
-  * Ensured site availability during some of the world's largest events,
-    including the Olympics, the Superbowl, and more.
+  * Ensured site availability during some of the world's largest events: The
+     Olympics, The Superbowl, and more.
   * Improve platform monitoring and create auditing tools to improve stability
   * Built tooling to use metrics to provide proactive notifications of pending
     issues before they occur
