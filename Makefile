@@ -8,7 +8,7 @@ resume.tex: resume.md
 	-o output/resume.tex resume.md
 
 pdf: resume.pdf
-resume.pdf: context resume.tex
+resume.pdf:
 	pushd output; \
 	context resume.tex; \
 	popd
