@@ -24,7 +24,7 @@ Core
 
 Familiar
 :   Python, Perl, Puppet, Vagrant, node.js, MySQL, PostgreSQL, Graphite, OSSEC,
-    Logstash
+    Logstash, Spacewalk
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
@@ -121,16 +121,11 @@ Experience
 ### Constant Contact (Waltham, MA)
 **Tier II Technical Support**; 10/2008 – 06/2009
 
-  * Acted as a gateway between customers and engineering
   * Assist QA and engineering by testing products before live release
   * Provided internal technical support to Tier I representatives
   * Handle technical escalations submitted by Tier I customer support
-  * Create training materials for new hires and instruct them in a classroom
-    environment
-  * Worked with engineering and QA to create and implement statistical tracking
-    system for on-going defects that helped to narrow down and eliminate
-    multiple customer issues
-  * Tracking and escalation of potential security risks
+  * Create training materials and provide instruction in a classroom environment
+  * Implemented tracking system for on-going defects
   * Assist mail operations and deliverability team in resolving blocking issues
     and preventing delivery problems
   * Created web-based interface for support to view current issues and
