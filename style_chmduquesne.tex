@@ -12,11 +12,11 @@ $endif$
 
 \setupcolor[hex]
 \definecolor[titlegrey][h=757575]
-\definecolor[sectioncolor][h=397249]
+\definecolor[subjectcolor][h=397249]
 \definecolor[rulecolor][h=9cb770]
 
 % Enable hyperlinks
-\setupinteraction[state=start, color=sectioncolor]
+\setupinteraction[state=start, color=subjectcolor]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
@@ -32,15 +32,15 @@ $endif$
 
 \setupblackrules[width=31mm, color=rulecolor]
 
-\setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
-\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+\setuphead[title]      [style=\tfd]
+\setuphead[subject]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsubject]   [style=\tfb\bf, color=subjectcolor, align=right,
                           before={\leavevmode\blackrule\hspace}]
-\setuphead[subsubsection][style=\bf]
+\setuphead[subsubsubject][style=\bf]
 
-$if(number-sections)$
+$if(number-subjects)$
 $else$
-\setuphead[chapter, section, subsection, subsubsection][number=no]
+\setuphead[title, subject, subsubject, subsubsubject][number=no]
 $endif$
 
 %\setupdescriptions[width=10mm]
