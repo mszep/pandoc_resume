@@ -6,6 +6,8 @@ Bradford Clark
 Dracut, MA 01826                     +1 978 822-0077
 -----------------------      -----------------------
 
+---
+
 Summary
 -------
 * Prefer to fix a problem correctly than leave it to blow up later.
