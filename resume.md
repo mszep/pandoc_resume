@@ -12,7 +12,7 @@ Summary
 -------
 * Fixing a problem correctly the first time is preferable leaving it to
   resurface later.
-* Automatation is always better than repetition.
+* Automation is always better than repetition.
 * Monitoring and metrics are key to making smart decisions.
 * Getting things done is the most important part.
 
@@ -71,7 +71,7 @@ Experience
   * Troubleshoot, maintain and create configuration files for Varnish
 
 ### PlumChoice (Lowell, MA)
-**Linux Systems Adminstrator**; 10/2011 — 7/2013
+**Linux Systems Administrator**; 10/2011 — 7/2013
 
   * Centralized management configuration and security updates for Red Hat,
     CentOS, and Ubuntu Servers
@@ -80,14 +80,14 @@ Experience
   * Used Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others for
     performance and monitoring
   * Wrote scripts using bash/perl/python for system tasks and monitoring plugins
-  * Administration of internal xmpp chat server
+  * Administered internal xmpp chat server
   * Configured and deployed Linux and Windows systems, both physical and
     virtual (VMWare ESX & VCenter)
   * Deployed F5 Big-IP LTM for load balancing, reverse proxy, and SSL offloading
   * Deployed F5 Big-IP ASM Web Application Firewall
   * Windows System Administration, including User, Group Policy, DNS management
     in Active Directory
-  * Act as company Security Administrator, responsible for many parts of PCI-DSS
+  * Acted as company Security Administrator, responsible for parts of PCI-DSS
     compliance, assist in writing policies, review all security incidents
   * Co-wrote and deployed reporting REST API on Amazon EC2 using Node.js and
     Nginx
@@ -101,7 +101,7 @@ Experience
     operations to development
 
 ### Sophos (Burlington, MA)
-**Techinical Support Engineer**; 7/2010 — 1/2011
+**Technical Support Engineer**; 7/2010 — 1/2011
 
   * Provided technical support for the SafeGuard line of encryption software for
     a variety of clients
