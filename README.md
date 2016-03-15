@@ -10,5 +10,6 @@ Instructions:
 
 Requirements:
 
- * ConTeXt
- * pandoc
+ * ConTeXt (TeX Live suggested)
+ * pandoc 1.12+
+
