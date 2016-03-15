@@ -72,7 +72,7 @@ Experience
   * Troubleshoot, maintain and create configuration files for Varnish
 
 ### PlumChoice (Lowell, MA)
-**Linux Systems Adminstrator**; 10/2011 - 7/2013
+**Linux Systems Adminstrator**; 10/2011 — 7/2013
 
   * Centralized management configuration and security updates for Red Hat,
     CentOS, and Ubuntu Servers
@@ -103,7 +103,7 @@ Experience
     operations to development
 
 ### Sophos (Burlington, MA)
-**Techinical Support Engineer**; 7/2010 - 1/2011
+**Techinical Support Engineer**; 7/2010 — 1/2011
 
   * Provided technical support for the SafeGuard line of encryption software for
     a variety of clients
@@ -145,6 +145,7 @@ Experience
 
 ### Larry's Comics (Lowell, MA)
 **IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
+
   * Provide all levels of IT/helpdesk support
   * Web server configuration and maintenance. Web design and online storefront
     programming.
