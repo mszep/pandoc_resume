@@ -24,7 +24,7 @@ Core
 
 Familiar
 :   Python, Perl, Puppet, Vagrant, node.js, MySQL, PostgreSQL, Graphite, OSSEC,
-    Logstash, Spacewalk
+    Logstash
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
