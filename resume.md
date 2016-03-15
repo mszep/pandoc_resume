@@ -45,7 +45,7 @@ Experience
 ----------
 
 ### Acquia (Boston, MA)
-**Site Reliability Engineer**; 8/2014-Present
+**Site Reliability Engineer**; 8/2014 — Present
 
   * Dedicated operations resource for large enterprise customer
   * Maintain High Availability Infrastructure for customer sites & ensure uptime
@@ -60,7 +60,7 @@ Experience
   * Built tooling to use metrics to provide proactive notifications of pending
     issues before they occur
 
-**Senior Cloud Systems Engineer**; 7/2013-8/2014
+**Senior Cloud Systems Engineer**; 7/2013 — 8/2014
 
   * Manage and maintain 13,000+ Linux Systems on Amazon EC2.
   * Assist in redesign of monitoring system to accommodate 10,000+ systems and
@@ -72,7 +72,7 @@ Experience
   * Troubleshoot, maintain and create configuration files for Varnish
 
 ### PlumChoice (Lowell, MA)
-**Linux Systems Adminstrator**; 10/2011-7/2013
+**Linux Systems Adminstrator**; 10/2011 - 7/2013
 
   * Centralized management configuration and security updates for Red Hat,
     CentOS, and Ubuntu Servers
@@ -93,7 +93,7 @@ Experience
   * Co-wrote and deployed reporting REST API on Amazon EC2 using Node.js and
     Nginx
 
-**IT Infrastructure Consultant**; 2/2011-10/2011
+**IT Infrastructure Consultant**; 2/2011 — 10/2011
 
   * Configuration and deployment of PC cloning and imaging solution using
     Clonezilla and DRBL on Debian Linux
@@ -142,6 +142,15 @@ Experience
   * Write documentation and procedures, both internal and external
   * Handle product inquiries from customers, including feature requests
   * Assist technical support with troubleshooting issues on Mac OS X
+
+### Larry's Comics (Lowell, MA)
+**IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
+  * Provide all levels of IT/helpdesk support
+  * Web server configuration and maintenance. Web design and online storefront
+    programming.
+  * Create and manage customer database for both traditional and email marketing
+    using Microsoft Access
+  * Manage day-to-day store operations, manage a small team of employees
 
 
 Education
