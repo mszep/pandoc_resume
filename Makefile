@@ -19,6 +19,12 @@ resume.html: style_chmduquesne.css resume.md
         --from markdown --to html \
         -o output/resume.html resume.md
 
+html5: resume2.html
+resume2.html: templates/template.html5 style_chmduquesne.css resume.md
+	pandoc --standalone -H style_chmduquesne.css \
+        --from markdown --to html5 --template templates/template.html5 \
+        -o output/resume2.html resume.md
+
 docx: resume.docx
 resume.docx: resume.md
 	pandoc -s -S resume.md -o output/resume.docx
