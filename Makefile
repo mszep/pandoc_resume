@@ -2,7 +2,7 @@ all: context docx html pdf rtf
 
 context: resume.tex
 resume.tex: resume.md
-	pandoc --standalone --template style_chmduquesne.tex \
+	pandoc --standalone --template templates/style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=letter \
 	-o output/resume.tex resume.md
@@ -14,16 +14,10 @@ resume.pdf:
 	popd
 
 html: resume.html
-resume.html: style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
-        --from markdown --to html \
-        -o output/resume.html resume.md
-
-html5: resume2.html
-resume2.html: templates/template.html5 style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
+resume.html: templates/template.html5 templates/style_chmduquesne.css resume.md
+	pandoc --standalone -H templates/style_chmduquesne.css \
         --from markdown --to html5 --template templates/template.html5 \
-        -o output/resume2.html resume.md
+        -o output/resume.html resume.md
 
 docx: resume.docx
 resume.docx: resume.md
