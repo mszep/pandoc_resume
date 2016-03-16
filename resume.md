@@ -146,7 +146,7 @@ Experience
   * Web server configuration and maintenance. Web design and online storefront
     programming.
   * Created and managed customer Access database for marketing
-  * Managed day-to-day store operations, manage a small team of employees
+  * Managed day-to-day store operations, managed a small team of employees
 
 
 Education
