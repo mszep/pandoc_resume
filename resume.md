@@ -10,7 +10,7 @@ Dracut, MA 01826                     +1 978 822-0077
 
 Summary
 -------
-* Fixing a problem correctly the first time is preferable leaving it to
+* Fixing a problem correctly the first time is preferable to leaving it to
   resurface later.
 * Automation is always better than repetition.
 * Monitoring and metrics are key to making smart decisions.
