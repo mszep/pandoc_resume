@@ -14,6 +14,3 @@ Requirements:
  * ConTeXt (TeX Live suggested)
  * pandoc 1.12+
 
-TODO:
- * add links to pdf/rtf/doc versions of resume
-
