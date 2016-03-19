@@ -1,10 +1,11 @@
 Brad Clark
 ==========
 
------------------------      -----------------------
-84 Tennis Plaza Rd #60            bdashrad@gmail.com
-Dracut, MA 01826                     +1 978 822-0077
------------------------      -----------------------
+-----------------------           ----------------------------------------------
+84 Tennis Plaza Rd #60                                      <bdashrad@gmail.com>
+Dracut, MA 01826                        @[bdashrad](http://twitter.com/bdashrad) 
++1 978 822-0077                    GitHub:[bdashrad](http://github.com/bdashrad)
+-----------------------           ----------------------------------------------
 
 ---
 
