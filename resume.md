@@ -24,7 +24,8 @@ Core
     performance and capacity planning
 
 Familiar
-:   Python, Perl, Puppet, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash
+:   Python, Perl, Puppet, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash,
+    rspec
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
