@@ -11,7 +11,8 @@
 /* Whole document */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 800px;
+    max-width: 800px;
+    min-width: 400px;
     margin: auto;
     background: #FFFFFF;
     padding: 10px 10px 10px 10px;
@@ -23,11 +24,6 @@ h1 {
     color: #757575;
     text-align:center;
     margin-bottom:15px;
-}
-h1:hover {
-    background-color: #757575;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
 }
 
 /* Titles of categories */
@@ -47,6 +43,11 @@ h2:before {
 }
 h2:hover {
     background-color: #397249;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
+}
+h3:hover {
+    background-color: #757575;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #333;
 }
@@ -90,5 +91,29 @@ hr {
 
 table {
     width: 100%;
+}
+
+/* PDF button */
+.pdfdownload a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.pdfdownload {
+  position: relative;
+}
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #9CB770;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #397249;
+  text-decoration: none;
 }
 </style>
