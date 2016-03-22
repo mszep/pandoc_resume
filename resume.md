@@ -158,7 +158,7 @@ Education
 ---------
 
 2001-2002
-:   **Computer Science**; Worcester Polytechnic University (Worcester, MA)
+:   **Computer Science**; Worcester Polytechnic Institute (Worcester, MA)
 
 2002-2003
 :   **Management Information Systems**; UMass Lowell (Lowell, MA)
