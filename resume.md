@@ -125,7 +125,6 @@ Experience
   * Provided internal technical support to Tier I representatives
   * Handled technical escalations submitted by Tier I customer support
   * Created training material and provide instruction in a classroom environment
-  * Implemented tracking system for on-going defects
   * Assisted mail operations and deliverability team in resolving issues and
     delivery problems
   * Created web-based interface for support to view current issues and
@@ -138,7 +137,6 @@ Experience
   * Minor web programming (html/xhtml/css)
   * Wrote documentation and procedures, both internal and external
   * Handled product inquiries from customers, including feature requests
-  * Assisted technical support with troubleshooting issues on Mac OS X
 
 ### Larry's Comics (Lowell, MA)
 **IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
