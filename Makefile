@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 all: context docx html pdf rtf
 
 context: resume.tex
