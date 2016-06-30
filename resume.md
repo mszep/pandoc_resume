@@ -21,11 +21,11 @@ Relevant Skills
 ---------------
 
 Core
-:   Linux, Bash, Ruby, Varnish, Nagios, Vagrant, Apache, Nginx, git, HTML, CSS,
-    performance and capacity planning
+:   Linux, Bash, Ruby, Varnish, Nagios, Vagrant, Apache, Nginx, git, Terraform,
+    Puppet, ElasticSearch, performance and capacity planning
 
 Familiar
-:   Python, Perl, Puppet, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash
+:   Python, Perl, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
