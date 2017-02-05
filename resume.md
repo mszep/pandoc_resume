@@ -3,90 +3,87 @@ Keisuke Umezawa
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+> Email: keisuke.umezawa[at]gmail.com \
+> Github: [https://github.com/keisuke-umezawa](https://github.com/keisuke-umezawa) \
+> Software Engineer
 
 ----
+
+
+Experience
+----------
+
+2016-
+:   **Engineer**: Science Division, Data & Science Solutions Group, Yahoo Japan Corporatoin, Japan
+
+* [developing inhouse search engine for advertisement destribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python.
+    * enhaonce the performance by algorithms and parallel computing s.t avx and gpu.
+* instructing agile software development such as Scrum.
+* instructing C++ cording in the team.
+
+
+2014-2016
+:   **Quantitative Analyst and Model Developer**: the Bank of Tokyo Mitsubishi UFJ, Japan
+
+* developing derivatives pricing model and risk management system with C++.
 
 Education
 ---------
 
 2012-2014
-:   **MSc, Department of Mechano-Informatics, Graduate School of Information Science and Technology**; the University of
-    Tokyo (Japan)
+:   **MSc, Department of Mechano-Informatics**; Graduate School of Information Science and Technology, the University of Tokyo, Japan
+
+* human motion recognition and robot motion generation by HMM
+
+2012.5-2012.8
+:   **Internship, at Learning Algorithms and Systems Laboratory
+(LASA) **; 
+ the Ecole Polytechnique Federale de Lausanne (EPFL), Switzerland
 
 2008-2012
-:   **BSc, Department of Mechano-Informatics, Faculty of Engineering**; the University of
-    Tokyo (Japan)
-
-Experience
-----------
-
-2016-2016
-:   **Engineer of Science Division**; Data & Science Solutions Group (Japan)
-    
-* develop search engine for 
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-
-2014-2016
-:   **Quantitative Analyst and Model Developer**; the Bank of Tokyo Mitsubishi UFJ (Japan)
-
-* I developed 
+:   **BSc, Department of Mechano-Informatics**; Faculty of Engineering, the University of Tokyo, Japan
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   **first-lang**: experienced items as follows with C++
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+    * Object-Oriented Programming
+    * Design of API
+    * Define coding guideline
+    * C++ meta programming (basic level)
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   Basic knowledge of **C++**, **Java**, **Python**, **sh/bash**, **cuda**
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+Development Tools
+:   Basic knowledge of **GitHub**, **docker**, **Jenkins**, **Jira**
 
-[ref]: https://github.com/githubuser/superlongprojectname
+Machine Learning Algorithms
+:   **Implementation Experience**
 
-Extra Section, Call it Whatever You Want
+    * linear regression, logstic regression
+    * k-NN, k-means
+    * Naive Bayes
+    * Newral Network
+    * Hidden Markov Model
+
+:   **Use Experience**
+
+    * SVM
+    * CNN
+    * Boosting
+    * RNN
+
+Publication
+----------------------------------------
+* A. L. P. Ureche, K. Umezawa, Y. Nakamura and A. Billard, "Task Parameterization Using Continuous Constraints Extracted From Human Demonstrations," in IEEE Transactions on Robotics, vol. 31, no. 6, pp. 1458-1471, Dec. 2015. [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7339616&isnumber=7339739) 
+
+Extra Section
 ----------------------------------------
 
 * Human Languages:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+     * Japanese (native speaker)
+     * English (conversation level)
 
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
