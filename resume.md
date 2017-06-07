@@ -50,6 +50,8 @@ Experience
 
   * Use terraform to design and manage infrastructure on Amazon Web Services
     for internal and external services
+  * Migrate services into kubernetes
+  * Deploy new services to kubernetes using helm
   * Assist in architecture of microservices and best practices
   * Maintain highly available SaaS application in a 24x7 environment
 
