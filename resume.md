@@ -1,11 +1,11 @@
 Brad Clark
 ==========
 
------------------------           ----------------------------------------------
-84 Tennis Plaza Rd #60                                      <bdashrad@gmail.com>
-Dracut, MA 01826                        @[bdashrad](http://twitter.com/bdashrad) 
+---------------------             ----------------------------------------------
+50 Manning Rd                                               <bdashrad@gmail.com>
+Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad) 
 +1 978 822-0077                    GitHub:[bdashrad](http://github.com/bdashrad)
------------------------           ----------------------------------------------
+---------------------             ----------------------------------------------
 
 ---
 
@@ -45,20 +45,35 @@ Other
 Experience
 ----------
 
-### Acquia (Boston, MA)
-**Site Reliability Engineer**; 8/2014 — Present
+### Maxwell Health (Boston, MA)
+**Infrastructure Engineer**; 8/2016 — Present
 
+  * Use terraform to design and manage infrastructure on Amazon Web Services
+    for internal and external services
+  * Assist in architecture of microservices and best practices
+  * Maintain highly available SaaS application in a 24x7 environment
+
+### Curriculum Associates (Billerica, MA)
+**Senior Operations Engineer**; 5/2016 — 8/2016
+
+  * Designed a scalable, easily deployable, centralized log management and
+    processing system using Terraform, Puppet, Logstash, Elasticsearch, and
+    Kibana on Amazon Web Services.
+
+### Acquia (Boston, MA)
+**Site Reliability Engineer**; 8/2014 — 5/2016
+
+  * Developed tools for auditing and automation
+  * Maintained high availability infrastructure for customer sites and ensured
+    uptime during high traffic events
   * Dedicated operations resource for large enterprise customer
-  * Maintain High Availability Infrastructure for customer sites & ensure uptime
-    during high traffic events
-  * Develop tools for auditing and automation
-  * Work in a high-touch relationship with the customer, including regular calls
-    and on-site visits
-  * Function as a technical and strategic contact and partner
-  * Ensure site availability during some of the world's largest events: The
-     Olympics, The Superbowl, and more.
-  * Improve platform monitoring and create auditing tools to improve stability
-  * Build tooling to use metrics to provide proactive notifications of pending
+  * Ensured site availability during some of the world's largest events: The
+    Olympics, The Superbowl, and more.
+  * Functioned as a technical and strategic contact and partner
+  * Worked in a high-touch relationship with the customer, including regular
+    calls and on-site visits
+  * Improved platform monitoring and create auditing tools to improve stability
+  * Built tooling to use metrics to provide proactive notifications of pending
     issues before they occur
 
 **Senior Cloud Systems Engineer**; 7/2013 — 8/2014
@@ -84,10 +99,6 @@ Experience
   * Administered internal xmpp chat server
   * Configured and deployed Linux and Windows systems, both physical and
     virtual (VMWare ESX & VCenter)
-  * Deployed F5 Big-IP LTM for load balancing, reverse proxy, and SSL offloading
-  * Deployed F5 Big-IP ASM Web Application Firewall
-  * Windows System Administration, including User, Group Policy, DNS management
-    in Active Directory
   * Acted as company Security Administrator, responsible for parts of PCI-DSS
     compliance, assist in writing policies, review all security incidents
   * Co-wrote and deployed reporting REST API on Amazon EC2 using Node.js and
@@ -96,47 +107,32 @@ Experience
 **IT Infrastructure Consultant**; 2/2011 — 10/2011
 
   * Created PC cloning and imaging solution using Clonezilla and DRBL
-  * Configuration and support of Windows and Macintosh OS X systems
-  * Provided desktop support to over 700 users, both internal and remote
   * Assisted in design and implementation of escalation procedures for
     operations to development
 
 ### Sophos (Burlington, MA)
 **Technical Support Engineer**; 7/2010 — 1/2011
 
-  * Provided technical support for the SafeGuard line of encryption software for
-    a variety of clients
-  * Assisted development with the testing of and reproduction of bugs
-  * Provided customers with SQL and VB scripts based on specific needs to
-    supplement software functionality
   * Developed support tools and procedures for new products, migrated existing
     tools to work with new products
+  * Provided customers with SQL and VB scripts based on specific needs to
+    supplement software functionality
   * Worked to discover and resolve bugs and defects
-  * Completed a variety of testing daily on both physical and virtual machines
-    in order to re-create and resolve customer issues
+  * Completed a variety of testing to recreate and resolve customer issues
   * Implemented enterprise level software solutions in many environments from
     extremely large (20,000+) to single workstations.
 
-
 ### Constant Contact (Waltham, MA)
-**Tier II Technical Support**; 10/2008 – 06/2009
+**Tier II Technical Support**; 05/2008 – 06/2009
 
   * Assisted QA and engineering by testing products before live release
-  * Provided internal technical support to Tier I representatives
   * Handled technical escalations submitted by Tier I customer support
-  * Created training material and provide instruction in a classroom environment
+  * Created training material and provided instruction in a classroom environment
   * Assisted mail operations and deliverability team in resolving issues and
     delivery problems
   * Created web-based interface for support to view current issues and
     troubleshooting steps
   * Designed Mac/OS X support training curriculum
-
-**Tier I Technical Support**; 05/2008 – 10/2008
-
-  * Provided technical support to users of our web-based SaaS application
-  * Minor web programming (html/xhtml/css)
-  * Wrote documentation and procedures, both internal and external
-  * Handled product inquiries from customers, including feature requests
 
 ### Larry's Comics (Lowell, MA)
 **IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
@@ -163,4 +159,4 @@ Education
 ----
 
 > <bdashrad@gmail.com> • +1 978 822-0077 \
-> 84 Tennis Plaza Rd Unit 60, Dracut, MA, 01826
+> 50 Manning Rd, Chelmsford, MA 01824
