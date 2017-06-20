@@ -29,10 +29,10 @@ resume.rtf: resume.md
 	pandoc -s -S resume.md -o output/resume.rtf
 
 clean:
-	rm output/resume.docx
-	rm output/resume.html
-	rm output/resume.pdf
-	rm output/resume.rtf
-	rm output/resume.tex
-	rm output/resume.tuc
-	rm output/resume.log
+	rm -f output/resume.docx
+	rm -f output/resume.html
+	rm -f output/resume.pdf
+	rm -f output/resume.rtf
+	rm -f output/resume.tex
+	rm -f output/resume.tuc
+	rm -f output/resume.log
