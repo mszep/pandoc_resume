@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  resume-make:
+    build:
+      context: .
+      dockerfile: ./.docker/resume.dockerfile
+    command: make
+    container_name: resume-make
+    image: resume-make
+    volumes:
+      - .:/home/app/resume
