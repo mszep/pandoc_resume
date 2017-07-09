@@ -17,7 +17,8 @@ Experience
 :   **Chainer Evangelist**: Preferred Networks, Japan
 
 * Increse the people who uses/develop/support "[Chainer](https://chainer.org/)".
-    * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)".
+
+    * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)".
     * improve the document of Chainer.
 
 2016-(Current)
@@ -43,8 +44,7 @@ Education
 * human motion recognition and robot motion generation by HMM
 
 2012.5-2012.8
-:   **Internship, at Learning Algorithms and Systems Laboratory
-(LASA) **; 
+:   **Internship, at Learning Algorithms and Systems Laboratory (LASA)**; 
  the Ecole Polytechnique Federale de Lausanne (EPFL), Switzerland
 
 2008-2012
