@@ -4,7 +4,8 @@ Keisuke Umezawa
 ----
 
 > Email: keisuke.umezawa[at]gmail.com \
-> Github: [https://github.com/keisuke-umezawa](https://github.com/keisuke-umezawa) \
+> Twitter: [@kmechann](https://twitter.com/kmechann)
+> Github: [github.com/keisuke-umezawa](https://github.com/keisuke-umezawa) \
 > Software Engineer
 
 ----
@@ -12,8 +13,14 @@ Keisuke Umezawa
 
 Experience
 ----------
+2017-(Current)
+:   **Chainer Evangelist**: Preferred Networks, Japan
 
-2016-
+* Increse the people who uses/develop/support "[Chainer](https://chainer.org/)".
+    * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)" .
+    * improve the document of Chainer.
+
+2016-(Current)
 :   **Engineer**: Science Division, Data & Science Solutions Group, Yahoo Japan Corporatoin, Japan
 
 * [developing inhouse search engine for advertisement destribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python.
@@ -51,10 +58,16 @@ Programming Languages
 
     * Object-Oriented Programming
     * Design of API
-    * Define coding guideline
+    * Multi-thread pragoramming
     * C++ meta programming (basic level)
 
 :   Basic knowledge of **C++**, **Java**, **Python**, **sh/bash**, **cuda**
+
+System Archtecture Tools
+:   Basic usage of **kvs**, **message queue** such as kafka, **search engine** such as Solr, **Restful API** with Java
+
+OS
+:   Basic usage of **CentOS**, **Mac OS**, **Windows**
 
 Development Tools
 :   Basic knowledge of **GitHub**, **docker**, **Jenkins**, **Jira**
@@ -67,6 +80,7 @@ Machine Learning Algorithms
     * Naive Bayes
     * Newral Network
     * Hidden Markov Model
+    * word2vec
 
 :   **Use Experience**
 
