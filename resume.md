@@ -16,7 +16,7 @@ Experience
 2017-(Current)
 :   **Chainer Evangelist**: Preferred Networks, Japan
 
-* Increse the people who uses/develop/support "[Chainer](https://chainer.org/)".
+* Increse the people who uses/develop/support "[Chainer](https://chainer.org/)" .
     * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)" .
     * improve the document of Chainer.
 
