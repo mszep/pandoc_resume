@@ -4,7 +4,7 @@ Keisuke Umezawa
 ----
 
 > Email: keisuke.umezawa[at]gmail.com \
-> Twitter: [@kmechann](https://twitter.com/kmechann)
+> Twitter: [@kmechann](https://twitter.com/kmechann) \
 > Github: [github.com/keisuke-umezawa](https://github.com/keisuke-umezawa) \
 > Software Engineer
 
@@ -16,8 +16,8 @@ Experience
 2017-(Current)
 :   **Chainer Evangelist**: Preferred Networks, Japan
 
-* Increse the people who uses/develop/support "[Chainer](https://chainer.org/)" .
-    * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)" .
+* Increse the people who uses/develop/support "[Chainer](https://chainer.org/)".
+    * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)".
     * improve the document of Chainer.
 
 2016-(Current)
