@@ -95,7 +95,6 @@ table {
 
 /* PDF button */
 .pdfdownload a {
-  position: absolute;
   top: 0px;
   right: 0px;
 }
