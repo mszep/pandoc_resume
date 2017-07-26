@@ -55,7 +55,10 @@ $if(date)$
 $endif$
 </header>
 $endif$
-<div class="pdfdownload"><a href="/pdf" class="btn">PDF</a></div>
+<div class="pdfdownload">
+  <a href="/pdf" class="btn">PDF</a>
+  <a href="https://github.com/bdashrad/pandoc_resume" target="_blank" class="btn">SOURCE</a>
+</div>
 $if(toc)$
 <nav id="$idprefix$TOC">
 $toc$
