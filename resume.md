@@ -1,46 +1,54 @@
-Johnny Coder
+Martin Piegay
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  I am a young software engineer working in Zenika Lyon (FR).
+>  I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ...
+>  I feel concerned about quality of code and I do my best to improve it.
+>  I believe in open-source, I recently contributed the new reverse proxy Træfik.
 
 ----
+
+Experience
+----------
+June 2017 - Today
+:   **Backend Software Development at Enedis**; Zenika Lyon (France)
+
+Developing a software for monitoring and remote controlling 35 millions of electricity meters installed at private individuals.
+
+* Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle, Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic, Maven, Git, Jenkins, Bitbucket, Jira, ...
+
+* Methodology: Agile Scrum, auto organized team of 6 dev/devops and 5 functional coworkers, experiencing remote working, part of a 60-coworkers project.
+
+December 2016 - June 2017
+:   **Fullstack Software Development for Gattefosse**; Zenika Lyon (France)
+
+Developing from scratch a business website which allows clients to manage medias, users, products and technical documents.
+
+* Tech back : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven
+
+* Tech front : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox
+
+* CMS : Wordpress with custom plugins
+
+* Tech devops : Git, Gitlab with CI, Apache, MySql, Ansible
+
+* Methodology: Agile Scrum, 3 dev, 1 devops, remote clients
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2013-2016
+:   **Engineering degree**; Télécom Saint-Étienne (France)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *Specialization in Computer, Network Sciences*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+2015-2016
+:   **Erasmus student exchange**; Czech Technical University of
+    Prague (Czech Republic)
 
-    *Minor: Awesomeology*
-
-Experience
-----------
-
-**Your Most Recent Work Experience:**
-
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
+    *1 semester : MSc classes taught in English at the Faculty of Information Technologies*
 
 Technical Experience
 --------------------
@@ -72,7 +80,7 @@ Programming Languages
 :   **second-lang:** Description of your experience with second-lang,
     perhaps again including a [link] [ref], this time placing the url
     reference elsewhere in the document to reduce clutter (see source
-    file). 
+    file).
 
 :   **obscure-but-impressive-lang:** We both know this one's pushing
     it.
