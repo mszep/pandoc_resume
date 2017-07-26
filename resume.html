@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="martin-piegay">Martin Piegay</h1>
+<hr />
+<blockquote>
+<p>I am a young software engineer working in <a href="https://www.zenika.com/">Zenika</a> Lyon (FR). I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ... I feel concerned about quality of code and I do my best to improve it. I believe in open-source, I recently contributed the new reverse proxy <a href="https://traefik.io/">Træfik</a>.</p>
+</blockquote>
+<hr />
+<h2 id="experience">Experience</h2>
+<dl>
+<dt>June 2017 - Today</dt>
+<dd><strong>Backend Software Development on Linkysup at <a href="http://www.enedis.fr/compteur-communicant">Enedis</a></strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developing a software for monitoring and remote controlling 35 millions of electricity meters installed at private individuals.</p>
+<ul>
+<li><p>Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle, Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic, Maven, Git, Jenkins, Bitbucket, Jira, ...</p></li>
+<li><p>Methodology: Agile Scrum, auto organized team with 6 dev/devops and 5 functional coworkers, experiencing remote working, part of a 60-coworkers project.</p></li>
+</ul>
+<dl>
+<dt>December 2016 - June 2017</dt>
+<dd><strong>Fullstack Software Development for Gattefosse</strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developing from scratch a business website which allows clients to manage medias, users, products and technical documents.</p>
+<ul>
+<li><p>Tech back : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven</p></li>
+<li><p>Tech front : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox</p></li>
+<li><p>CMS : Wordpress with custom plugins</p></li>
+<li><p>Tech devops : Git, Gitlab with CI, Apache, MySql, Ansible</p></li>
+<li><p>Methodology: Agile Scrum, 3 dev, 1 devops, remote clients</p></li>
+</ul>
+<dl>
+<dt>February 2015 - August 2016</dt>
+<dd><strong>Golang Development on <a href="https://traefik.io/">Træfik</a></strong>; <a href="https://containo.us/">Containous</a> - Lyon (France)
+</dd>
+</dl>
+<p>6-months end-of-courses internship on <a href="https://traefik.io/">Træfik</a>. Developing 2 packages which provide configuration interfaces for Golang programs:</p>
+<ul>
+<li><p><a href="https://github.com/containous/flaeg">Flæg</a>: Dynamic Command Line Interface</p></li>
+<li><p><a href="https://github.com/containous/staert">Stært</a>: Reads, Merges and Store configurations</p></li>
+</ul>
+<p>Tech:</p>
+<ul>
+<li><p>Tech back : Golang 1.7</p></li>
+<li><p>Tech devops : Git, Github, Travis CI, Docker, Key/Value Distibuted Databases</p></li>
+<li><p>Methodology: Open Source Projects, Code Reviews, Pull Requests, Startup</p></li>
+</ul>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2013-2016</dt>
+<dd><p><strong>Engineering degree</strong>; <a href="https://www.telecom-st-etienne.fr/">Télécom Saint-Étienne</a> (FR)</p>
+<p><em>Specialization in Computer, Network Sciences</em></p>
+</dd>
+<dt>2015-2016</dt>
+<dd><p><strong>Erasmus student exchange</strong>; <a href="https://www.cvut.cz/en">Czech Technical University in Prague</a> (CZ)</p>
+<p><em>1 semester : MSc classes taught in English at the Faculty of Information Technologies</em></p>
+</dd>
+</dl>
+<h2 id="technical-experience">Technical Experience</h2>
+<dl>
+<dt>My Cool Side Project</dt>
+<dd><p>For items which don't have a clear time ordering, a definition list can be used to have named items.</p>
+<ul>
+<li>These items can also contain lists, but you need to mind the indentation levels in the markdown source.</li>
+<li>Second item.</li>
+</ul>
+</dd>
+<dt>Open Source</dt>
+<dd>List open source contributions here, perhaps placing emphasis on the project names, for example the <strong>Linux Kernel</strong>, where you implemented multithreading over a long weekend, or <strong>node.js</strong> (with <a href="http://nodejs.org">link</a>) which was actually totally your idea...
+</dd>
+<dt>Programming Languages</dt>
+<dd><strong>first-lang:</strong> Here, we have an itemization, where we only want to add descriptions to the first few items, but still want to mention some others together at the end. A format that works well here is a description list where the first few items have their first word emphasized, and the last item contains the final few emphasized terms. Notice the reasonably nice page break in the pdf version, which wouldn't happen if we generated the pdf via html.
+</dd>
+<dd><p><strong>second-lang:</strong> Description of your experience with second-lang, perhaps again including a <a href="https://github.com/githubuser/superlongprojectname">link</a>, this time placing the url reference elsewhere in the document to reduce clutter (see source file).</p>
+</dd>
+<dd><p><strong>obscure-but-impressive-lang:</strong> We both know this one's pushing it.</p>
+</dd>
+<dd><p>Basic knowledge of <strong>C</strong>, <strong>x86 assembly</strong>, <strong>forth</strong>, <strong>Common Lisp</strong></p>
+</dd>
+</dl>
+<h2 id="extra-section-call-it-whatever-you-want">Extra Section, Call it Whatever You Want</h2>
+<ul>
+<li><p>Human Languages:</p>
+<ul>
+<li>English (native speaker)</li>
+<li>???</li>
+<li>This is what a nested list looks like.</li>
+</ul></li>
+<li><p>Random tidbit</p></li>
+<li><p>Other sort of impressive-sounding thing you did</p></li>
+</ul>
+<hr />
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#x65;&#120;&#x61;&#x6d;&#112;&#108;&#x65;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x65;&#x6d;&#x61;&#x69;&#108;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x65;&#x6d;&#x61;&#x69;&#108;&#32;&#x61;&#116;&#32;&#x65;&#120;&#x61;&#x6d;&#112;&#108;&#x65;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript> • +00 (0)00 000 0000 • XX years old<br />
+address - Mytown, Mycountry</p>
+</blockquote>
+</body>
+</html>

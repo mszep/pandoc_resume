@@ -1,0 +1,256 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[martin-piegay]{Martin Piegay}
+
+\thinrule
+
+\startblockquote
+I am a young software engineer working in
+\useURL[url1][https://www.zenika.com/][][Zenika]\from[url1] Lyon (FR). I
+code in Java, JavaScript and Golang using several frameworks like Spring
+or ReactJS \ldots{} I feel concerned about quality of code and I do my
+best to improve it. I believe in open-source, I recently contributed the
+new reverse proxy
+\useURL[url2][https://traefik.io/][][Træfik]\from[url2].
+\stopblockquote
+
+\thinrule
+
+\subsection[experience]{Experience}
+
+\startdescription{June 2017 - Today}
+  {\bf Backend Software Development on Linkysup at
+  \useURL[url3][http://www.enedis.fr/compteur-communicant][][Enedis]\from[url3]};
+  \useURL[url4][https://www.zenika.com/][][Zenika]\from[url4] Lyon (FR)
+\stopdescription
+
+Developing a software for monitoring and remote controlling 35 millions
+of electricity meters installed at private individuals.
+
+\startitemize
+\item
+  Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle,
+  Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic,
+  Maven, Git, Jenkins, Bitbucket, Jira, \ldots{}
+\item
+  Methodology: Agile Scrum, auto organized team with 6 dev/devops and 5
+  functional coworkers, experiencing remote working, part of a
+  60-coworkers project.
+\stopitemize
+
+\startdescription{December 2016 - June 2017}
+  {\bf Fullstack Software Development for Gattefosse};
+  \useURL[url5][https://www.zenika.com/][][Zenika]\from[url5] Lyon (FR)
+\stopdescription
+
+Developing from scratch a business website which allows clients to
+manage medias, users, products and technical documents.
+
+\startitemize
+\item
+  Tech back : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate,
+  Elasticsearch, JUnit, AssertJ, Mockito, Maven
+\item
+  Tech front : JavaScript ES6, npm, Webpack, ReactJS with Redux,
+  Jest/Jasmine, SASS, flexbox
+\item
+  CMS : Wordpress with custom plugins
+\item
+  Tech devops : Git, Gitlab with CI, Apache, MySql, Ansible
+\item
+  Methodology: Agile Scrum, 3 dev, 1 devops, remote clients
+\stopitemize
+
+\startdescription{February 2015 - August 2016}
+  {\bf Golang Development on
+  \useURL[url6][https://traefik.io/][][Træfik]\from[url6]};
+  \useURL[url7][https://containo.us/][][Containous]\from[url7] - Lyon
+  (France)
+\stopdescription
+
+6-months end-of-courses internship on
+\useURL[url8][https://traefik.io/][][Træfik]\from[url8]. Developing 2
+packages which provide configuration interfaces for Golang programs:
+
+\startitemize
+\item
+  \useURL[url9][https://github.com/containous/flaeg][][Flæg]\from[url9]:
+  Dynamic Command Line Interface
+\item
+  \useURL[url10][https://github.com/containous/staert][][Stært]\from[url10]:
+  Reads, Merges and Store configurations
+\stopitemize
+
+Tech:
+
+\startitemize
+\item
+  Tech back : Golang 1.7
+\item
+  Tech devops : Git, Github, Travis CI, Docker, Key/Value Distibuted
+  Databases
+\item
+  Methodology: Open Source Projects, Code Reviews, Pull Requests,
+  Startup
+\stopitemize
+
+\subsection[education]{Education}
+
+\startdescription{2013-2016}
+  {\bf Engineering degree};
+  \useURL[url11][https://www.telecom-st-etienne.fr/][][Télécom
+  Saint-Étienne]\from[url11] (FR)
+
+  {\em Specialization in Computer, Network Sciences}
+\stopdescription
+
+\startdescription{2015-2016}
+  {\bf Erasmus student exchange};
+  \useURL[url12][https://www.cvut.cz/en][][Czech Technical University in
+  Prague]\from[url12] (CZ)
+
+  {\em 1 semester : MSc classes taught in English at the Faculty of
+  Information Technologies}
+\stopdescription
+
+\subsection[technical-experience]{Technical Experience}
+
+\startdescription{My Cool Side Project}
+  For items which don't have a clear time ordering, a definition list
+  can be used to have named items.
+
+  \startitemize[packed]
+  \item
+    These items can also contain lists, but you need to mind the
+    indentation levels in the markdown source.
+  \item
+    Second item.
+  \stopitemize
+\stopdescription
+
+\startdescription{Open Source}
+  List open source contributions here, perhaps placing emphasis on the
+  project names, for example the {\bf Linux Kernel}, where you
+  implemented multithreading over a long weekend, or {\bf node.js} (with
+  \useURL[url13][http://nodejs.org][][link]\from[url13]) which was
+  actually totally your idea\ldots{}
+\stopdescription
+
+\startdescription{Programming Languages}
+  {\bf first-lang:} Here, we have an itemization, where we only want to
+  add descriptions to the first few items, but still want to mention
+  some others together at the end. A format that works well here is a
+  description list where the first few items have their first word
+  emphasized, and the last item contains the final few emphasized terms.
+  Notice the reasonably nice page break in the pdf version, which
+  wouldn't happen if we generated the pdf via html.
+
+  {\bf second-lang:} Description of your experience with second-lang,
+  perhaps again including a
+  \useURL[url14][https://github.com/githubuser/superlongprojectname][][link]\from[url14],
+  this time placing the url reference elsewhere in the document to
+  reduce clutter (see source file).
+
+  {\bf obscure-but-impressive-lang:} We both know this one's pushing it.
+
+  Basic knowledge of {\bf C}, {\bf x86 assembly}, {\bf forth},
+  {\bf Common Lisp}
+\stopdescription
+
+\subsection[extra-section-call-it-whatever-you-want]{Extra Section, Call
+it Whatever You Want}
+
+\startitemize
+\item
+  Human Languages:
+
+  \startitemize[packed]
+  \item
+    English (native speaker)
+  \item
+    ???
+  \item
+    This is what a nested list looks like.
+  \stopitemize
+\item
+  Random tidbit
+\item
+  Other sort of impressive-sounding thing you did
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url15][mailto:email@example.com][][email@example.com]\from[url15]
+• +00 (0)00 000 0000 • XX years old\crlf
+address - Mytown, Mycountry
+\stopblockquote
+
+\stoptext

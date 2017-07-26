@@ -3,26 +3,26 @@ Martin Piegay
 
 ----
 
->  I am a young software engineer working in Zenika Lyon (FR).
+>  I am a young software engineer working in [Zenika](https://www.zenika.com/) Lyon (FR).
 >  I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ...
 >  I feel concerned about quality of code and I do my best to improve it.
->  I believe in open-source, I recently contributed the new reverse proxy Træfik.
+>  I believe in open-source, I recently contributed the new reverse proxy [Træfik](https://traefik.io/).
 
 ----
 
 Experience
 ----------
 June 2017 - Today
-:   **Backend Software Development at Enedis**; Zenika Lyon (France)
+:   **Backend Software Development on Linkysup at [Enedis](http://www.enedis.fr/compteur-communicant)**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
 Developing a software for monitoring and remote controlling 35 millions of electricity meters installed at private individuals.
 
 * Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle, Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic, Maven, Git, Jenkins, Bitbucket, Jira, ...
 
-* Methodology: Agile Scrum, auto organized team of 6 dev/devops and 5 functional coworkers, experiencing remote working, part of a 60-coworkers project.
+* Methodology: Agile Scrum, auto organized team with 6 dev/devops and 5 functional coworkers, experiencing remote working, part of a 60-coworkers project.
 
 December 2016 - June 2017
-:   **Fullstack Software Development for Gattefosse**; Zenika Lyon (France)
+:   **Fullstack Software Development for Gattefosse**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
 Developing from scratch a business website which allows clients to manage medias, users, products and technical documents.
 
@@ -36,17 +36,34 @@ Developing from scratch a business website which allows clients to manage medias
 
 * Methodology: Agile Scrum, 3 dev, 1 devops, remote clients
 
+February 2015 - August 2016
+:   **Golang Development on [Træfik](https://traefik.io/)**; [Containous](https://containo.us/) - Lyon (France)
+
+6-months end-of-courses internship on [Træfik](https://traefik.io/). Developing 2 packages which provide configuration interfaces for Golang programs:
+
+* [Flæg](https://github.com/containous/flaeg): Dynamic Command Line Interface
+
+* [Stært](https://github.com/containous/staert): Reads, Merges and Store configurations
+
+Tech:
+
+* Tech back : Golang 1.7
+
+* Tech devops : Git, Github, Travis CI, Docker, Key/Value Distibuted Databases
+
+* Methodology: Open Source Projects, Code Reviews, Pull Requests, Startup
+
 Education
 ---------
 
 2013-2016
-:   **Engineering degree**; Télécom Saint-Étienne (France)
+:   **Engineering degree**; [Télécom Saint-Étienne](https://www.telecom-st-etienne.fr/) (FR)
 
     *Specialization in Computer, Network Sciences*
 
 2015-2016
-:   **Erasmus student exchange**; Czech Technical University of
-    Prague (Czech Republic)
+:   **Erasmus student exchange**; [Czech Technical University in
+    Prague](https://www.cvut.cz/en) (CZ)
 
     *1 semester : MSc classes taught in English at the Faculty of Information Technologies*
 
