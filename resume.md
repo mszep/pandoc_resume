@@ -12,7 +12,7 @@ Martin Piegay
 
 Experience
 ----------
-June 2017 - Today
+June 17 - Today
 :   **Backend Software Development on Linkysup at [Enedis](http://www.enedis.fr/compteur-communicant)**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
 Developing a software for monitoring and remote controlling 35 millions of electricity meters installed at private individuals.
@@ -21,7 +21,7 @@ Developing a software for monitoring and remote controlling 35 millions of elect
 
 * Methodology: Agile Scrum, auto organized team with 6 dev/devops and 5 functional coworkers, experiencing remote working, part of a 60-coworkers project.
 
-December 2016 - June 2017
+Dec. 16 - June 17
 :   **Fullstack Software Development for Gattefosse**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
 Developing from scratch a business website which allows clients to manage medias, users, products and technical documents.
@@ -36,7 +36,18 @@ Developing from scratch a business website which allows clients to manage medias
 
 * Methodology: Agile Scrum, 3 dev, 1 devops, remote clients
 
-February 2015 - August 2016
+Sept. 16 - Dec. 17
+:   **Fullstack Software Development for Grand Frais**; [Zenika](https://www.zenika.com/) Lyon (FR)
+
+Developing new features on the business specific software to manage product stock and daily deliveries from warehouse to stores, buying and billing.
+
+* Tech back : Java 7, Spring 4 (Security, Data JPA, MVC), Hibernate, JUnit, AssertJ, Mockito, Gradle
+
+* Tech front : JavaScript ES5, AngularJS, Jasmine
+
+* Methodology: Agile Scrum, 4/5 dev
+
+Feb. 15 - Aug. 16
 :   **Golang Development on [Træfik](https://traefik.io/)**; [Containous](https://containo.us/) - Lyon (France)
 
 6-months end-of-courses internship on [Træfik](https://traefik.io/). Developing 2 packages which provide configuration interfaces for Golang programs:
@@ -53,39 +64,52 @@ Tech:
 
 * Methodology: Open Source Projects, Code Reviews, Pull Requests, Startup
 
+January 2015 - May 2015
+:   **Sysadmin development**; [SAVE Diffusion](www.savediffusion.fr/) - Saint-Etienne (France)
+
+Development of a network monitoring service (Shinken/Nagios) for a radio studio network.
+
+* Tech : Linux server, network protocols (SNMP, Ping, ...), Shell, Perl and Python scripts.
+
+* Methodology: Working in 4 students team. AGILE approach.
+
 Education
 ---------
 
-2013-2016
+2013 - 2016
 :   **Engineering degree**; [Télécom Saint-Étienne](https://www.telecom-st-etienne.fr/) (FR)
 
     *Specialization in Computer, Network Sciences*
 
-2015-2016
+2015 - 2016
 :   **Erasmus student exchange**; [Czech Technical University in
     Prague](https://www.cvut.cz/en) (CZ)
 
     *1 semester : MSc classes taught in English at the Faculty of Information Technologies*
 
-Technical Experience
+2011 - 2013
+:   **2-year Initial Engineering Course**; [Télécom Saint-Étienne](https://www.telecom-st-etienne.fr/) (FR)
+
+    *Double diploma course : Technological Degree in Electronics and Computer Engineering, University Diploma in Initial Cycle of Information Technologies of St-Etienne*
+
+Skills
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Programming Languages
+:   Shell Unix, C/C++/C#, Java, Python, SQL, Matlab, HTML5/CSS3, OpenCV, OpenGL, Qt, PHP, JavaScript, MS-DOS, VHDL
 
     * These items can also contain lists, but you need to mind the
       indentation levels in the markdown source.
     * Second item.
 
-Open Source
+DevOps and tools
 :   List open source contributions here, perhaps placing emphasis on
     the project names, for example the **Linux Kernel**, where you
     implemented multithreading over a long weekend, or **node.js**
     (with [link](http://nodejs.org)) which was actually totally
     your idea...
 
-Programming Languages
+Languages
 :   **first-lang:** Here, we have an itemization, where we only want
     to add descriptions to the first few items, but still want to
     mention some others together at the end. A format that works well

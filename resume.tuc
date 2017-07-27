@@ -32,15 +32,21 @@ utilitydata.job.passes.collected={
   { 5, 0 },
  },
  ["itemgroup:itemize:3"]={
-  { 2, 0 },
- },
- ["itemgroup:itemize:4"]={
   { 3, 0 },
  },
- ["itemgroup:itemize:5"]={
+ ["itemgroup:itemize:4"]={
   { 2, 0 },
  },
+ ["itemgroup:itemize:5"]={
+  { 3, 0 },
+ },
  ["itemgroup:itemize:6"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:7"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:8"]={
   { 3, 0 },
   { 3, 0 },
  },
@@ -108,7 +114,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 2, 5, 2, 3, 2, 3 },
+  { 0, 2, 5, 3, 2, 3, 2, 2, 3 },
   { 0, 3, 0, 0 },
  },
  ["linenote"]={
@@ -118,7 +124,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["realpage"]={
-  { 2 },
+  { 3 },
  },
  ["subpage"]={
   { 0 },
@@ -127,7 +133,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["userpage"]={
-  { 2 },
+  { 3 },
  },
 }
 
@@ -174,7 +180,7 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="June 2017 - Today",
+   ["title"]="June 17 - Today",
   },
  },
  {
@@ -186,7 +192,7 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="December 2016 - June 2017",
+   ["title"]="Dec. 16 - June 17",
   },
  },
  {
@@ -198,7 +204,31 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="February 2015 - August 2016",
+   ["title"]="Sept. 16 - Dec. 17",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=6,
+   ["order"]=4,
+   ["realpage"]=1,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="Feb. 15 - Aug. 16",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=7,
+   ["order"]=5,
+   ["realpage"]=2,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="January 2015 - May 2015",
   },
  },
  {
@@ -206,8 +236,8 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=9,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=6,
-   ["realpage"]=1,
+   ["internal"]=8,
+   ["realpage"]=2,
    ["reference"]="education",
    ["section"]=3,
   },
@@ -219,25 +249,37 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=7,
-   ["order"]=4,
-   ["realpage"]=1,
+   ["internal"]=9,
+   ["order"]=6,
+   ["realpage"]=2,
    ["section"]=3,
   },
   ["titledata"]={
-   ["title"]="2013-2016",
+   ["title"]="2013 - 2016",
   },
  },
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=8,
-   ["order"]=5,
+   ["internal"]=10,
+   ["order"]=7,
    ["realpage"]=2,
    ["section"]=3,
   },
   ["titledata"]={
-   ["title"]="2015-2016",
+   ["title"]="2015 - 2016",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=11,
+   ["order"]=8,
+   ["realpage"]=2,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="2011 - 2013",
   },
  },
  {
@@ -245,45 +287,21 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=11,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=9,
+   ["internal"]=12,
    ["realpage"]=2,
-   ["reference"]="technical-experience",
+   ["reference"]="skills",
    ["section"]=4,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Technical Experience",
+   ["title"]="Skills",
   },
  },
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=10,
-   ["order"]=6,
-   ["realpage"]=2,
-   ["section"]=4,
-  },
-  ["titledata"]={
-   ["title"]="My Cool Side Project",
-  },
- },
- {
-  ["metadata"]=7,
-  ["references"]={
-   ["internal"]=11,
-   ["order"]=7,
-   ["realpage"]=2,
-   ["section"]=4,
-  },
-  ["titledata"]={
-   ["title"]="Open Source",
-  },
- },
- {
-  ["metadata"]=7,
-  ["references"]={
-   ["internal"]=12,
-   ["order"]=8,
+   ["internal"]=13,
+   ["order"]=9,
    ["realpage"]=2,
    ["section"]=4,
   },
@@ -292,12 +310,36 @@ utilitydata.structures.lists.collected={
   },
  },
  {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=14,
+   ["order"]=10,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="DevOps and tools",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=15,
+   ["order"]=11,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="Languages",
+  },
+ },
+ {
   ["metadata"]=4,
   ["numberdata"]=13,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=13,
-   ["realpage"]=2,
+   ["internal"]=16,
+   ["realpage"]=3,
    ["reference"]="extra-section-call-it-whatever-you-want",
    ["section"]=5,
   },
@@ -326,6 +368,13 @@ utilitydata.structures.pages.collected={
   ["prefixdata"]=15,
   ["state"]="start",
  },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -339,7 +388,8 @@ if not utilitydata.structures.references then utilitydata.structures.references 
 
 utilitydata.structures.references.referred={
  { 1, 1 },
- { 2, 12 },
+ { 2, 11 },
+ { 3, 17 },
 }
 
 if not utilitydata.job then utilitydata.job = { } end
