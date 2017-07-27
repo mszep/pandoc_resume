@@ -31,3 +31,8 @@ sudo apt install pandoc context
 ```bash
 sudo dnf install pandoc texlive-collection-context
 ```
+
+#### Arch
+```bash
+sudo pacman -S pandoc texlive-core
+```
