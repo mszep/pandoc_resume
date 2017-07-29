@@ -96,20 +96,17 @@ Skills
 --------------------
 
 Programming Languages
-:   Shell Unix, C/C++/C#, Java, Python, SQL, Matlab, HTML5/CSS3, OpenCV, OpenGL, Qt, PHP, JavaScript, MS-DOS, VHDL
+:   Java SE/EE 7 & 8, JavaScript ES6, Golang, SQL, HTML5, CSS3
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+Frameworks
+:   
+* Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito
+* ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS
 
 DevOps and tools
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+:   Git, Maven, NPM, Gitlab with CI, Docker, Bitbucket, Github, Jira, Intellij,
 
-Languages
+Methodologies
 :   **first-lang:** Here, we have an itemization, where we only want
     to add descriptions to the first few items, but still want to
     mention some others together at the end. A format that works well
