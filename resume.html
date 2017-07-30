@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 1em;
+    line-height: 1.4;
+  }
+  dt {
+      grid-column: 1;
+      float: left;
+      clear: left;
+      width: 13%;
+      font-weight: bold;
+      padding-top: 0.1em;
+  
+  }
+  
+  dd {
+      grid-column: 2;
+      margin-left: 13%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="martin-piegay">Martin Piegay</h1>
+<hr />
+<blockquote>
+<p>I am a young software engineer working in <a href="https://www.zenika.com/">Zenika</a> Lyon (FR). I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ... I feel concerned about quality of code and I do my best to improve it.<br />
+I believe in open-source, I recently contributed the new reverse proxy <a href="https://traefik.io/">Træfik</a>.</p>
+</blockquote>
+<hr />
+<h2 id="experience">Experience</h2>
+<dl>
+<dt>June 17 - Today</dt>
+<dd><strong>Backend Software Development on Linkysup at <a href="http://www.enedis.fr/compteur-communicant">Enedis</a></strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developing a software for monitoring and remote controlling 35 millions of electricity meters installed at private individuals.</p>
+<ul>
+<li><p>Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle, Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic, Maven, Git, Jenkins, Bitbucket, Jira, ...</p></li>
+<li><p>Methodology: Agile Scrum, auto organized team with 6 dev/devops and 5 functional coworkers, experiencing remote working, part of a 60-coworkers project.</p></li>
+</ul>
+<dl>
+<dt>Dec. 16 - June 17</dt>
+<dd><strong>Fullstack Software Development for Gattefosse</strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developing from scratch a business website which allows clients to manage medias, users, products and technical documents.</p>
+<ul>
+<li><p>Tech back : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven</p></li>
+<li><p>Tech front : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox</p></li>
+<li><p>CMS : Wordpress with custom plugins</p></li>
+<li><p>Tech devops : Git, Gitlab with CI, Apache, MySql, Ansible</p></li>
+<li><p>Methodology: Agile Scrum, 3 dev, 1 devops, remote clients</p></li>
+</ul>
+<dl>
+<dt>Sept. 16 - Dec. 17</dt>
+<dd><strong>Fullstack Software Development for Grand Frais</strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developing new features on the business specific software to manage product stock and daily deliveries from warehouse to stores, buying and billing.</p>
+<ul>
+<li><p>Tech back : Java 7, Spring 4 (Security, Data JPA, MVC), Hibernate, JUnit, AssertJ, Mockito, Gradle</p></li>
+<li><p>Tech front : JavaScript ES5, AngularJS, Jasmine</p></li>
+<li><p>Methodology: Agile Scrum, 4/5 dev</p></li>
+</ul>
+<dl>
+<dt>Feb. 15 - Aug. 16</dt>
+<dd><strong>Golang Development on <a href="https://traefik.io/">Træfik</a></strong>; <a href="https://containo.us/">Containous</a> - Lyon (France)
+</dd>
+</dl>
+<p>6-months end-of-courses internship on <a href="https://traefik.io/">Træfik</a>. Developing 2 packages which provide configuration interfaces for Golang programs:</p>
+<ul>
+<li><p><a href="https://github.com/containous/flaeg">Flæg</a>: Dynamic Command Line Interface</p></li>
+<li><p><a href="https://github.com/containous/staert">Stært</a>: Reads, Merges and Store configurations</p></li>
+</ul>
+<p>Tech:</p>
+<ul>
+<li><p>Tech back : Golang 1.7</p></li>
+<li><p>Tech devops : Git, Github, Travis CI, Docker, Key/Value Distibuted Databases</p></li>
+<li><p>Methodology: Open Source Projects, Code Reviews, Pull Requests, Startup</p></li>
+</ul>
+<dl>
+<dt>January 2015 - May 2015</dt>
+<dd><strong>Sysadmin development</strong>; <a href="www.savediffusion.fr/">SAVE Diffusion</a> - Saint-Etienne (France)
+</dd>
+</dl>
+<p>Development of a network monitoring service (Shinken/Nagios) for a radio studio network.</p>
+<ul>
+<li><p>Tech : Linux server, network protocols (SNMP, Ping, ...), Shell, Perl and Python scripts.</p></li>
+<li><p>Methodology: Working in 4 students team. AGILE approach.</p></li>
+</ul>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2013 - 2016</dt>
+<dd><p><strong>Engineering degree</strong>; <a href="https://www.telecom-st-etienne.fr/">Télécom Saint-Étienne</a> (FR)</p>
+<p><em>Specialization in Computer, Network Sciences</em></p>
+</dd>
+<dt>2015 - 2016</dt>
+<dd><p><strong>Erasmus student exchange</strong>; <a href="https://www.cvut.cz/en">Czech Technical University in Prague</a> (CZ)</p>
+<p><em>1 semester : MSc classes taught in English at the Faculty of Information Technologies</em></p>
+</dd>
+<dt>2011 - 2013</dt>
+<dd><p><strong>2-year Initial Engineering Course</strong>; <a href="https://www.telecom-st-etienne.fr/">Télécom Saint-Étienne</a> (FR)</p>
+<p><em>Double diploma course : Technological Degree in Electronics and Computer Engineering, University Diploma in Initial Cycle of Information Technologies of St-Etienne</em></p>
+</dd>
+</dl>
+<h2 id="skills">Skills</h2>
+<dl>
+<dt>Programming Languages</dt>
+<dd><ul>
+<li>Java SE/EE 7 &amp; 8, JavaScript ES6, Golang, SQL, HTML5, CSS3</li>
+</ul>
+</dd>
+<dt>Backend Frameworks</dt>
+<dd><ul>
+<li>Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools</li>
+</ul>
+</dd>
+<dt>Frontend Frameworks</dt>
+<dd><ul>
+<li>ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS</li>
+</ul>
+</dd>
+<dt>DevOps and tools</dt>
+<dd><ul>
+<li>Git, Maven, NPM, Docker, MySql, Apache Kafka, Flume, Tomcat, WebLogic</li>
+<li>Jenkins, Github, Gitlab with CI, Bitbucket, Jira, Intellij, Wordpress</li>
+</ul>
+</dd>
+<dt>Methodologies</dt>
+<dd><ul>
+<li>Agile (Scrum), Code Reviews, Test Driven Development, Pair Programming</li>
+</ul>
+</dd>
+</dl>
+<h2 id="others">Others</h2>
+<ul>
+<li><p>Human Languages:</p>
+<ul>
+<li>French (native speaker)</li>
+<li>English (professional)</li>
+</ul></li>
+<li>Hobbies:
+<ul>
+<li>Handball</li>
+<li>Mountain(hiking, skiing, biking, climbing)</li>
+</ul></li>
+</ul>
+<hr />
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#116;&#x65;&#108;&#x65;&#x63;&#x6f;&#x6d;&#x2d;&#x73;&#116;&#x2d;&#x65;&#116;&#x69;&#x65;&#110;&#110;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x6d;&#x61;&#114;&#116;&#x69;&#110;&#46;&#112;&#x69;&#x65;&#x67;&#x61;&#x79;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x6d;&#x61;&#114;&#116;&#x69;&#110;&#46;&#112;&#x69;&#x65;&#x67;&#x61;&#x79;&#32;&#x61;&#116;&#32;&#116;&#x65;&#108;&#x65;&#x63;&#x6f;&#x6d;&#x2d;&#x73;&#116;&#x2d;&#x65;&#116;&#x69;&#x65;&#110;&#110;&#x65;&#32;&#100;&#x6f;&#116;&#32;&#102;&#114;</noscript> • +33 6 25 97 03 83 • 24 years old<br />
+- Lyon, France</p>
+</blockquote>
+</body>
+</html>
