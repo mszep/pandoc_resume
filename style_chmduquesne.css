@@ -52,14 +52,25 @@ h2:hover {
 }
 
 /* Definitions */
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 1em;
+  line-height: 1.4;
+}
 dt {
+    grid-column: 1;
     float: left;
     clear: left;
-    width: 17%;
-    /*font-weight: bold;*/
+    width: 13%;
+    font-weight: bold;
+    padding-top: 0.1em;
+
 }
+
 dd {
-    margin-left: 17%;
+    grid-column: 2;
+    margin-left: 13%;
 }
 p {
     margin-top:0;

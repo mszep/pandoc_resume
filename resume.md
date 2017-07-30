@@ -1,100 +1,134 @@
-Johnny Coder
+Martin Piegay
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  I am a young software engineer working in [Zenika](https://www.zenika.com/) Lyon (FR).
+>  I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ...
+>  I feel concerned about quality of code and I do my best to improve it.\
+>  I believe in open-source, I recently contributed the new reverse proxy [Træfik](https://traefik.io/).
 
 ----
+
+Experience
+----------
+June 17 - Today
+:   **Backend Software Development on Linkysup at [Enedis](http://www.enedis.fr/compteur-communicant)**; [Zenika](https://www.zenika.com/) Lyon (FR)
+
+Developing a software for monitoring and remote controlling 35 millions of electricity meters installed at private individuals.
+
+* Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle, Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic, Maven, Git, Jenkins, Bitbucket, Jira, ...
+
+* Methodology: Agile Scrum, auto organized team with 6 dev/devops and 5 functional coworkers, experiencing remote working, part of a 60-coworkers project.
+
+Dec. 16 - June 17
+:   **Fullstack Software Development for Gattefosse**; [Zenika](https://www.zenika.com/) Lyon (FR)
+
+Developing from scratch a business website which allows clients to manage medias, users, products and technical documents.
+
+* Tech back : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven
+
+* Tech front : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox
+
+* CMS : Wordpress with custom plugins
+
+* Tech devops : Git, Gitlab with CI, Apache, MySql, Ansible
+
+* Methodology: Agile Scrum, 3 dev, 1 devops, remote clients
+
+Sept. 16 - Dec. 17
+:   **Fullstack Software Development for Grand Frais**; [Zenika](https://www.zenika.com/) Lyon (FR)
+
+Developing new features on the business specific software to manage product stock and daily deliveries from warehouse to stores, buying and billing.
+
+* Tech back : Java 7, Spring 4 (Security, Data JPA, MVC), Hibernate, JUnit, AssertJ, Mockito, Gradle
+
+* Tech front : JavaScript ES5, AngularJS, Jasmine
+
+* Methodology: Agile Scrum, 4/5 dev
+
+Feb. 15 - Aug. 16
+:   **Golang Development on [Træfik](https://traefik.io/)**; [Containous](https://containo.us/) - Lyon (France)
+
+6-months end-of-courses internship on [Træfik](https://traefik.io/). Developing 2 packages which provide configuration interfaces for Golang programs:
+
+* [Flæg](https://github.com/containous/flaeg): Dynamic Command Line Interface
+
+* [Stært](https://github.com/containous/staert): Reads, Merges and Store configurations
+
+Tech:
+
+* Tech back : Golang 1.7
+
+* Tech devops : Git, Github, Travis CI, Docker, Key/Value Distibuted Databases
+
+* Methodology: Open Source Projects, Code Reviews, Pull Requests, Startup
+
+January 2015 - May 2015
+:   **Sysadmin development**; [SAVE Diffusion](www.savediffusion.fr/) - Saint-Etienne (France)
+
+Development of a network monitoring service (Shinken/Nagios) for a radio studio network.
+
+* Tech : Linux server, network protocols (SNMP, Ping, ...), Shell, Perl and Python scripts.
+
+* Methodology: Working in 4 students team. AGILE approach.
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2013 - 2016
+:   **Engineering degree**; [Télécom Saint-Étienne](https://www.telecom-st-etienne.fr/) (FR)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *Specialization in Computer, Network Sciences*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+2015 - 2016
+:   **Erasmus student exchange**; [Czech Technical University in
+    Prague](https://www.cvut.cz/en) (CZ)
 
-    *Minor: Awesomeology*
+    *1 semester : MSc classes taught in English at the Faculty of Information Technologies*
 
-Experience
-----------
+2011 - 2013
+:   **2-year Initial Engineering Course**; [Télécom Saint-Étienne](https://www.telecom-st-etienne.fr/) (FR)
 
-**Your Most Recent Work Experience:**
+    *Double diploma course : Technological Degree in Electronics and Computer Engineering, University Diploma in Initial Cycle of Information Technologies of St-Etienne*
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
-
-Technical Experience
+Skills
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   
+* Java SE/EE 7 & 8, JavaScript ES6, Golang, SQL, HTML5, CSS3
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+Backend Frameworks
+:   
+* Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+Frontend Frameworks
+:   
+* ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+DevOps and tools
+:   
+* Git, Maven, NPM, Docker, MySql, Apache Kafka, Flume, Tomcat, WebLogic
+* Jenkins, Github, Gitlab with CI, Bitbucket, Jira, Intellij, Wordpress
 
-[ref]: https://github.com/githubuser/superlongprojectname
+Methodologies
+:   
+* Agile (Scrum), Code Reviews, Test Driven Development, Pair Programming
 
-Extra Section, Call it Whatever You Want
+Others
 ----------------------------------------
 
 * Human Languages:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+     * French (native speaker)
+     * English (professional)
 
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+* Hobbies:
+     * Handball
+     * Mountain(hiking, skiing, biking, climbing)
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <martin.piegay@telecom-st-etienne.fr> • +33 6 25 97 03 83 • 24 years old\
+> - Lyon, France

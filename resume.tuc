@@ -1,0 +1,569 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="tex.jobname",
+ ["format"]="cont-en",
+ ["stamp"]="2015.05.18 12:26",
+ ["version"]=1.3,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["randomseed"]=0.9427330172354,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+ ["itemgroup:itemize:1"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:10"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:11"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:12"]={
+  { 2, 0 },
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:2"]={
+  { 5, 0 },
+ },
+ ["itemgroup:itemize:3"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:5"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:6"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:7"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:8"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:9"]={
+  { 1, 0 },
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={},
+ ["name"]="resume",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["chemical"]={
+  { 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0 },
+ },
+ ["footnote"]={
+  { 0 },
+ },
+ ["formula"]={
+  { 0 },
+ },
+ ["graphic"]={
+  { 0 },
+ },
+ ["intermezzo"]={
+  { 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 2, 5, 3, 2, 3, 2, 1, 1, 1, 2, 1, 2 },
+  { 0, 2, 0, 2 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0 },
+ },
+ ["realpage"]={
+  { 3 },
+ },
+ ["subpage"]={
+  { 0 },
+ },
+ ["table"]={
+  { 0 },
+ },
+ ["userpage"]={
+  { 3 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=1,
+   ["realpage"]=1,
+   ["reference"]="martin-piegay",
+   ["section"]=1,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Martin Piegay",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=2,
+   ["realpage"]=1,
+   ["reference"]="experience",
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Experience",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=3,
+   ["order"]=1,
+   ["realpage"]=1,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="June 17 - Today",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=4,
+   ["order"]=2,
+   ["realpage"]=1,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="Dec. 16 - June 17",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=5,
+   ["order"]=3,
+   ["realpage"]=1,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="Sept. 16 - Dec. 17",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=6,
+   ["order"]=4,
+   ["realpage"]=1,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="Feb. 15 - Aug. 16",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=7,
+   ["order"]=5,
+   ["realpage"]=2,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="January 2015 - May 2015",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=9,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=8,
+   ["realpage"]=2,
+   ["reference"]="education",
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Education",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=9,
+   ["order"]=6,
+   ["realpage"]=2,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="2013 - 2016",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=10,
+   ["order"]=7,
+   ["realpage"]=2,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="2015 - 2016",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=11,
+   ["order"]=8,
+   ["realpage"]=2,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="2011 - 2013",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=11,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=12,
+   ["realpage"]=2,
+   ["reference"]="skills",
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Skills",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=13,
+   ["order"]=9,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="Programming Languages",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=14,
+   ["order"]=10,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="Backend Frameworks",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=15,
+   ["order"]=11,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="Frontend Frameworks",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=16,
+   ["order"]=12,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="DevOps and tools",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=17,
+   ["order"]=13,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="Methodologies",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=13,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=18,
+   ["realpage"]=3,
+   ["reference"]="others",
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Others",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+ { 1, 1 },
+ { 2, 11 },
+ { 3, 16 },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
+
+utilitydata.job.fileobjreferences.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=3,
+   ["name"]="section",
+  },
+  { 0, 0, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=4,
+   ["name"]="subsection",
+  },
+  { 0, 0, 1, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=5,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=4,
+   ["name"]="description",
+  },
+  { 0, 0, 1, 2 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=8,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 1, 3 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=10,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 1, 4 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=12,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata
