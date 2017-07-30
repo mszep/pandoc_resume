@@ -45,10 +45,7 @@ utilitydata.job.passes.collected={
  },
  ["itemgroup:itemize:7"]={
   { 2, 0 },
- },
- ["itemgroup:itemize:8"]={
-  { 3, 0 },
-  { 3, 0 },
+  { 2, 0 },
  },
 }
 
@@ -114,8 +111,8 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 2, 5, 3, 2, 3, 2, 2, 3 },
-  { 0, 3, 0, 0 },
+  { 0, 2, 5, 3, 2, 3, 2, 2 },
+  { 0, 2, 0, 2 },
  },
  ["linenote"]={
   { 0 },
@@ -318,7 +315,7 @@ utilitydata.structures.lists.collected={
    ["section"]=4,
   },
   ["titledata"]={
-   ["title"]="DevOps and tools",
+   ["title"]="Backend Frameworks",
   },
  },
  {
@@ -330,7 +327,31 @@ utilitydata.structures.lists.collected={
    ["section"]=4,
   },
   ["titledata"]={
-   ["title"]="Languages",
+   ["title"]="Frontend Frameworks",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=16,
+   ["order"]=12,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="DevOps and tools",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=17,
+   ["order"]=13,
+   ["realpage"]=2,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="Methodologies",
   },
  },
  {
@@ -338,14 +359,14 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=13,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=16,
-   ["realpage"]=3,
-   ["reference"]="extra-section-call-it-whatever-you-want",
+   ["internal"]=18,
+   ["realpage"]=2,
+   ["reference"]="others",
    ["section"]=5,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Extra Section, Call it Whatever You Want",
+   ["title"]="Others",
   },
  },
 }
@@ -389,7 +410,7 @@ if not utilitydata.structures.references then utilitydata.structures.references 
 utilitydata.structures.references.referred={
  { 1, 1 },
  { 2, 11 },
- { 3, 17 },
+ { 3, 16 },
 }
 
 if not utilitydata.job then utilitydata.job = { } end

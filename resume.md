@@ -5,7 +5,7 @@ Martin Piegay
 
 >  I am a young software engineer working in [Zenika](https://www.zenika.com/) Lyon (FR).
 >  I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ...
->  I feel concerned about quality of code and I do my best to improve it.
+>  I feel concerned about quality of code and I do my best to improve it.\
 >  I believe in open-source, I recently contributed the new reverse proxy [Træfik](https://traefik.io/).
 
 ----
@@ -98,49 +98,31 @@ Skills
 Programming Languages
 :   Java SE/EE 7 & 8, JavaScript ES6, Golang, SQL, HTML5, CSS3
 
-Frameworks
-:   
-* Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito
-* ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS
+Backend Frameworks
+:   Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools
+
+Frontend Frameworks
+:   ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS
 
 DevOps and tools
-:   Git, Maven, NPM, Gitlab with CI, Docker, Bitbucket, Github, Jira, Intellij,
+:   Git, Maven, NPM, Gitlab with CI, Docker, MySql, Apache Tomcat, Bitbucket, Github, Jira, Intellij, Wordpress, Apache Kafka, Apache Flume, WebLogic
 
 Methodologies
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   Agile (Scrum), Code Reviews, Test Driven Development, Pair Programming
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file).
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
+Others
 ----------------------------------------
 
 * Human Languages:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+     * French (native speaker)
+     * English (professional)
 
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+* Hobbies:
+     * Handball
+     * Mountain(hiking, skiing, biking, climbing)
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <martin.piegay@telecom-st-etienne.fr> • +33 6 25 97 03 83 • 24 years old\
+> - Lyon, France
