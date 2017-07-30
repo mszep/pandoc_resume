@@ -96,19 +96,25 @@ Skills
 --------------------
 
 Programming Languages
-:   Java SE/EE 7 & 8, JavaScript ES6, Golang, SQL, HTML5, CSS3
+:   
+* Java SE/EE 7 & 8, JavaScript ES6, Golang, SQL, HTML5, CSS3
 
 Backend Frameworks
-:   Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools
+:   
+* Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools
 
 Frontend Frameworks
-:   ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS
+:   
+* ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS
 
 DevOps and tools
-:   Git, Maven, NPM, Gitlab with CI, Docker, MySql, Apache Tomcat, Bitbucket, Github, Jira, Intellij, Wordpress, Apache Kafka, Apache Flume, WebLogic
+:   
+* Git, Maven, NPM, Docker, MySql, Apache Kafka, Flume, Tomcat, WebLogic
+* Jenkins, Github, Gitlab with CI, Bitbucket, Jira, Intellij, Wordpress
 
 Methodologies
-:   Agile (Scrum), Code Reviews, Test Driven Development, Pair Programming
+:   
+* Agile (Scrum), Code Reviews, Test Driven Development, Pair Programming
 
 Others
 ----------------------------------------

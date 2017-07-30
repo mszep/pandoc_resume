@@ -28,6 +28,16 @@ utilitydata.job.passes.collected={
  ["itemgroup:itemize:1"]={
   { 2, 0 },
  },
+ ["itemgroup:itemize:10"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:11"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:12"]={
+  { 2, 0 },
+  { 2, 0 },
+ },
  ["itemgroup:itemize:2"]={
   { 5, 0 },
  },
@@ -44,8 +54,13 @@ utilitydata.job.passes.collected={
   { 2, 0 },
  },
  ["itemgroup:itemize:7"]={
-  { 2, 0 },
-  { 2, 0 },
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:8"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:9"]={
+  { 1, 0 },
  },
 }
 
@@ -111,7 +126,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 2, 5, 3, 2, 3, 2, 2 },
+  { 0, 2, 5, 3, 2, 3, 2, 1, 1, 1, 2, 1, 2 },
   { 0, 2, 0, 2 },
  },
  ["linenote"]={
@@ -360,7 +375,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=18,
-   ["realpage"]=2,
+   ["realpage"]=3,
    ["reference"]="others",
    ["section"]=5,
   },

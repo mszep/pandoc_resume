@@ -60,14 +60,25 @@
   }
   
   /* Definitions */
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 1em;
+    line-height: 1.4;
+  }
   dt {
+      grid-column: 1;
       float: left;
       clear: left;
-      width: 17%;
-      /*font-weight: bold;*/
+      width: 13%;
+      font-weight: bold;
+      padding-top: 0.1em;
+  
   }
+  
   dd {
-      margin-left: 17%;
+      grid-column: 2;
+      margin-left: 13%;
   }
   p {
       margin-top:0;
@@ -188,19 +199,30 @@ I believe in open-source, I recently contributed the new reverse proxy <a href="
 <h2 id="skills">Skills</h2>
 <dl>
 <dt>Programming Languages</dt>
-<dd>Java SE/EE 7 &amp; 8, JavaScript ES6, Golang, SQL, HTML5, CSS3
+<dd><ul>
+<li>Java SE/EE 7 &amp; 8, JavaScript ES6, Golang, SQL, HTML5, CSS3</li>
+</ul>
 </dd>
 <dt>Backend Frameworks</dt>
-<dd>Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools
+<dd><ul>
+<li>Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools</li>
+</ul>
 </dd>
 <dt>Frontend Frameworks</dt>
-<dd>ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS
+<dd><ul>
+<li>ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS</li>
+</ul>
 </dd>
 <dt>DevOps and tools</dt>
-<dd>Git, Maven, NPM, Gitlab with CI, Docker, MySql, Apache Tomcat, Bitbucket, Github, Jira, Intellij, Wordpress, Apache Kafka, Apache Flume, WebLogic
+<dd><ul>
+<li>Git, Maven, NPM, Docker, MySql, Apache Kafka, Flume, Tomcat, WebLogic</li>
+<li>Jenkins, Github, Gitlab with CI, Bitbucket, Jira, Intellij, Wordpress</li>
+</ul>
 </dd>
 <dt>Methodologies</dt>
-<dd>Agile (Scrum), Code Reviews, Test Driven Development, Pair Programming
+<dd><ul>
+<li>Agile (Scrum), Code Reviews, Test Driven Development, Pair Programming</li>
+</ul>
 </dd>
 </dl>
 <h2 id="others">Others</h2>
