@@ -6,7 +6,7 @@ Martin Piegay
 >  I am a young software engineer working in [Zenika](https://www.zenika.com/) Lyon (FR).
 >  I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ...
 >  I feel concerned about quality of code and I do my best to improve it.\
->  I believe in open-source, I recently contributed the new reverse proxy [Træfik](https://traefik.io/).
+>  I believe in open-source, I recently contributed to the new reverse proxy [Træfik](https://traefik.io/).
 
 ----
 
@@ -26,9 +26,9 @@ Dec. 16 - June 17
 
 Developing from scratch a business website which allows clients to manage medias, users, products and technical documents.
 
-* Tech back : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven
+* Backend : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven
 
-* Tech front : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox
+* Frontend : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox
 
 * CMS : Wordpress with custom plugins
 
@@ -41,9 +41,9 @@ Sept. 16 - Dec. 17
 
 Developing new features on the business specific software to manage product stock and daily deliveries from warehouse to stores, buying and billing.
 
-* Tech back : Java 7, Spring 4 (Security, Data JPA, MVC), Hibernate, JUnit, AssertJ, Mockito, Gradle
+* Backend : Java 7, Spring 4 (Security, Data JPA, MVC), Hibernate, JUnit, AssertJ, Mockito, Gradle
 
-* Tech front : JavaScript ES5, AngularJS, Jasmine
+* Frontend : JavaScript ES5, AngularJS, Jasmine
 
 * Methodology: Agile Scrum, 4/5 dev
 
@@ -58,14 +58,14 @@ Feb. 15 - Aug. 16
 
 Tech:
 
-* Tech back : Golang 1.7
+* Backend : Golang 1.7
 
 * Tech devops : Git, Github, Travis CI, Docker, Key/Value Distibuted Databases
 
 * Methodology: Open Source Projects, Code Reviews, Pull Requests, Startup
 
 January 2015 - May 2015
-:   **Sysadmin development**; [SAVE Diffusion](www.savediffusion.fr/) - Saint-Etienne (France)
+:   **Sysadmin development**; [SAVE Diffusion](http://www.savediffusion.fr/) - Saint-Etienne (France)
 
 Development of a network monitoring service (Shinken/Nagios) for a radio studio network.
 
