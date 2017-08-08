@@ -18,7 +18,7 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.variables then utilitydata.job.variables = { } end
 
 utilitydata.job.variables.collected={
- ["randomseed"]=0.9427330172354,
+ ["randomseed"]=0.75852859008989,
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -81,7 +81,7 @@ if not utilitydata.job.structure then utilitydata.job.structure = { } end
 
 utilitydata.job.structure.collected={
  ["branches"]={},
- ["name"]="resume",
+ ["name"]="resume_en",
  ["type"]="text",
 }
 

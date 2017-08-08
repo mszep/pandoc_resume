@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 1em;
+    line-height: 1.4;
+  }
+  dt {
+      grid-column: 1;
+      float: left;
+      clear: left;
+      width: 13%;
+      font-weight: bold;
+      padding-top: 0.1em;
+  
+  }
+  
+  dd {
+      grid-column: 2;
+      margin-left: 13%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="martin-piegay">Martin Piegay</h1>
+<hr />
+<blockquote>
+<p>Je suis un jeune ingénieur logiciel travayant à <a href="https://www.zenika.com/">Zenika</a> Lyon (FR). Je code en Java, JavaScript et Golang en utilisant different frameworks comme Spring ou ReactJS ... J'accorde de l'importance à la qualité du code et je fais de mon mieux pour l'améliorer.<br />
+Je m'interesse à open-source, J'ai recemment contribuer au nouveau reverse proxy <a href="https://traefik.io/">Træfik</a>.</p>
+</blockquote>
+<hr />
+<h2 id="experience">Experience</h2>
+<dl>
+<dt>Juin 17 - Aujourd'hui</dt>
+<dd><strong>Developpement logiciel Backend chez <a href="http://www.enedis.fr/compteur-communicant">Enedis</a></strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developpement d'un logiciel de supervision et téléparamegrage de 35 millions de compteurs éléctrique installé chez des particuliers.</p>
+<ul>
+<li><p>Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle, Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic, Maven, Git, Jenkins, Bitbucket, Jira, ...</p></li>
+<li><p>Methodologies: Agile Scrum, équipe auto organisée de 5 dev/devops et 4 administrateurs fonctionel, télétravail, au seins d'un projet avec 60 colaborateurs.</p></li>
+</ul>
+<dl>
+<dt>Dec. 16 - Juin 17</dt>
+<dd><strong>Developpement logiciel Fullstack pour Gattefosse</strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developpement de zero d'un site web commercial permettant aux clients la gestion des medias, des utilisateurs, des produits et des documents technique.</p>
+<ul>
+<li><p>Backend : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven</p></li>
+<li><p>Frontend : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox</p></li>
+<li><p>CMS : Wordpress avec des plugins custom</p></li>
+<li><p>Tech devops : Git, Gitlab with CI, Apache, MySql, Ansible</p></li>
+<li><p>Methodologie: Agile Scrum, 3 dev, 1 devops, clients à distance</p></li>
+</ul>
+<dl>
+<dt>Sept. 16 - Dec. 17</dt>
+<dd><strong>Developpement logiciel Fullstack chez Grand Frais</strong>; <a href="https://www.zenika.com/">Zenika</a> Lyon (FR)
+</dd>
+</dl>
+<p>Developpement de nouvelles fonctionalitées sur un logiciel métirer specifique pour la gestion des stock de produits et des livraisons quotidiennes des entrepot aux magasins, achats and facturation.</p>
+<ul>
+<li><p>Backend : Java 7, Spring 4 (Security, Data JPA, MVC), Hibernate, JUnit, AssertJ, Mockito, Gradle</p></li>
+<li><p>Frontend : JavaScript ES5, AngularJS, Jasmine</p></li>
+<li><p>Methodologie: Agile Scrum, 4/5 dev</p></li>
+</ul>
+<dl>
+<dt>Feb. 15 - Aug. 16</dt>
+<dd><strong>Developpement logiciel en Golang sur <a href="https://traefik.io/">Træfik</a></strong>; <a href="https://containo.us/">Containous</a> - Lyon (France)
+</dd>
+</dl>
+<p>Stage de fin d'étude de 6 mois sur <a href="https://traefik.io/">Træfik</a>. Développement complet de 2 packages fournissant des interfaces de configurations dynamique pour les programmes Golang:</p>
+<ul>
+<li><p><a href="https://github.com/containous/flaeg">Flæg</a>: Une interfaces en ligne de commande dynamique et auto généré</p></li>
+<li><p><a href="https://github.com/containous/staert">Stært</a>: Importe, Fusionne et Sauvegarde les configurations</p></li>
+</ul>
+<p>Tech:</p>
+<ul>
+<li><p>Backend : Golang 1.7</p></li>
+<li><p>Tech devops : Git, Github, Travis CI, Docker, Key/Value Distibuted Databases</p></li>
+<li><p>Methodologie: Projet Open Source, Revue de Code, Pull Requests, Startup</p></li>
+</ul>
+<dl>
+<dt>Janvier 2015 - Mai 2015</dt>
+<dd><strong>Developpement AdminSys</strong>; <a href="http://www.savediffusion.fr/">SAVE Diffusion</a> - Saint-Etienne (France)
+</dd>
+</dl>
+<p>Mise en place d'un service de supervision du reseau (Shinken/Nagios) pour les studios de radio.</p>
+<ul>
+<li><p>Tech : Linux server, network protocols (SNMP, Ping, ...), Shell, Perl, Python scripts.</p></li>
+<li><p>Methodologies: Equipe de 4 etudiants. approche Agile.</p></li>
+</ul>
+<h2 id="etudes">Etudes</h2>
+<dl>
+<dt>2013 - 2016</dt>
+<dd><p><strong>Diplome d'ingénieur</strong>; <a href="https://www.telecom-st-etienne.fr/">Télécom Saint-Étienne</a> (FR)</p>
+<p><em>Specialisation en Informatique et reseaux</em></p>
+</dd>
+<dt>2015 - 2016</dt>
+<dd><p><strong>programme Erasmus</strong>; <a href="https://www.cvut.cz/en">Czech Technical University in Prague</a> (CZ)</p>
+<p><em>1 semestre : cours de Master enseigné en anglais à la Faculty of Information Technologies</em></p>
+</dd>
+<dt>2011 - 2013</dt>
+<dd><p><strong>2 ans de Cicle Initial</strong>; <a href="https://www.telecom-st-etienne.fr/">Télécom Saint-Étienne</a> (FR)</p>
+<p><em>Double diplome : DUT en GEII et DU de Cicle Initial des Technologies de l'Information de Saint-Etienne</em></p>
+</dd>
+</dl>
+<h2 id="compétences">Compétences</h2>
+<dl>
+<dt>Langages de programmation</dt>
+<dd><ul>
+<li>Java SE/EE 7 &amp; 8, JavaScript ES6, Golang, SQL, HTML5, CSS3</li>
+</ul>
+</dd>
+<dt>Frameworks Backend</dt>
+<dd><ul>
+<li>Spring(Boot, MVC, Data, Security), JPA, AssertJ, Mockito, ZK, Drools</li>
+</ul>
+</dd>
+<dt>Frameworks Frontend</dt>
+<dd><ul>
+<li>ReactJS, Redux, Jasmine/Jest, Fetch API, AngularJS, Bootstrap, SASS</li>
+</ul>
+</dd>
+<dt>DevOps et outils</dt>
+<dd><ul>
+<li>Git, Maven, NPM, Docker, MySql, Apache Kafka, Flume, Tomcat, WebLogic</li>
+<li>Jenkins, Github, Gitlab with CI, Bitbucket, Jira, Intellij, Wordpress</li>
+</ul>
+</dd>
+<dt>Methodologies</dt>
+<dd><ul>
+<li>Agile (Scrum), Revue de Code, Test Driven Development, Pair Programming</li>
+</ul>
+</dd>
+</dl>
+<h2 id="autre">Autre</h2>
+<ul>
+<li><p>Langues:</p>
+<ul>
+<li>Français</li>
+<li>Anglais (professionnel)</li>
+</ul></li>
+<li>Loisirs:
+<ul>
+<li>Handball</li>
+<li>Montagne(rando, ski, VTT, escalade)</li>
+</ul></li>
+</ul>
+<hr />
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#116;&#x65;&#108;&#x65;&#x63;&#x6f;&#x6d;&#x2d;&#x73;&#116;&#x2d;&#x65;&#116;&#x69;&#x65;&#110;&#110;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x6d;&#x61;&#114;&#116;&#x69;&#110;&#46;&#112;&#x69;&#x65;&#x67;&#x61;&#x79;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x6d;&#x61;&#114;&#116;&#x69;&#110;&#46;&#112;&#x69;&#x65;&#x67;&#x61;&#x79;&#32;&#x61;&#116;&#32;&#116;&#x65;&#108;&#x65;&#x63;&#x6f;&#x6d;&#x2d;&#x73;&#116;&#x2d;&#x65;&#116;&#x69;&#x65;&#110;&#110;&#x65;&#32;&#100;&#x6f;&#116;&#32;&#102;&#114;</noscript> • +33 6 25 97 03 83 • 24 ans<br />
+- Lyon, France</p>
+</blockquote>
+</body>
+</html>
