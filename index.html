@@ -1,9 +1,23 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<meta http-equiv="refresh" content="0; url=resume_en.html" />
-<title>Redirection</title>
+<title>Martin Piegay</title>
 <meta name="robots" content="noindex,follow" />
+<script>
+  // Browser Language Redirect script
+  // copyright 3rd January 2006, Stephen Chapman
+  // permission to use this Javascript on your web page is granted
+  // provided that all of the code in this script (with the sole exception
+  // of the langcodes array entries) is used without any alteration
+
+  var langCode = navigator.languages[0] || navigator.language || navigator.systemLanguage;
+  var lang = langCode.length > 2 ? langCode.toLowerCase().substr(0,2) : langCode;
+  var dest = "resume_en.html";
+  if (lang == "fr"){
+    dest = "resume_fr.html";
+  }
+  document.location.href=dest;
+</script>
 </head>
 <body>
   <p><a href="resume_en.html">Click to reach my resume in english</a></p>
