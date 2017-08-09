@@ -47,8 +47,8 @@ resume_fr.pdf: resume_fr.md
 	context resume_fr.tex
 
 html_fr: resume_fr.html
-resume_fr.html: style_chmduquesne.css resume_fr.md
-	pandoc --standalone -H style_chmduquesne.css \
+resume_fr.html: style_chmduquesne_fr.css resume_fr.md
+	pandoc --standalone -H style_chmduquesne_fr.css \
         --from markdown --to html \
         -o resume_fr.html resume_fr.md
 
