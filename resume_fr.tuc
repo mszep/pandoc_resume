@@ -375,13 +375,13 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=18,
-   ["realpage"]=2,
-   ["reference"]="autre",
+   ["realpage"]=3,
+   ["reference"]="autres",
    ["section"]=5,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Autre",
+   ["title"]="Autres",
   },
  },
 }

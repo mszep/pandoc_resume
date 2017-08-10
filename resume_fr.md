@@ -4,9 +4,9 @@ Martin Piegay
 ----
 
 >  Je suis un jeune ingénieur logiciel travaillant à [Zenika](https://www.zenika.com/) Lyon (FR).
->  Je code en Java, JavaScript et Golang en utilisant différent frameworks comme Spring ou ReactJS ...
+>  Je code en Java, JavaScript et Golang en utilisant différents frameworks comme Spring ou ReactJS ...
 >  J'accorde de l'importance à la qualité du code et je fais de mon mieux pour l'améliorer.\
->  Je m'intéresse  à open-source, J'ai récemment contribué au nouveau reverse proxy [Træfik](https://traefik.io/).
+>  Je m'intéresse à l'open-source, j'ai récemment contribué au nouveau reverse proxy [Træfik](https://traefik.io/).
 
 ----
 
@@ -15,7 +15,7 @@ Experience
 Juin 17 - Aujourd'hui
 :   **Développement logiciel Backend chez [Enedis](http://www.enedis.fr/compteur-communicant)**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
-Développement d'un logiciel de supervision et téléparamétrage de 35 millions de compteurs électrique installés chez des particuliers.
+Développement d'un logiciel de supervision et téléparamétrage de 35 millions de compteurs électriques installés chez des particuliers.
 
 * Tech: Java 7, JUnit, AssertJ, Mockito, Spring, ZK, SQL/Oracle, Mybatis, Elasticsearch, Drools, Apache Kafka, Apache Flume, WebLogic, Maven, Git, Jenkins, Bitbucket, Jira, ...
 
@@ -24,13 +24,13 @@ Développement d'un logiciel de supervision et téléparamétrage de 35 millions
 Dec. 16 - Juin 17
 :   **Développement logiciel Fullstack pour Gattefosse**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
-Développement de zéro d'un site web commercial permettant aux clients la gestion des medias, des utilisateurs, des produits et des documents technique.
+Développement de zéro d'un site web commercial permettant aux clients la gestion des medias, des utilisateurs, des produits et des documents techniques.
 
 * Backend : Java 8, Spring 4 (Security, Data JPA, MVC), Hibernate, Elasticsearch, JUnit, AssertJ, Mockito, Maven
 
 * Frontend : JavaScript ES6, npm, Webpack, ReactJS with Redux, Jest/Jasmine, SASS, flexbox
 
-* CMS : Wordpress avec des plugins custom
+* CMS : Wordpress avec des plugins customs
 
 * Tech devops : Git, Gitlab with CI, Apache, MySql, Ansible
 
@@ -39,7 +39,7 @@ Développement de zéro d'un site web commercial permettant aux clients la gesti
 Sept. 16 - Dec. 17
 :   **Développement logiciel Fullstack chez Grand Frais**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
-Développement de nouvelles fonctionnalités sur un logiciel métier spécifique pour la gestion des stocks de produits et des livraisons quotidiennes des entrepôts aux magasins, achats and facturation.
+Développement de nouvelles fonctionnalités sur un logiciel métier spécifique pour la gestion des stocks de produit et des livraisons quotidiennes des entrepôts aux magasins, achats et facturation.
 
 * Backend : Java 7, Spring 4 (Security, Data JPA, MVC), Hibernate, JUnit, AssertJ, Mockito, Gradle
 
@@ -50,7 +50,7 @@ Développement de nouvelles fonctionnalités sur un logiciel métier spécifique
 Feb. 15 - Aug. 16
 :   **Développement logiciel en Golang sur [Træfik](https://traefik.io/)**; [Containous](https://containo.us/) - Lyon (France)
 
-Stage de fin d'étude de 6 mois sur [Træfik](https://traefik.io/). Développement complet de 2 packages fournissant des interfaces de configurations dynamique pour les programmes Golang:
+Stage de fin d'étude de 6 mois sur [Træfik](https://traefik.io/). Développement complet de 2 packages fournissant des interfaces de configuration dynamiques pour les programmes Golang:
 
 * [Flæg](https://github.com/containous/flaeg): Une interface en ligne de commande dynamique et auto généré
 
@@ -67,7 +67,7 @@ Tech:
 Jan. 15 - Mai 15
 :   **Développement AdminSys**; [SAVE Diffusion](http://www.savediffusion.fr/) - Saint-Etienne (France)
 
-Mise en place d'un service de supervision du réseau (Shinken/Nagios) pour les studios de radio.
+Mise en place d'un service de supervision des équipements du réseau (Shinken/Nagios) pour les studios de radio.
 
 * Tech : Linux server, network protocols (SNMP, Ping, ...), Shell, Perl, Python scripts.
 
@@ -116,7 +116,7 @@ Méthodologies
 :   
 * Agile (Scrum), Revue de Code, Test Driven Development, Pair Programming
 
-Autre
+Autres
 ----------------------------------------
 
 * Langues:
