@@ -47,7 +47,7 @@ Développement de nouvelles fonctionnalités sur un logiciel métier spécifique
 
 * Méthodologies: Agile Scrum, 4/5 dev
 
-Feb. 15 - Aug. 16
+Fev. 15 - Aout 16
 :   **Développement logiciel en Golang sur [Træfik](https://traefik.io/)**; [Containous](https://containo.us/) - Lyon (France)
 
 Stage de fin d'étude de 6 mois sur [Træfik](https://traefik.io/). Développement complet de 2 packages fournissant des interfaces de configuration dynamiques pour les programmes Golang:

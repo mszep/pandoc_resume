@@ -34,9 +34,9 @@ system          > structure > stop used structure
 system          > files > start used files
 
 used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/cont-yes.mkiv usedmethod=database
-used file       >    2: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/publ-imp-default.lua usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=scripts foundname=/usr/share/texmf/tex/context/base/publ-imp-default.lua usedmethod=database
 used file       >    3: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/cont-new.mkiv usedmethod=database
-used file       >    4: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf/tex/context/patterns/lang-us.lua usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=scripts foundname=/usr/share/texmf/tex/context/patterns/lang-us.lua usedmethod=database
 used file       >    5: filename=/home/martin/Documents/resume/pandoc_resume/resume_fr.tex foundname=/home/martin/Documents/resume/pandoc_resume/resume_fr.tex usedmethod=direct
 used file       >    6: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/type-imp-texgyre.mkiv usedmethod=database
 used file       >    7: filename=lm.lfg filetype=tex foundname=/usr/share/texmf/tex/context/fonts/lm.lfg usedmethod=database
@@ -69,14 +69,14 @@ system          > options > stop commandline files
 
 mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/martin/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
-mkiv lua stats  > resource resolver: loadtime 0.008 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 12 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 371 modules (0.142 sec), 78 tables (0.005 sec), 449 chunks (0.147 sec)
+mkiv lua stats  > resource resolver: loadtime 0.009 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 12 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 371 modules (0.157 sec), 78 tables (0.005 sec), 449 chunks (0.162 sec)
 mkiv lua stats  > traced context: maxstack: 1145, freed: 13, unreachable: 1132
 mkiv lua stats  > running in nuts mode: yes
 mkiv lua stats  > cleaned up reserved nodes: 53 nodes, 439 lists of 438
 mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 12 attribute, 53 glue_spec, 3 attribute_list, 2 temp
 mkiv lua stats  > node list callback tasks: 6 unique task lists, 7 instances (re)created, 672 calls
-mkiv lua stats  > h-node processing time: 0.013 seconds including kernel
+mkiv lua stats  > h-node processing time: 0.012 seconds including kernel
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > loaded patterns: en::2, load time: 0.000
 mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
@@ -85,11 +85,11 @@ mkiv lua stats  > randomizer: resumed with value 0.99007816705391
 mkiv lua stats  > interactive elements: 16 references, 18 destinations
 mkiv lua stats  > result saved in file: resume_fr.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
-mkiv lua stats  > fonts load time: 0.127 seconds for 10 fonts, 4 shared in backend, 0 common vectors, 4 common hashes
+mkiv lua stats  > fonts load time: 0.130 seconds for 10 fonts, 4 shared in backend, 0 common vectors, 4 common hashes
 mkiv lua stats  > pdf annotations: 16 links (16 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > luatex banner: this is luatex, version beta-0.80.0 (tex live 2015/debian) (rev 5238)
 mkiv lua stats  > control sequences: 43433 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 71 MB (ctx: 71 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.445 seconds, 3 processed pages, 3 shipped pages, 6.742 pages/second
+mkiv lua stats  > lua properties: engine: lua, used memory: 64 MB (ctx: 63 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.456 seconds, 3 processed pages, 3 shipped pages, 6.579 pages/second
 
