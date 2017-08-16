@@ -25,13 +25,14 @@ Core
     Puppet, ElasticSearch, performance and capacity planning
 
 Familiar
-:   Python, Perl, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash
+:   Python, Perl, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash, Ansible,
+    Kubernetes, Docker, Helm, Hubot
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
 
 Cloud
-:   EC2, Digital Ocean, Rackspace, Softlayer
+:   AWS, Digital Ocean, Rackspace, Softlayer
 
 
 
