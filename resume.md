@@ -49,8 +49,7 @@ Experience
 ### Maxwell Health (Boston, MA)
 **Infrastructure Engineer**; 8/2016 — Present
 
-  * Use terraform to design and manage infrastructure on Amazon Web Services
-    for internal and external services
+  * Lead project to use terraform to architect infrastructure on AWS
   * Migrate services into kubernetes
   * Deploy new services to kubernetes using helm
   * Assist in architecture of microservices and best practices
