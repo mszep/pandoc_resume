@@ -26,7 +26,7 @@ Core
 
 Familiar
 :   Logstash, MySQL, PostgreSQL, Graphite, Kubernetes, Docker, Helm, Hubot
-    Python, Perl, node.js, OSSEC, Ansible,
+    Python, Perl, node.js, OSSEC, Ansible
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
