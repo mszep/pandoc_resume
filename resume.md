@@ -21,12 +21,12 @@ Relevant Skills
 ---------------
 
 Core
-:   Linux, Bash, Ruby, Varnish, Nagios, Vagrant, Apache, Nginx, git, Terraform,
+:   Linux, Bash, Terraform, git, Varnish, Nagios, Vagrant, Apache, Nginx, Ruby,
     Puppet, ElasticSearch, performance and capacity planning
 
 Familiar
-:   Python, Perl, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash, Ansible,
-    Kubernetes, Docker, Helm, Hubot
+:   Logstash, MySQL, PostgreSQL, Graphite, Kubernetes, Docker, Helm, Hubot
+    Python, Perl, node.js, OSSEC, Ansible,
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
