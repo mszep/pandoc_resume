@@ -25,13 +25,14 @@ Core
     Puppet, ElasticSearch, performance and capacity planning
 
 Familiar
-:   Python, Perl, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash
+:   Python, Perl, node.js, MySQL, PostgreSQL, Graphite, OSSEC, Logstash, Ansible,
+    Kubernetes, Docker, Helm, Hubot
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
 
 Cloud
-:   EC2, Digital Ocean, Rackspace, Softlayer
+:   AWS, Digital Ocean, Rackspace, Softlayer
 
 
 
@@ -48,10 +49,10 @@ Experience
 ### Maxwell Health (Boston, MA)
 **Infrastructure Engineer**; 8/2016 — Present
 
-  * Use terraform to design and manage infrastructure on Amazon Web Services
-    for internal and external services
-  * Migrate services into kubernetes
-  * Deploy new services to kubernetes using helm
+  * Lead project to use terraform to architect infrastructure on AWS, allowing
+    for disaster recovery and easier deployment
+  * Migrate services from elasticbeanstalk and legacy systems into kubernetes
+  * Deploy new services in Docker onto kubernetes using helm
   * Assist in architecture of microservices and best practices
   * Maintain highly available SaaS application in a 24x7 environment
 
