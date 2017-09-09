@@ -61,7 +61,7 @@ Programming Languages
     * Multi-thread pragoramming
     * C++ meta programming (basic level)
 
-:   Basic knowledge of **C++**, **Java**, **Python**, **sh/bash**, **cuda**
+:   Basic knowledge of **C++**, **Java**, **Python**, **sh/bash**, **cuda**, **Haskell**
 
 System Archtecture Tools
 :   Basic usage of **kvs**, **message queue** such as kafka, **search engine** such as Solr, **Restful API** with Java
@@ -78,7 +78,7 @@ Machine Learning Algorithms
     * linear regression, logstic regression
     * k-NN, k-means
     * Naive Bayes
-    * Newral Network
+    * Neural Network
     * Hidden Markov Model
     * word2vec
 
