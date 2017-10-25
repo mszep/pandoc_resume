@@ -35,7 +35,21 @@ $endif$
 $for(header-includes)$
   $header-includes$
 $endfor$
-<script type="text/javascript" src="ga.js"></script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49441297-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-49441297-1');
+</script>
+
+<script>
+  gtag('config', 'UA-49441297-2');
+</script>
+
 </head>
 <body>
 $for(include-before)$

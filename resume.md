@@ -24,11 +24,11 @@ Relevant Skills
 
 Core
 :   Linux, Bash, Terraform, git, Varnish, Nagios, Vagrant, Apache, Nginx, Ruby,
-    Puppet, ElasticSearch, performance and capacity planning
+    Puppet, Kibana, ElasticSearch, Performance and Capacity Planning
 
 Familiar
 :   Logstash, MySQL, PostgreSQL, Graphite, Kubernetes, Docker, Helm, Hubot
-    Python, Perl, node.js, OSSEC, Ansible
+    Python, node.js, coffeescript, OSSEC, Ansible
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
@@ -51,11 +51,12 @@ Experience
 ### Maxwell Health (Boston, MA)
 **Infrastructure Engineer**; 8/2016 — Present
 
-  * Lead project to use terraform to architect infrastructure on AWS, allowing
+  * Lead project to use Terraform to architect infrastructure on AWS, allowing
     for disaster recovery and easier deployment
-  * Migrate services from elasticbeanstalk and legacy systems into kubernetes
-  * Deploy new services in Docker onto kubernetes using helm
+  * Migrate services from ElasticBeanstalk and legacy systems into Kubernetes
+  * Deploy new services in Docker onto Kubernetes using helm
   * Assist in architecture of microservices and best practices
+  * Help teams make supportable, manageable services.
   * Maintain highly available SaaS application in a 24x7 environment
 
 ### Curriculum Associates (Billerica, MA)
