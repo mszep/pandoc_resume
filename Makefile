@@ -1,5 +1,6 @@
 RESUME=resume
 
+<<<<<<< HEAD
 all_and_short: all short
 # all: html pdf docx rtf short
 all: html
@@ -11,7 +12,7 @@ short:
 
 
 pdf: $(RESUME).pdf
-$(RESUME).pdf: $(RESUME).md
+$(RESUME).pdf: style_chmduquesne.tex $(RESUME).md
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \

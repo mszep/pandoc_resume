@@ -32,6 +32,10 @@ sudo apt install pandoc context
 sudo dnf install pandoc texlive-collection-context
 ```
 
+#### Arch
+```bash
+sudo pacman -S pandoc texlive-core
+```
 
 ### Short version
 In order to maintain easily two versions, one long and one short,
