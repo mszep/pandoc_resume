@@ -69,13 +69,12 @@ Programming Languages
     emphasized terms. Notice the reasonably nice page break in the pdf
     version, which wouldn't happen if we generated the pdf via html.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   **second-lang:** Description of your experience with second-lang, [LONG]
+    perhaps again including a [link] [ref], this time placing the url [LONG]
+    reference elsewhere in the document to reduce clutter (see source [LONG]
+    file). [LONG]
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   **obscure-but-impressive-lang:** We both know this one's pushing it. [LONG]
 
 :   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
 
@@ -92,7 +91,7 @@ Extra Section, Call it Whatever You Want
 
 * Random tidbit
 
-* Other sort of impressive-sounding thing you did
+* Other sort of impressive-sounding thing you did [LONG]
 
 ----
 
