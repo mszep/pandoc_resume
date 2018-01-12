@@ -1,32 +1,45 @@
-all: html pdf docx rtf
+RESUME=resume
 
-pdf: resume.pdf
-resume.pdf: resume.md
+all_and_short: all short
+# all: html pdf docx rtf short
+all: html
+
+
+short:
+	sh build_short_resume.sh
+	$(MAKE) all RESUME=short_resume
+
+
+pdf: $(RESUME).pdf
+$(RESUME).pdf: $(RESUME).md
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
-	-o resume.tex resume.md; \
-	context resume.tex
+	-o $(RESUME).tex $(RESUME).md; \
+	context $(RESUME).tex
 
-html: resume.html
-resume.html: style_chmduquesne.css resume.md
+html: $(RESUME).html
+$(RESUME).html: style_chmduquesne.css $(RESUME).md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
-        -o resume.html resume.md
+        -o $(RESUME).html $(RESUME).md
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
+docx: $(RESUME).docx
+$(RESUME).docx: $(RESUME).md
+	pandoc -s -S $(RESUME).md -o $(RESUME).docx
 
-rtf: resume.rtf
-resume.rtf: resume.md
-	pandoc -s -S resume.md -o resume.rtf
+rtf: $(RESUME).rtf
+$(RESUME).rtf: $(RESUME).md
+	pandoc -s -S $(RESUME).md -o $(RESUME).rtf
 
 clean:
-	rm -f resume.html
-	rm -f resume.tex
-	rm -f resume.tuc
-	rm -f resume.log
-	rm -f resume.pdf
-	rm -f resume.docx
-	rm -f resume.rtf
+	$(MAKE) clean_resume
+	$(MAKE) clean_resume RESUME=short_resume
+clean_resume:
+	rm -f $(RESUME).html
+	rm -f $(RESUME).tex
+	rm -f $(RESUME).tuc
+	rm -f $(RESUME).log
+	rm -f $(RESUME).pdf
+	rm -f $(RESUME).docx
+	rm -f $(RESUME).rtf
