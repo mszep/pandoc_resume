@@ -36,3 +36,10 @@ sudo dnf install pandoc texlive-collection-context
 ```bash
 sudo pacman -S pandoc texlive-core
 ```
+
+### Troubleshooting
+Some users have reported problems where their system does not properly find the ConTeXt
+executable, leading to errors like `Cannot find context.lua` or similar. It has been found
+that running `mtxrun --generate`, (as suggested at
+https://tex.stackexchange.com/questions/53892/texlive-2011-context-problem), can fix the
+issue.
