@@ -1,37 +1,46 @@
-OUT=output/
-IN=markdown/
-STYLES=styles/
+OUT_DIR=output
+IN_DIR=markdown
+STYLES_DIR=styles
 STYLE=chmduquesne
-FILE=resume
 
-all: dir html pdf docx rtf
+all: html pdf docx rtf
 
-pdf: $(FILE).pdf
-$(FILE).pdf: dir $(STYLES)$(STYLE).tex $(IN)$(FILE).md
-	pandoc --standalone --template $(STYLES)$(STYLE).tex \
-	--from markdown --to context \
-	-V papersize=A4 \
-	-o $(OUT)$(FILE).tex $(IN)$(FILE).md > /dev/null; \
-	context $(OUT)$(FILE).tex --result=$(OUT)$(FILE).pdf > $(OUT)/context_$(FILE).log 2>&1;
+pdf: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.pdf; \
+		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+			--from markdown --to context \
+			-V papersize=A4 \
+			-o $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+		context $(OUT_DIR)/$$FILE_NAME.tex --result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+	done
 
-html: $(FILE).html
-$(FILE).html: dir $(STYLES)$(STYLE).css $(IN)$(FILE).md
-	pandoc --standalone -H $(STYLES)$(STYLE).css \
-	--from markdown --to html \
-	-o $(OUT)$(FILE).html $(IN)$(FILE).md
+html: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.html; \
+		pandoc --standalone -H $(STYLES_DIR)/$(STYLE).css \
+			--from markdown --to html \
+			-o $(OUT_DIR)/$$FILE_NAME.html $$f; \
+	done
 
-docx: $(FILE).docx
-$(FILE).docx: dir $(IN)$(FILE).md
-	pandoc -s -S $(IN)$(FILE).md -o $(OUT)$(FILE).docx
+docx: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.docx; \
+		pandoc -s -S $$f -o $(OUT_DIR)/$$FILE_NAME.docx; \
+	done
 
-rtf: $(FILE).rtf
-$(FILE).rtf: dir $(IN)$(FILE).md
-	pandoc -s -S $(IN)$(FILE).md -o $(OUT)$(FILE).rtf
+rtf: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.rtf; \
+		pandoc -s -S $$f -o $(OUT_DIR)/$$FILE_NAME.rtf; \
+	done
 
-dir: $(OUT)
-
-$(OUT):
-	mkdir -p $(OUT)
+dir:
+	mkdir -p $(OUT_DIR)
 
 clean:
-	rm -f $(OUT)*
+	rm -f $(OUT_DIR)/*
