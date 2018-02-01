@@ -4,15 +4,10 @@ STYLES=styles/
 STYLE=chmduquesne
 FILE=resume
 
-all: directory html pdf docx rtf
-
-directory: $(OUT)
-
-$(OUT):
-	mkdir -p $(OUT)
+all: dir html pdf docx rtf
 
 pdf: $(FILE).pdf
-$(FILE).pdf: $(STYLES)$(STYLE).tex $(FILE).md
+$(FILE).pdf: dir $(STYLES)$(STYLE).tex $(IN)$(FILE).md
 	pandoc --standalone --template $(STYLES)$(STYLE).tex \
 	--from markdown --to context \
 	-V papersize=A4 \
@@ -20,18 +15,23 @@ $(FILE).pdf: $(STYLES)$(STYLE).tex $(FILE).md
 	context $(OUT)$(FILE).tex --result=$(OUT)$(FILE).pdf > $(OUT)/context_$(FILE).log 2>&1;
 
 html: $(FILE).html
-$(FILE).html: $(STYLES)$(STYLE).css $(FILE).md
+$(FILE).html: dir $(STYLES)$(STYLE).css $(IN)$(FILE).md
 	pandoc --standalone -H $(STYLES)$(STYLE).css \
 	--from markdown --to html \
 	-o $(OUT)$(FILE).html $(IN)$(FILE).md
 
 docx: $(FILE).docx
-$(FILE).docx: $(FILE).md
+$(FILE).docx: dir $(IN)$(FILE).md
 	pandoc -s -S $(IN)$(FILE).md -o $(OUT)$(FILE).docx
 
 rtf: $(FILE).rtf
-$(FILE).rtf: $(FILE).md
+$(FILE).rtf: dir $(IN)$(FILE).md
 	pandoc -s -S $(IN)$(FILE).md -o $(OUT)$(FILE).rtf
+
+dir: $(OUT)
+
+$(OUT):
+	mkdir -p $(OUT)
 
 clean:
 	rm -f $(OUT)*
