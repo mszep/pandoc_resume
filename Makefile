@@ -1,32 +1,46 @@
+OUT_DIR=output
+IN_DIR=markdown
+STYLES_DIR=styles
+STYLE=chmduquesne
+
 all: html pdf docx rtf
 
-pdf: resume.pdf
-resume.pdf: style_chmduquesne.tex resume.md
-	pandoc --standalone --template style_chmduquesne.tex \
-	--from markdown --to context \
-	-V papersize=A4 \
-	-o resume.tex resume.md; \
-	context resume.tex
+pdf: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.pdf; \
+		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+			--from markdown --to context \
+			-V papersize=A4 \
+			-o $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+		context $(OUT_DIR)/$$FILE_NAME.tex --result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+	done
 
-html: resume.html
-resume.html: style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
-        --from markdown --to html \
-        -o resume.html resume.md
+html: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.html; \
+		pandoc --standalone -H $(STYLES_DIR)/$(STYLE).css \
+			--from markdown --to html \
+			-o $(OUT_DIR)/$$FILE_NAME.html $$f; \
+	done
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
+docx: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.docx; \
+		pandoc -s -S $$f -o $(OUT_DIR)/$$FILE_NAME.docx; \
+	done
 
-rtf: resume.rtf
-resume.rtf: resume.md
-	pandoc -s -S resume.md -o resume.rtf
+rtf: dir
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.rtf; \
+		pandoc -s -S $$f -o $(OUT_DIR)/$$FILE_NAME.rtf; \
+	done
+
+dir:
+	mkdir -p $(OUT_DIR)
 
 clean:
-	rm -f resume.html
-	rm -f resume.tex
-	rm -f resume.tuc
-	rm -f resume.log
-	rm -f resume.pdf
-	rm -f resume.docx
-	rm -f resume.rtf
+	rm -f $(OUT_DIR)/*
