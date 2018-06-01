@@ -5,27 +5,37 @@ Keisuke Umezawa
 
 > Email: keisuke.umezawa[at]gmail.com \
 > Twitter: [@kmechann](https://twitter.com/kmechann) \
-> Github: [github.com/keisuke-umezawa](https://github.com/keisuke-umezawa) \
-> Software Engineer
+> Blog(ja): [Hatena Blog](http://kumechann.hatenablog.com/) \
+> Blog(en): [Medium](https://medium.com/@keisukeumezawa) \
+> GitHub: [github.com/keisuke-umezawa](https://github.com/keisuke-umezawa) \
+> Software Engineer / Data Science Engineer
 
 ----
 
 
 Experience
 ----------
-2017-(Current)
+2018.3-(Current)
+:   **Engineer**: AlpacaJapan, Japan
+
+* Data science for prediction of market data
+* Make the application for prediction
+* Scrum master
+
+2017.3-(Current)
 :   **Chainer Evangelist**: Preferred Networks, Japan
 
 * Increse the people who uses/develop/support "[Chainer](https://chainer.org/)".
 
     * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)".
     * improve the document of Chainer.
+    * take hands-on for Chainer
 
-2016-(Current)
+2016-2018.3
 :   **Engineer**: Science Division, Data & Science Solutions Group, Yahoo Japan Corporatoin, Japan
 
 * [developing inhouse search engine for advertisement destribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python.
-    * enhaonce the performance by algorithms and parallel computing s.t avx and gpu.
+    * enhance the performance by algorithms and parallel computing s.t avx and gpu.
 * instructing agile software development such as Scrum.
 * instructing C++ cording in the team.
 
@@ -59,7 +69,7 @@ Programming Languages
     * Object-Oriented Programming
     * Design of API
     * Multi-thread pragoramming
-    * C++ meta programming (basic level)
+    * C++ meta programming
 
 :   Basic knowledge of **C++**, **Java**, **Python**, **sh/bash**, **cuda**, **Haskell**
 
@@ -67,7 +77,7 @@ System Archtecture Tools
 :   Basic usage of **kvs**, **message queue** such as kafka, **search engine** such as Solr, **Restful API** with Java
 
 OS
-:   Basic usage of **CentOS**, **Mac OS**, **Windows**
+:   Basic usage of **CentOS**, **Ubuntu**, **Mac OS**, **Windows**
 
 Development Tools
 :   Basic knowledge of **GitHub**, **docker**, **Jenkins**, **Jira**
@@ -80,14 +90,18 @@ Machine Learning Algorithms
     * Naive Bayes
     * Neural Network
     * Hidden Markov Model
-    * word2vec
+    * Deep Learning Application
+        * word2vec
+        * seq2seq
+        * recursive neural net
+        * DCGAN etc.
 
 :   **Use Experience**
 
     * SVM
     * CNN
-    * Boosting
     * RNN
+    * Ensembler s.t. lgbt, lightgbm, etc.
 
 Publication
 ----------------------------------------
@@ -99,5 +113,5 @@ Extra Section
 * Human Languages:
 
      * Japanese (native speaker)
-     * English (conversation level)
+     * English (business level)
 
