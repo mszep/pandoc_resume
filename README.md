@@ -5,7 +5,7 @@ The Markdown Resume
 ```bash
 git clone https://github.com/mszep/pandoc_resume
 cd pandoc_resume
-vim resume.md   # insert your own resume info
+vim markdown/resume.md   # insert your own resume info
 make
 ```
 
@@ -13,7 +13,7 @@ make
 ```bash
 git clone https://github.com/mszep/pandoc_resume
 cd pandoc_resume
-vim resume.md   # insert your own resume info
+vim markdown/resume.md   # insert your own resume info
 docker-compose up -d
 ```
 
