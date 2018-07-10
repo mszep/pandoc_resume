@@ -44,10 +44,7 @@ sudo pacman -S pandoc texlive-core
 #### OSX
 ```bash
 brew install pandoc
-mkdir $HOME/context
-cd $HOME/context
-rsync -av rsync://contextgarden.net/minimals/setup/first-setup.sh .
-sh ./first-setup.sh --modules=all --engine=luatex
+brew cask install mactex
 ```
 
 ### Troubleshooting
