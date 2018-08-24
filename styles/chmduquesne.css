@@ -11,7 +11,7 @@
 /* Whole document */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     background: #FFFFFF;
     padding: 10px 10px 10px 10px;

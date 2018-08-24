@@ -1,46 +1,59 @@
-RESUME=resume
+OUT_DIR=output
+IN_DIR=markdown
+STYLES_DIR=styles
+STYLE=chmduquesne
 
-<<<<<<< HEAD
-all_and_short: all short
-# all: html pdf docx rtf short
-all: html
+# all: html pdf docx rtf
+all: build_short html
 
+pdf: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.pdf; \
+		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+			--from markdown --to context \
+			--variable papersize=A4 \
+			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+		context $(OUT_DIR)/$$FILE_NAME.tex \
+			--result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+	done
 
-short:
-	sh build_short_resume.sh
-	$(MAKE) all RESUME=short_resume
+html: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.html; \
+		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
+			--lua-filter=pdc-links-target-blank.lua \
+			--from markdown --to html \
+			--output $(OUT_DIR)/$$FILE_NAME.html $$f; \
+	done
 
+docx: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.docx; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.docx; \
+	done
 
-pdf: $(RESUME).pdf
-$(RESUME).pdf: style_chmduquesne.tex $(RESUME).md
-	pandoc --standalone --template style_chmduquesne.tex \
-	--from markdown --to context \
-	-V papersize=A4 \
-	-o $(RESUME).tex $(RESUME).md; \
-	context $(RESUME).tex
+rtf: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.rtf; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
+	done
 
-html: $(RESUME).html
-$(RESUME).html: style_chmduquesne.css $(RESUME).md
-	pandoc --standalone -H style_chmduquesne.css \
-        --from markdown --to html \
-        -o $(RESUME).html $(RESUME).md
+init: dir version
 
-docx: $(RESUME).docx
-$(RESUME).docx: $(RESUME).md
-	pandoc -s -S $(RESUME).md -o $(RESUME).docx
+dir:
+	mkdir -p $(OUT_DIR)
 
-rtf: $(RESUME).rtf
-$(RESUME).rtf: $(RESUME).md
-	pandoc -s -S $(RESUME).md -o $(RESUME).rtf
+version:
+	PANDOC_VERSION=`pandoc --version | head -1 | cut -d' ' -f2 | cut -d'.' -f1`; \
+	if [ "$$PANDOC_VERSION" -eq "2" ]; then \
+		SMART=-smart; \
+	else \
+		SMART=--smart; \
+	fi \
 
 clean:
-	$(MAKE) clean_resume
-	$(MAKE) clean_resume RESUME=short_resume
-clean_resume:
-	rm -f $(RESUME).html
-	rm -f $(RESUME).tex
-	rm -f $(RESUME).tuc
-	rm -f $(RESUME).log
-	rm -f $(RESUME).pdf
-	rm -f $(RESUME).docx
-	rm -f $(RESUME).rtf
+	rm -f $(OUT_DIR)/*
