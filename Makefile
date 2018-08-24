@@ -1,32 +1,58 @@
+OUT_DIR=output
+IN_DIR=markdown
+STYLES_DIR=styles
+STYLE=chmduquesne
+
 all: html pdf docx rtf
 
-pdf: resume.pdf
-resume.pdf: style_chmduquesne.tex resume.md
-	pandoc --standalone --template style_chmduquesne.tex \
-	--from markdown --to context \
-	-V papersize=A4 \
-	-o resume.tex resume.md; \
-	context resume.tex
+pdf: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.pdf; \
+		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+			--from markdown --to context \
+			--variable papersize=A4 \
+			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+		context $(OUT_DIR)/$$FILE_NAME.tex \
+			--result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+	done
 
-html: resume.html
-resume.html: style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
-        --from markdown --to html \
-        -o resume.html resume.md
+html: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.html; \
+		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
+			--lua-filter=pdc-links-target-blank.lua \
+			--from markdown --to html \
+			--output $(OUT_DIR)/$$FILE_NAME.html $$f; \
+	done
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
+docx: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.docx; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.docx; \
+	done
 
-rtf: resume.rtf
-resume.rtf: resume.md
-	pandoc -s -S resume.md -o resume.rtf
+rtf: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.rtf; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
+	done
+
+init: dir version
+
+dir:
+	mkdir -p $(OUT_DIR)
+
+version:
+	PANDOC_VERSION=`pandoc --version | head -1 | cut -d' ' -f2 | cut -d'.' -f1`; \
+	if [ "$$PANDOC_VERSION" -eq "2" ]; then \
+		SMART=-smart; \
+	else \
+		SMART=--smart; \
+	fi \
 
 clean:
-	rm -f resume.html
-	rm -f resume.tex
-	rm -f resume.tuc
-	rm -f resume.log
-	rm -f resume.pdf
-	rm -f resume.docx
-	rm -f resume.rtf
+	rm -f $(OUT_DIR)/*
