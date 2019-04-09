@@ -34,7 +34,7 @@ h1:hover {
 /* Titles of categories */
 h2 {
     /* This is called "sectioncolor" in the ConTeXt stylesheet. */
-    color: #723949;
+    color: #C08080;
 }
 /* There is a bar just before each category */
 h2:before {
@@ -44,7 +44,7 @@ h2:before {
     width: 16%;
     height: 10px;
     /* This is called "rulecolor" in the ConTeXt stylesheet. */
-    background-color: #B79C70;
+    background-color: #B77070;
 }
 h2:hover {
     background-color: #723949;
@@ -75,7 +75,7 @@ blockquote {
 /* Links */
 a {
     text-decoration: none;
-    color: #723949;
+    color: #A24949;
 }
 a:hover, a:active {
     background-color: #723949;
