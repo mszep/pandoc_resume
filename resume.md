@@ -13,11 +13,13 @@ Special Qualifications
 **Languages**
 
 * CoffeeScript, LiveScript with React, Redux, Immutable.js, Lodash, Bootstrap
-*	Python with Tornado
+*	Python with Tornado, Flask + Connexion
 *	C++14 with STL and Boost
 
 **Other Technologies**
 
+* OpenAPI
+* Docker, Kubernetes
 *	elliptic curve cryptography, NaCl
 *	SQLite, MySQL, PostgreSQL, Redis
 *	Linux, FreeBSD
@@ -29,6 +31,25 @@ primarily a LiveScript, Python, and C++14 aficionado.
 
 Work Experience
 ---------------
+
+2016-current
+: **Cloud Software Engineer** at **Nervana / Intel**
+
+* Designed and implemented a server for hosting AI chip profiling data.
+  (*Python*, *Flask*, *Connexion*)
+* Contributed to the NGraph TensorFlow bridge, including porting to OS X,
+  refactoring, implementation of various operations, pip packaging, and the
+  C/C++ API. (*Python*, *C++11*)
+* Contributed to the Machine Learning Toolkit, primarily by refactoring the
+  CLI to automatically load `argparse` commands from modules via metaclasses.
+  (*Python*)
+* Designed and implemented a service and a client library for neural network
+  hyperparameter optimization and experiment tracking, intended to interface
+  with the like of SigOpt and MOE. (*Python*, *Flask*, *Connexion*)
+* Contributed to the deep learning `neon` framework and associated web services
+  for deep learning in the cloud, particularly CLI refactoring, 100% unit test
+  code coverage, launcher consolidation for different types of jobs, and
+  a multitude of bug fixes. (*Python*, *Flask*, *Kubernetes*)
 
 2015-2016
 :	**Software Engineer** at **Hipmunk**
