@@ -33,7 +33,7 @@ Work Experience
 ---------------
 
 2016-current
-: **Cloud Software Engineer** at **Nervana / Intel**
+:	**Cloud Software Engineer** at **Nervana / Intel**
 
 * Designed and implemented a server for hosting AI chip profiling data.
   (*Python*, *Flask*, *Connexion*)
