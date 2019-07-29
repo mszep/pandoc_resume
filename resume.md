@@ -4,23 +4,21 @@ Keisuke Umezawa
 ----
 
 > Email: keisuke.umezawa[at]gmail.com \
-> Twitter: [@kmechann](https://twitter.com/kmechann) \
+> Twitter: [@kumezawa_](https://twitter.com/kumezawa_) \
 > Blog(ja): [Hatena Blog](http://kumechann.hatenablog.com/) \
 > Blog(en): [Medium](https://medium.com/@keisukeumezawa) \
 > GitHub: [github.com/keisuke-umezawa](https://github.com/keisuke-umezawa) \
-> Software Engineer / Data Science Engineer
+> Software Engineer / Machine Learning Engineer
 
 ----
-
 
 Experience
 ----------
 2018.3-(Current)
-:   **Engineer**: AlpacaJapan, Japan
+:   **Chief Engineering Manager**: AlpacaJapan, Japan
 
 * Data science for prediction of market data
 * Make the application for prediction
-* Scrum master
 
 2017.3-(Current)
 :   **Chainer Evangelist**: Preferred Networks, Japan
@@ -38,7 +36,6 @@ Experience
     * enhance the performance by algorithms and parallel computing s.t avx and gpu.
 * instructing agile software development such as Scrum.
 * instructing C++ cording in the team.
-
 
 2014-2016
 :   **Quantitative Analyst and Model Developer**: the Bank of Tokyo Mitsubishi UFJ, Japan
