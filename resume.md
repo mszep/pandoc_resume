@@ -12,8 +12,15 @@ Keisuke Umezawa
 
 ----
 
-Experience
-----------
+Profile Summary
+---------------
+
+* hoge
+* hoge
+
+Work Experience
+---------------
+
 2018.3-(Current)
 :   **Chief Engineering Manager**: AlpacaJapan, Japan
 
@@ -29,7 +36,7 @@ Experience
     * improve the document of Chainer.
     * take hands-on for Chainer
 
-2016-2018.3
+2016.8-2018.3
 :   **Engineer**: Science Division, Data & Science Solutions Group, Yahoo Japan Corporatoin, Japan
 
 * [developing inhouse search engine for advertisement destribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python.
@@ -37,7 +44,7 @@ Experience
 * instructing agile software development such as Scrum.
 * instructing C++ cording in the team.
 
-2014-2016
+2014.4-2016.8
 :   **Quantitative Analyst and Model Developer**: the Bank of Tokyo Mitsubishi UFJ, Japan
 
 * developing derivatives pricing model and risk management system with C++.
@@ -57,48 +64,45 @@ Education
 2008-2012
 :   **BSc, Department of Mechano-Informatics**; Faculty of Engineering, the University of Tokyo, Japan
 
+
 Technical Experience
 --------------------
 
+Project Management
+:   **Managed teams using following ideas**:
+
+    * 1on1
+    * Delegating/Ownership
+    * Agile Methodology (Scrum/Kanban)
+    * Ticketing tools s.t. Jira, Github projects
+
 Programming Languages
-:   **first-lang**: experienced items as follows with C++
+:   **first-lang**: experienced items as follows with C++ and python
 
     * Object-Oriented Programming
     * Design of API
     * Multi-thread pragoramming
     * C++ meta programming
+    * Functional programming
 
-:   Basic knowledge of **C++**, **Java**, **Python**, **sh/bash**, **cuda**, **Haskell**
+:   Basic knowledge of **C++**, **Python**, **Java**, **sh/bash**, **rust**
 
 System Archtecture Tools
-:   Basic usage of **kvs**, **message queue** such as kafka, **search engine** such as Solr, **Restful API** with Java
-
-OS
-:   Basic usage of **CentOS**, **Ubuntu**, **Mac OS**, **Windows**
+:   Basic experience of **sql**, **kvs**, **message queue**, **search engine**, **Restful API**
 
 Development Tools
-:   Basic knowledge of **GitHub**, **docker**, **Jenkins**, **Jira**
+:   Basic experience of **GitHub**, **docker**, **k8s**, **ci/cd**
 
 Machine Learning Algorithms
 :   **Implementation Experience**
 
-    * linear regression, logstic regression
-    * k-NN, k-means
-    * Naive Bayes
-    * Neural Network
-    * Hidden Markov Model
+    * linear regression, logistic regression, k-NN, k-means, Hidden Markov Model
     * Deep Learning Application
-        * word2vec
-        * seq2seq
-        * recursive neural net
-        * DCGAN etc.
+        * word2vec, seq2seq, DCGAN, WaveNet, etc.
 
 :   **Use Experience**
 
-    * SVM
-    * CNN
-    * RNN
-    * Ensembler s.t. lgbt, lightgbm, etc.
+    * SVM, Ensembler, etc.
 
 Publication
 ----------------------------------------
@@ -107,8 +111,11 @@ Publication
 Extra Section
 ----------------------------------------
 
+* Certificates
+
+    * IPA Database Specialist
+
 * Human Languages:
 
-     * Japanese (native speaker)
-     * English (business level)
-
+    * Japanese (native speaker)
+    * English (business level)
