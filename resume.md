@@ -30,24 +30,31 @@ Work Experience
 2017.3-(Current)
 :   **Chainer Evangelist**: Preferred Networks, Japan
 
-* Increse the people who uses/develop/support "[Chainer](https://chainer.org/)".
+* Responsible for incresing people who uses "[Chainer](https://chainer.org/)"
 
-    * make speech about the deep learning and its framework "[Chainer](https://chainer.org/)".
-    * improve the document of Chainer.
-    * take hands-on for Chainer
+    * Organizing [chug](https://chainer.connpass.com/) (Chainer User Group)
+    * Holding talks about the deep learning and its framework "[Chainer](https://chainer.org/)"
+    * Improving documentation and [tutorials](https://chainer-colab-notebook.readthedocs.io/ja/latest/)
+    * Holded more than 10 hands-ons and meetups
 
 2016.8-2018.3
-:   **Engineer**: Science Division, Data & Science Solutions Group, Yahoo Japan Corporatoin, Japan
+:   **Engineer**, **Product Manager**: Yahoo Japan Corporatoin, Japan
 
-* [developing inhouse search engine for advertisement destribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python.
-    * enhance the performance by algorithms and parallel computing s.t avx and gpu.
-* instructing agile software development such as Scrum.
-* instructing C++ cording in the team.
+* Developed inhouse search engines for ad and media sevices
+
+    * [developing inhouse search engine for advertisement destribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python
+    * Instructed agile software development such as Scrum
+    * Instructed C++ cording in the team
+
+* Leaded and productized inhouse recommendation engine for media sevices
+
+    * Leaded a data science and system engineers to build new deep learning based recommendation system
+    * Responsible for satisfying requirements, architecture desine and team management
 
 2014.4-2016.8
 :   **Quantitative Analyst and Model Developer**: the Bank of Tokyo Mitsubishi UFJ, Japan
 
-* developing derivatives pricing model and risk management system with C++.
+* Developed derivatives pricing model and risk management system with C++
 
 Education
 ---------
@@ -68,7 +75,7 @@ Education
 Technical Experience
 --------------------
 
-Project Management
+Product Management
 :   **Managed teams using following ideas**:
 
     * 1on1
@@ -85,24 +92,24 @@ Programming Languages
     * C++ meta programming
     * Functional programming
 
-:   Basic knowledge of **C++**, **Python**, **Java**, **sh/bash**, **rust**
+:   Basic knowledge of **C++**, **Python**, **Java**, **sh/bash**, **Rust**
 
-System Archtecture Tools
-:   Basic experience of **sql**, **kvs**, **message queue**, **search engine**, **Restful API**
+System Archtecture
+:   Basic experience of **RDS**, **KVS**, **Message Queue**, **Search Engine**, **Restful API**
 
 Development Tools
-:   Basic experience of **GitHub**, **docker**, **k8s**, **ci/cd**
+:   Basic experience of **GitHub**, **Docker**, **k8s**, **ci/cd**
 
 Machine Learning Algorithms
 :   **Implementation Experience**
 
     * linear regression, logistic regression, k-NN, k-means, Hidden Markov Model
     * Deep Learning Application
-        * word2vec, seq2seq, DCGAN, WaveNet, etc.
+        * word2vec, seq2seq, DCGAN, WaveNet, etc
 
 :   **Use Experience**
 
-    * SVM, Ensembler, etc.
+    * SVM, Ensembler, etc
 
 Publication
 ----------------------------------------
