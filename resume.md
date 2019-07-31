@@ -22,10 +22,11 @@ Work Experience
 ---------------
 
 2018.3-(Current)
-:   **Chief Engineering Manager**: AlpacaJapan, Japan
+:   **Engineer**, **Chief Engineering Manager**: AlpacaJapan, Japan
 
-* Data science for prediction of market data
-* Make the application for prediction
+* Leading model development for [AlpacaForecast](http://www.alpaca.ai/product) (Forex market prediction) using deep learning with data scientists
+* Developed trading backtesting engine "[AlpacaDB/backlight](https://github.com/AlpacaDB/backlight)" to standardize evaluation method
+* Standardize development process and team management: introduced ticketing system, scrum meeting, 1on1 and guidelines for development and communication
 
 2017.3-(Current)
 :   **Chainer Evangelist**: Preferred Networks, Japan
@@ -48,7 +49,7 @@ Work Experience
 
 * Leaded and productized inhouse recommendation engine for media sevices
 
-    * Leaded a data science and system engineers to build new deep learning based recommendation system
+    * Leaded a data scientist and system engineers to build new deep learning based recommendation system
     * Responsible for satisfying requirements, architecture desine and team management
 
 2014.4-2016.8
@@ -78,8 +79,8 @@ Technical Experience
 Product Management
 :   **Managed teams using following ideas**:
 
-    * 1on1
     * Delegating/Ownership
+    * 1on1
     * Agile Methodology (Scrum/Kanban)
     * Ticketing tools s.t. Jira, Github projects
 
