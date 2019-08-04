@@ -1,5 +1,5 @@
 Keisuke Umezawa
-============
+================
 
 ----
 
@@ -15,8 +15,9 @@ Keisuke Umezawa
 Profile Summary
 ---------------
 
-* hoge
-* hoge
+Software and machine learning engineer with the experiences in financial modeling, search engine development and recommendation engine development.
+In most cases, I led teams to accomplish the targets by sharing objectives, requirements and schedules. When assigning tasks to someone,
+I think that the most important thing is delegating ownership and responsibility to motivate them.
 
 Work Experience
 ---------------
@@ -31,26 +32,26 @@ Work Experience
 2017.3-(Current)
 :   **Chainer Evangelist**: Preferred Networks, Japan
 
-* Responsible for incresing people who uses "[Chainer](https://chainer.org/)"
+* Responsible for increasing people who uses "[Chainer](https://chainer.org/)"
 
     * Organizing [chug](https://chainer.connpass.com/) (Chainer User Group)
     * Holding talks about the deep learning and its framework "[Chainer](https://chainer.org/)"
-    * Improving documentation and [tutorials](https://chainer-colab-notebook.readthedocs.io/ja/latest/)
+    * Improving the [documentation](https://docs.chainer.org/en/stable/) and [tutorials](https://chainer-colab-notebook.readthedocs.io/ja/latest/)
     * Holded more than 10 hands-ons and meetups
 
 2016.8-2018.3
-:   **Engineer**, **Product Manager**: Yahoo Japan Corporatoin, Japan
+:   **Engineer**: Yahoo Japan Corporation, Japan
 
-* Developed inhouse search engines for ad and media sevices
+* Developed inhouse search engines for the ad and media services
 
-    * [developing inhouse search engine for advertisement destribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python
+    * [developing inhouse search engine for advertisement distribution system](http://www.slideshare.net/techblogyahoo/webdb2015-webdbf2015) with C++, Java and Python
     * Instructed agile software development such as Scrum
     * Instructed C++ cording in the team
 
-* Leaded and productized inhouse recommendation engine for media sevices
+* Led and productized inhouse recommendation engine for the media services
 
     * Leaded a data scientist and system engineers to build new deep learning based recommendation system
-    * Responsible for satisfying requirements, architecture desine and team management
+    * Responsible for satisfying requirements, architecture design and team management
 
 2014.4-2016.8
 :   **Quantitative Analyst and Model Developer**: the Bank of Tokyo Mitsubishi UFJ, Japan
@@ -72,14 +73,13 @@ Education
 2008-2012
 :   **BSc, Department of Mechano-Informatics**; Faculty of Engineering, the University of Tokyo, Japan
 
-
 Technical Experience
 --------------------
 
 Product Management
 :   **Managed teams using following ideas**:
 
-    * Delegating/Ownership
+    * Delegating ownership and responsibility
     * 1on1
     * Agile Methodology (Scrum/Kanban)
     * Ticketing tools s.t. Jira, Github projects
@@ -89,11 +89,11 @@ Programming Languages
 
     * Object-Oriented Programming
     * Design of API
-    * Multi-thread pragoramming
+    * Multi-thread programming
     * C++ meta programming
     * Functional programming
 
-:   Basic knowledge of **C++**, **Python**, **Java**, **sh/bash**, **Rust**
+:   Basic knowledge of **C++**, **Python**, **Java**, **sh/bash**. And a fun of **Rust**.
 
 System Archtecture
 :   Basic experience of **RDS**, **KVS**, **Message Queue**, **Search Engine**, **Restful API**
@@ -106,11 +106,11 @@ Machine Learning Algorithms
 
     * linear regression, logistic regression, k-NN, k-means, Hidden Markov Model
     * Deep Learning Application
-        * word2vec, seq2seq, DCGAN, WaveNet, etc
+        * CNN, RNN, word2vec, seq2seq, DCGAN, WaveNet, etc
 
 :   **Use Experience**
 
-    * SVM, Ensembler, etc
+    * SVM, Ensembler, Logistic Regression, etc
 
 Publication
 ----------------------------------------
