@@ -24,11 +24,11 @@ h1 {
     text-align:center;
     margin-bottom:15px;
 }
-h1:hover {
-    background-color: #757575;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
-}
+/* h1:hover { */
+/*     background-color: #757575; */
+/*     color: #FFFFFF; */
+/*     text-shadow: 1px 1px 1px #333; */
+/* } */
 
 /* Titles of categories */
 h2 {
@@ -45,21 +45,22 @@ h2:before {
     /* This is called "rulecolor" in the ConTeXt stylesheet. */
     background-color: #9CB770;
 }
-h2:hover {
-    background-color: #397249;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
-}
+/* h2:hover { */
+/*     background-color: #397249; */
+/*     color: #FFFFFF; */
+/*     text-shadow: 1px 1px 1px #333; */
+/* } */
 
 /* Definitions */
 dt {
     float: left;
     clear: left;
     width: 17%;
-    /*font-weight: bold;*/
+    font-weight: bold;
 }
 dd {
     margin-left: 17%;
+    margin-bottom:7px;
 }
 p {
     margin-top:0;
