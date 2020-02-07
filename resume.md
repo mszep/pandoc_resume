@@ -12,12 +12,13 @@ Special Qualifications
 
 **Languages**
 
-* CoffeeScript, LiveScript with React, Redux, Immutable.js, Lodash, Bootstrap
 *	Python with Tornado, Flask + Connexion
-*	C++14 with STL and Boost
+*	C++17 with STL and Boost
+* CoffeeScript, LiveScript with React, Redux, Immutable.js, Lodash, Bootstrap
 
 **Other Technologies**
 
+* TensorFlow, neon
 * OpenAPI
 * Docker, Kubernetes
 *	elliptic curve cryptography, NaCl
@@ -35,7 +36,9 @@ Work Experience
 2016-current
 :	**Cloud Software Engineer** at **Nervana / Intel**
 
-* Designed and implemented a server for hosting AI chip profiling data.
+* Designed and implemented a profiler for Intel's proprietary machine learning
+  chip. (*C++17*)
+* Designed and implemented a microservice for hosting AI chip profiling data.
   (*Python*, *Flask*, *Connexion*)
 * Contributed to the NGraph TensorFlow bridge, including porting to OS X,
   refactoring, implementation of various operations, pip packaging, and the
@@ -205,6 +208,13 @@ Yahoo Photos
 
 Personal Projects
 -----------------
+
+[dualshock.pd](https://github.com/megawidget/dualshock.pd)
+:	A Pure Data extension that captures Sony DualShock input and translates it
+	into human-usable form.
+
+Comes with a rudimentary AM/FM synthesizer, a duophonic synthesizer, a noise
+synthesizer, and a drumkit.  Fun but not especially practical.
 
 [ebb](https://github.com/megawidget/ebb)
 :	the Expressly Better Bencoder! (*C++11*, *Boost PP*)
