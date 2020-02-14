@@ -28,7 +28,7 @@ Core
 
 Familiar
 :   Logstash, MySQL, PostgreSQL, Graphite, Kubernetes, Docker, Helm, Hubot
-    Python, node.js, coffeescript, OSSEC, Ansible
+    Python, node.js, coffeescript, OSSEC, Ansible, MongoDB
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
@@ -49,11 +49,22 @@ Experience
 ----------
 
 ### Maxwell Health (Boston, MA)
-**Infrastructure Engineer**; 8/2016 — Present
+**Associate Director, Senior Infrastructure Engineer**; 1/2019 — Present
 
-  * Lead project to use Terraform to architect infrastructure on AWS, allowing
+  * Team lead for the infrastructure team
+  * Met the needs of internal customers by providing well documented, well
+    maintained, highly available services.
+  * Make proper technical choices based on business needs
+  * Continuously improve logging and monitoring of services
+  * Migrated from KOPS to EKS for kubernetes services
+
+**Infrastructure Engineer**; 8/2016 — 1/2019
+
+  * Lead project to use Terraform to manage infrastructure on AWS, allowing
     for disaster recovery and easier deployment
-  * Migrate services from ElasticBeanstalk and legacy systems into Kubernetes
+  * Designed event message store using elasticsearch and logstash
+  * Redesigned mongodb deployment for rapid, automated recovery of lost nodes
+  * Migrate services from legacy systems into Kubernetes
   * Deploy new services in Docker onto Kubernetes using helm
   * Assist in architecture of microservices and best practices
   * Help teams make supportable, manageable services.
