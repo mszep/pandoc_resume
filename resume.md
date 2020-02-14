@@ -28,7 +28,7 @@ Core
 
 Familiar
 :   Logstash, MySQL, PostgreSQL, Graphite, Kubernetes, Docker, Helm, Hubot
-    Python, node.js, coffeescript, OSSEC, Ansible, MongoDB
+    Python, node.js, CoffeeScript, OSSEC, Ansible, MongoDB
 
 OS
 :   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
@@ -56,17 +56,17 @@ Experience
     maintained, highly available services.
   * Make proper technical choices based on business needs
   * Continuously improve logging and monitoring of services
-  * Migrated from KOPS to EKS for kubernetes services
+  * Migrated from KOPS to EKS for Kubernetes services
 
 **Infrastructure Engineer**; 8/2016 — 1/2019
 
   * Lead project to use Terraform to manage infrastructure on AWS, allowing
     for disaster recovery and easier deployment
   * Designed event message store using elasticsearch and logstash
-  * Redesigned mongodb deployment for rapid, automated recovery of lost nodes
+  * Redesigned MongoDB deployment for rapid, automated recovery of lost nodes
   * Migrate services from legacy systems into Kubernetes
   * Deploy new services in Docker onto Kubernetes using helm
-  * Assist in architecture of microservices and best practices
+  * Assist in the architecture of microservices and best practices
   * Help teams make supportable, manageable services.
   * Maintain highly available SaaS application in a 24x7 environment
 
@@ -96,9 +96,9 @@ Experience
 **Senior Cloud Systems Engineer**; 7/2013 — 8/2014
 
   * Manage and maintain 13,000+ Linux Systems on Amazon EC2.
-  * Assist in redesign of monitoring system to accommodate 10,000+ systems and
-    300,000+ services
-  * Develop command line tool for automating ticket creation in ZenDesk
+  * Assist in the redesign of the monitoring system to accommodate 10,000+
+    systems and 300,000+ services
+  * Develop command-line tool for automating ticket creation in ZenDesk
   * Create a standardized development environment using Vagrant
   * Maintain Highly Available LAMP infrastructure for Acquia Hosting
   * Troubleshoot, maintain and create configuration files for Varnish
@@ -113,7 +113,7 @@ Experience
   * Used Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others for
     performance and monitoring
   * Wrote scripts using bash/perl/python for system tasks and monitoring plugins
-  * Administered internal xmpp chat server
+  * Administered internal XMPP chat server
   * Configured and deployed Linux and Windows systems, both physical and
     virtual (VMWare ESX & VCenter)
   * Acted as company Security Administrator, responsible for parts of PCI-DSS
@@ -124,7 +124,7 @@ Experience
 **IT Infrastructure Consultant**; 2/2011 — 10/2011
 
   * Created PC cloning and imaging solution using Clonezilla and DRBL
-  * Assisted in design and implementation of escalation procedures for
+  * Assisted in the design and implementation of escalation procedures for
     operations to development
 
 ### Sophos (Burlington, MA)
@@ -136,7 +136,7 @@ Experience
     supplement software functionality
   * Worked to discover and resolve bugs and defects
   * Completed a variety of testing to recreate and resolve customer issues
-  * Implemented enterprise level software solutions in many environments from
+  * Implemented enterprise-level software solutions in many environments from
     extremely large (20,000+) to single workstations.
 
 ### Constant Contact (Waltham, MA)
