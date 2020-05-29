@@ -2,24 +2,41 @@ The Markdown Resume
 ===================
 
 ### Instructions
+
 ```bash
 git clone https://github.com/mszep/pandoc_resume
 cd pandoc_resume
 vim markdown/resume.md   # insert your own resume info
+```
+
+#### Local
+
+Make everything
+
+```bash
 make
 ```
 
-### Running Dockerized
+Make specifics
+
 ```bash
-git clone https://github.com/mszep/pandoc_resume
-cd pandoc_resume
-vim markdown/resume.md   # insert your own resume info
+make pdf
+make html
+```
+
+#### Dockerized
+
+Make everything
+
+```bash
 docker-compose up -d
 ```
 
 ### Requirements
 
-* ConTeXt 0.6X
+If not using `docker` then you will need the following dependencies.
+
+* ConTeXt 0.6x
 * pandoc 2.x
     * 1.x is deprecated
 
