@@ -64,6 +64,12 @@ brew install pandoc
 brew cask install mactex
 ```
 
+Make sure to add the directory `/Library/TeX/texbin/` to your path or `context` and `mtxrun` will not be found.
+
+```
+export PATH=$PATH:/Library/TeX/texbin/
+```
+
 ### Troubleshooting
 
 #### Get versions
