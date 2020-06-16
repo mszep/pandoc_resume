@@ -13,7 +13,7 @@ jobs:
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
-            args: deploy --dir=./output
+            args: deploy --dir=./output --timeout 60
           env:
             NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
             NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

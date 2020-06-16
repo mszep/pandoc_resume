@@ -1,12 +1,10 @@
-Johnny Coder
+Tim Hopper
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
+> Machine learning engineer and operations researcher with extensive experience building ML products
+> for cybersecurity. Looking for a role in Raleigh, NC or remote.
 ----
 
 Education
@@ -72,7 +70,7 @@ Programming Languages
 :   **second-lang:** Description of your experience with second-lang,
     perhaps again including a [link] [ref], this time placing the url
     reference elsewhere in the document to reduce clutter (see source
-    file). 
+    file).
 
 :   **obscure-but-impressive-lang:** We both know this one's pushing
     it.
