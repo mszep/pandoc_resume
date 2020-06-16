@@ -5,6 +5,7 @@ jobs:
       runs-on: ubuntu-latest
       name: A job to say hello
       steps:
+        - uses: actions/checkout@v2
         - name: list files
           run: ls -lhrt
         - name: pwd
