@@ -7,7 +7,7 @@ jobs:
       steps:
         - uses: actions/checkout@v2
         - name: Build resume files in Docker
-          run: docker-compose up -d
+          run: docker-compose up -d && ls
         - name: ls
           run: ls -lhrt
         - name: Publish to netlify
