@@ -11,6 +11,3 @@ ENV APP_NAME=resume
 COPY . $HOME/$APP_NAME/
 COPY ./Makefile $HOME/$APP_NAME/
 WORKDIR $HOME/$APP_NAME
-
-RUN make
-RUN ls
