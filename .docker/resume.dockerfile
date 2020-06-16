@@ -13,3 +13,4 @@ COPY ./Makefile $HOME/$APP_NAME/
 WORKDIR $HOME/$APP_NAME
 
 RUN make
+RUN ls
