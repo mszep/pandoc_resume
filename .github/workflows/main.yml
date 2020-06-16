@@ -5,5 +5,9 @@ jobs:
       runs-on: ubuntu-latest
       name: A job to say hello
       steps:
+        - name: list files
+          run: ls -lhrt
+        - name: pwd
+          run: pwd
         - name: Get the output time
           run: docker-compose up -d
