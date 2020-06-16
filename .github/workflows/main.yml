@@ -3,12 +3,15 @@ on: [push]
 jobs:
     hello_world_job:
       runs-on: ubuntu-latest
-      name: A job to say hello
+      name: Build resume in html pdf docx and rtf
       steps:
         - uses: actions/checkout@v2
-        - name: list files
-          run: ls -lhrt
-        - name: pwd
-          run: pwd
-        - name: Get the output time
+        - name: Build resume files in Docker
           run: docker-compose up -d
+        - name: Publish to netlify
+          uses: netlify/actions/cli@master
+          with:
+          args: deploy --dir=output
+          env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
