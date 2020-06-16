@@ -1,0 +1,12 @@
+name: 'Build Resume'
+description: 'Builds resume in html pdf and rtf'
+inputs:
+outputs:
+runs:
+  using: 'docker'
+  image: './.docker/resume.dockerfile'
+  args:
+    -
+
+
+
