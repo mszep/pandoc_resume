@@ -5,7 +5,7 @@ RUN useradd --user-group --create-home --shell /bin/false app
 
 ENV HOME=/home/app
 WORKDIR $HOME
-
+ENV DEBIAN_FRONTEND="noninteractive"
 RUN apt-get update && \
     apt-get install -y \
     build-essential \
@@ -15,7 +15,7 @@ RUN apt-get update && \
 RUN wget https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-1-amd64.deb
 RUN dpkg -i pandoc-2.2.1-1-amd64.deb  && rm pandoc-*.deb
 #Cleanup to reduce container size
-RUN apt-get remove -y wget && \ 
+RUN apt-get remove -y wget && \
     apt-get autoclean && \
     apt-get clean
 
