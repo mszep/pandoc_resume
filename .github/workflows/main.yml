@@ -7,15 +7,11 @@ jobs:
       steps:
         - uses: actions/checkout@v2
         - name: Build resume files in Docker
-          run: docker-compose up -d && ls
-        - name: pwd
-          run: pwd
-        - name: ls pandoc_resume
-          run: ls -lhrt /home/runner/work/pandoc_resume/pandoc_resume
+          run: docker-compose up
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
-            args: deploy --dir=/home/runner/work/pandoc_resume/pandoc_resume/output
+            args: deploy --dir=output
           env:
             NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
             NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
