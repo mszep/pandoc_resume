@@ -18,11 +18,11 @@ jobs:
               --from markdown --to html
               --output output/index.html
               --metadata pagetitle="Tim Hopper — Machine Learning Engineer"
-              markdown/resume.md
+              markdown  /resume.md
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
-            args: deploy --dir=./output --timeout 30
+            args: deploy --dir=./output --timeout 30 --prod
           env:
             NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
             NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
