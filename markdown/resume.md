@@ -92,11 +92,6 @@ Technical Tools
     * **Infrastructure and Configuration Tools**: Terraform, Ansible, Saltstack
     * **Data Stores:** Postgres, Elasticsearch, Cassandra, MongoDB, Redis, MySQL
 
-[pythonplot.com](https://pythonplot.com)
-:   A Rosetta Stone of Python plotting libraries for exploratory data analysis
-
-    * Reusable examples for bar charts, scatter plots, line charts and more in Matplotlib, Pands, Seaborn, Altair, Plotly, plotnine, and ggplot2
-
 Open source contributions
 :   Contributor to a variety of Python libraies including
 
@@ -108,18 +103,14 @@ Open source contributions
     * Includes only published derivation of Gibbs samplers for nonparametric Latent Dirichlet Allocation
 
 
-<!-- Extra Section, Call it Whatever You Want
-----------------------------------------
+Personal Projects
+-----------------
 
-* Human Languages:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did -->
+* [pythonplot.com](https://pythonplot.com)
+    * A Rosetta Stone of Python plotting libraries for exploratory data analysis
+* [Notes on Dirichlet Processes](https://dp.tdhopper.com)
+    * Derivations, code, and notes on Dirichlet processes for nonparametric Bayesian methods
 
 ----
 
