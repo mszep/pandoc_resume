@@ -6,7 +6,7 @@ jobs:
       name: Build resume in html pdf docx and rtf
       steps:
         - uses: actions/checkout@v2
-        - uses: jagregory/pandoc
+        - uses: docker://jagregory/pandoc:latest
           with:
             args: >- # allows you to break string into multiple lines
               --standalone
