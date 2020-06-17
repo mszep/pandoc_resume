@@ -26,8 +26,7 @@ jobs:
               --from markdown --to context
               --variable papersize=A4
               --output output/resume.tex
-        - uses: docker://tdhopper/pandoc-context:latest
-          entrypoint: mtxrun
+        - uses: docker://tdhopper/context:latest
           with:
             args: >-
               --path=output/
