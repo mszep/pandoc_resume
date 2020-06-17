@@ -1,5 +1,9 @@
 on: [push]
-
+env:
+  OUT_DIR: output
+  IN_DIR: markdown
+  STYLES_DIR: styles
+  STYLE: chmduquesne
 jobs:
      publish_resume:
       runs-on: ubuntu-latest
@@ -9,12 +13,12 @@ jobs:
         - uses: docker://jagregory/pandoc:latest
           with:
             args: >- # allows you to break string into multiple lines
-              --standalone --include-in-header styles/chmduquesne/css
+              --standalone --include-in-header ${STYLES_DIR}/${STYLE}.css
               --lua-filter=pdc-links-target-blank.lua
               --from markdown --to html
-              --output output/index.html
+              --output ${OUT_DIR}/index.html
               --metadata pagetitle="Tim Hopper — Machine Learning Engineer"
-              markdown/resume.md
+              ${IN_DIR}/resume.md
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
