@@ -10,7 +10,7 @@ jobs:
       name: Build and publish resume in html pdf docx and rtf
       steps:
         - uses: actions/checkout@v2
-        - uses: docker://pandoc/latex:latest
+        - uses: docker://tdhopper/pandoc-context:latest
           with:
             args: >- # allows you to break string into multiple lines
               --standalone --include-in-header styles/chmduquesne.css
