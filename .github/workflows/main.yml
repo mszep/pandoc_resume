@@ -10,7 +10,7 @@ jobs:
       name: Build and publish resume in html pdf docx and rtf
       steps:
         - uses: actions/checkout@v2
-        - uses: docker://tdhopper/pandoc-context:latest
+        - uses: docker://pandoc/core:latest
           with:
             args: >- # allows you to break string into multiple lines
               --standalone --include-in-header styles/chmduquesne.css
@@ -19,7 +19,7 @@ jobs:
               --output output/index.html
               --metadata pagetitle="Tim Hopper — Machine Learning Engineer"
               markdown/resume.md
-        - uses: docker://tdhopper/pandoc-context:latest
+        - uses: docker://pandoc/core:latest
           with:
             args: >-
               --standalone --template styles/chmduquesne.tex
