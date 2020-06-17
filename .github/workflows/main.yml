@@ -1,9 +1,4 @@
 on: [push]
-env:
-  OUT_DIR: output
-  IN_DIR: markdown
-  STYLES_DIR: styles
-  STYLE: chmduquesne
 jobs:
      publish_resume:
       runs-on: ubuntu-latest
