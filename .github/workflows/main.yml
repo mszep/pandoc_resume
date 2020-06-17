@@ -26,6 +26,13 @@ jobs:
               --from markdown --to context
               --variable papersize=A4
               --output output/resume.tex
+        - uses: docker://tdhopper/pandoc-context:latest
+          entrypoint: mtxrun
+          with:
+            args: >-
+              --path=output/
+              --result=tim-hopper-resume.pdf
+              --script context resume.tex
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
