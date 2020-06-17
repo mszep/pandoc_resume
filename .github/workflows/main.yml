@@ -13,12 +13,12 @@ jobs:
         - uses: docker://pandoc/latex:latest
           with:
             args: >- # allows you to break string into multiple lines
-              --standalone --include-in-header $STYLES_DIR/$STYLE.css
+              --standalone --include-in-header styles/chmduquesne.css
               --lua-filter=pdc-links-target-blank.lua
               --from markdown --to html
-              --output $OUT_DIR/index.html
+              --output output/index.html
               --metadata pagetitle="Tim Hopper — Machine Learning Engineer"
-              $IN_DIR/resume.md
+              markdown/resume.md
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
