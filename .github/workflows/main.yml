@@ -18,7 +18,7 @@ jobs:
               --from markdown --to html
               --output output/index.html
               --metadata pagetitle="Tim Hopper — Machine Learning Engineer"
-              markdown  /resume.md
+              markdown/resume.md
         - uses: docker://tdhopper/pandoc-context:latest
           with:
             args: >-
