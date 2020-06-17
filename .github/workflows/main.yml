@@ -30,8 +30,10 @@ jobs:
           with:
             args: >-
               --path=output/
-              --result=tim-hopper-resume.pdf
+              --result=output/tim-hopper-resume.pdf
               --script context resume.tex
+        - name: du
+          run: du
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
