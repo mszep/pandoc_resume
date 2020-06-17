@@ -97,11 +97,6 @@ Open source contributions
 
     * [cpython](https://github.com/python/cpython/commits?author=tdhopper) · [datamicroscopes](https://datamicroscopes.github.io/) · [Streamparse](https://github.com/parsely/streamparse/commits?author=tdhopper) · [Conda](https://github.com/conda/conda/commits?author=tdhopper) · [Impyla](https://github.com/cloudera/impyla/commits?author=tdhopper) · [lda](https://github.com/ariddell/lda/commits?author=tdhopper) · [Pandas](https://github.com/pandas-dev/pandas/commits?author=tdhopper)
 
-[Notes on Dirichlet Processes](https://dp.tdhopper.com)
-:   Derivations, code, and notes on Dirichlet processes for nonparametric Bayesian methods
-
-    * Includes only published derivation of Gibbs samplers for nonparametric Latent Dirichlet Allocation
-
 
 Personal Projects
 -----------------
