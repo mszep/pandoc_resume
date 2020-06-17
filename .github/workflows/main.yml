@@ -5,6 +5,8 @@ jobs:
       runs-on: ubuntu-latest
       name: Build resume in html pdf docx and rtf
       steps:
+        - name: whoami
+          run: whoami
         - uses: actions/checkout@v2
         - name: Build resume files in Docker
           run: docker-compose up
