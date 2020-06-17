@@ -11,8 +11,8 @@ jobs:
               -c make
         - name: rename html
           run: mv output/resume.html output/index.html
-          - name: rename pdf
-            run: mv output/resume.pdf output/tim-hopper-resume.pdf
+        - name: rename pdf
+          run: mv output/resume.pdf output/tim-hopper-resume.pdf
         - name: Publish to netlify
           uses: netlify/actions/cli@master
           with:
