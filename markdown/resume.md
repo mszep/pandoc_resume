@@ -5,22 +5,8 @@ Tim Hopper
 
 > Machine learning engineer and operations researcher with extensive experience building ML products
 > for cybersecurity. Looking for a role in Raleigh, NC or remote.
+
 ----
-
-Education
----------
-
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
@@ -40,46 +26,66 @@ links:
 
 Also with a short description.
 
+Education
+---------
+
+2010-2012
+:   **Master of Operations Research**; North Carolina State University, Raleigh, NC
+
+    *Research area: Reinforcement learning methods for healthcare operations*
+
+    *Instructor: Calculus 2*
+
+    *Key Courses: Graph Data Mining, Machine Learning, Bayesian Networks, Linear Programming*
+
+
+
+2009-2010
+:   **Phd Student in Mathematics**; University of Virginia, Charlottesville, VA
+
+    *No degree received*
+
+    *Instructor: Calculus 1 and Calculus 2*
+
+    *Key Courses: Introduction to Mathematical Statistics, Complex Analysis, Real Analysis, Advanced Linear Algebra*
+
+
+2004-2008
+:   **BS, Mathematics**; Grove City College, Grove City, PA
+
+    *Minor in Applied Physics; Minor in Computer Science; Summa Cum Laude*
+
+
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Technical Tools
+:   I have an experience with a breadth of tools for machine learning, software development, and backend engineering.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+    * **Programming Languages (high proficiency):** Python
+    * **Programming Languages (some proficiency):** C++, Go, C#, Mathematica, R, SQL, Java, Javascript
+    * **Machine Learning Tools:** Scikit-Learn, PyTorch, MLFlow
+    * **Data Processing Tools:** Amazon Web Services (Batch, Lambda, ECS, S3, SQS), Apache Storm/streamparse, Apache Spark/Pyspark, Pandas, Scikit-learn, Impala, Hive, Dask
+    * **Infrastructure and Configuration Tools**: Terraform, Ansible, Saltstack
+    * **Data Stores:** Postgres, Elasticsearch, Cassandra, MongoDB, Redis, MySQL
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+[pythonplot.com](https://pythonplot.com)
+:   A Rosetta Stone of Python plotting libraries for exploratory data analysis
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+    * Reusable examples for bar charts, scatter plots, line charts and more in Matplotlib, Pands, Seaborn, Altair, Plotly, plotnine, and ggplot2
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file).
+Open source contributions
+:   Contributor to a variety of Python libraies including
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+    * [cpython](https://github.com/python/cpython/commits?author=tdhopper) · [datamicroscopes](https://datamicroscopes.github.io/) · [Streamparse](https://github.com/parsely/streamparse/commits?author=tdhopper) · [Conda](https://github.com/conda/conda/commits?author=tdhopper) · [Impyla](https://github.com/cloudera/impyla/commits?author=tdhopper) · [lda](https://github.com/ariddell/lda/commits?author=tdhopper) · [Pandas](https://github.com/pandas-dev/pandas/commits?author=tdhopper)
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+[Notes on Dirichlet Processes](https://dp.tdhopper.com)
+:   Derivations, code, and notes on Dirichlet processes for nonparametric Bayesian methods
 
-[ref]: https://github.com/githubuser/superlongprojectname
+    * Includes only published derivation of Gibbs samplers for nonparametric Latent Dirichlet Allocation
 
-Extra Section, Call it Whatever You Want
+
+<!-- Extra Section, Call it Whatever You Want
 ----------------------------------------
 
 * Human Languages:
@@ -90,9 +96,9 @@ Extra Section, Call it Whatever You Want
 
 * Random tidbit
 
-* Other sort of impressive-sounding thing you did
+* Other sort of impressive-sounding thing you did -->
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> [tdhopper.com](https://tdhopper.com) • <tdhopper@gmail.com> • (919) 473-3145 \
+> Raleigh, NC USA
