@@ -6,13 +6,18 @@ Brad Clark
 ---------------------             ----------------------------------------------
 50 Manning Rd                                               <bdashrad@gmail.com>
 Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad) 
-+1 978 822-0077                    GitHub:[bdashrad](http://github.com/bdashrad)
++1 978.822.0077                    GitHub:[bdashrad](http://github.com/bdashrad)
 ---------------------             ----------------------------------------------
 
 ---
 
+If you're looking for someone to take a leadership role, shaping the
+infrastructure and the architectural decisions that drive your developers
+productivity, let's talk.
+
 Summary
 -------
+
 * Fixing a problem correctly the first time is preferable to leaving it to
   resurface later.
 * Automation is always better than repetition.
@@ -23,52 +28,49 @@ Relevant Skills
 ---------------
 
 Core
-:   Linux, Bash, Terraform, git, Varnish, Nagios, Vagrant, Apache, Nginx, Ruby,
-    Puppet, Kibana, ElasticSearch, Performance and Capacity Planning
+:   Performance and Capacity Planning, Code Review, AWS, Linux, Bash, git,
+    Terraform, Helm, Kubernetes, Elasticsearch, Docker, Nginx, Ansible, Apache,
+    Logstash
 
 Familiar
-:   Logstash, MySQL, PostgreSQL, Graphite, Kubernetes, Docker, Helm, Hubot
-    Python, node.js, CoffeeScript, OSSEC, Ansible, MongoDB
+:   MySQL, PostgreSQL, MongoDB, Vault, Nagios, Hubot, Graphite, Puppet,
+    RegEx, Python, Ruby, OSSEC, Vagrant, HIPAA, PCI-DSS
 
 OS
-:   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
-
-Cloud
-:   AWS, Digital Ocean, Rackspace, Softlayer
-
-
+:   Linux (Ubuntu, Debian, CentOS/Redhat), OSX
 
 Other
-:   Mediawiki, markdown, Jira, kanban, scrum, regex
-
+:   Mediawiki, markdown, Jira, kanban, scrum, node.js, CoffeeScript
 :   Read and comprehend most C-Family languages
-
-:   Virtualization (VSphere/ESXi,Citrix,VirtualBox)
 
 Experience
 ----------
 
 ### Maxwell Health (Boston, MA)
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — Present
+As team lead for the infrastructure team, I work with the other engineering
+teams to advise on architecture and platform decisions, and provide direction
+to the infrastructure team.
 
-  * Team lead for the infrastructure team
-  * Met the needs of internal customers by providing well documented, well
-    maintained, highly available services.
+  * Ensure the infrastructure team provides well documented, well maintained,
+    highly available services that ease developer pain
+  * Maintain a standardized deployment pipeline built with github actions,
+    docker, and helm and multiple Kubernetes environments
   * Make proper technical choices based on business needs
-  * Continuously improve logging and monitoring of services
-  * Migrated from KOPS to EKS for Kubernetes services
+  * Create a production readiness review document to standardize monitoring,
+    logging, metrics, and process for deploying and maintaining services
 
 **Infrastructure Engineer**; 8/2016 — 1/2019
+As a senior member of the infrastructure team, I led some of our long term
+infrastructure projects and helped with platform and service stability
 
-  * Lead project to use Terraform to manage infrastructure on AWS, allowing
+  * Led project to use Terraform to manage infrastructure on AWS, allowing
     for disaster recovery and easier deployment
-  * Designed event message store using elasticsearch and logstash
+  * Designed event message store using Elasticsearch and Logstash
   * Redesigned MongoDB deployment for rapid, automated recovery of lost nodes
-  * Migrate services from legacy systems into Kubernetes
-  * Deploy new services in Docker onto Kubernetes using helm
-  * Assist in the architecture of microservices and best practices
-  * Help teams make supportable, manageable services.
-  * Maintain highly available SaaS application in a 24x7 environment
+  * Migrated services from legacy systems into Kubernetes
+  * Deployed new services in Docker onto Kubernetes using helm
+  * Maintained highly available SaaS application in a 24x7 environment
 
 ### Curriculum Associates (Billerica, MA)
 **Senior Operations Engineer**; 5/2016 — 8/2016
@@ -110,9 +112,9 @@ Experience
     CentOS, and Ubuntu Servers
   * Architected system and network monitoring across multiple sites worldwide
     (250+ servers running 800+ services)
-  * Used Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others for
+  * Used Nagios, Icinga, Splunk, Logstash, rrdtool, and others for
     performance and monitoring
-  * Wrote scripts using bash/perl/python for system tasks and monitoring plugins
+  * Wrote scripts using bash/perl/python for system tasks and monitoring
   * Administered internal XMPP chat server
   * Configured and deployed Linux and Windows systems, both physical and
     virtual (VMWare ESX & VCenter)
@@ -149,7 +151,6 @@ Experience
     delivery problems
   * Created web-based interface for support to view current issues and
     troubleshooting steps
-  * Designed Mac/OS X support training curriculum
 
 ### Larry's Comics (Lowell, MA)
 **IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
@@ -175,5 +176,5 @@ Education
 
 ----
 
-> <bdashrad@gmail.com> • +1 978 822-0077 \
+> <bdashrad@gmail.com> • +1 978.822.0077 \
 > 50 Manning Rd, Chelmsford, MA 01824
