@@ -8,7 +8,7 @@ resume.tex: resume.md
 	-V papersize=letter \
 	-o output/resume.tex resume.md
 
-pdf: resume.pdf
+pdf: context resume.pdf
 resume.pdf:
 	pushd output; \
 	context resume.tex; \
