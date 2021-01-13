@@ -3,7 +3,7 @@ Bradford Clark
 
 ---------------------             ----------------------------------------------
 50 Manning Rd                                               <bdashrad@gmail.com>
-Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad) 
+Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad)
 +1 978.822.0077                    GitHub:[bdashrad](http://github.com/bdashrad)
 ---------------------             ----------------------------------------------
 
@@ -112,17 +112,13 @@ infrastructure projects and was responsible for platform and service stability.
   * Centralized management configuration and security updates for Red Hat,
     CentOS, and Ubuntu Servers
   * Architected system and network monitoring across multiple sites worldwide
-    (250+ servers running 800+ services)
   * Used Nagios, Icinga, Splunk, Logstash, rrdtool, and others for
     performance and monitoring
   * Wrote scripts using bash/perl/python for system tasks and monitoring
-  * Administered internal XMPP chat server
   * Configured and deployed Linux and Windows systems, both physical and
     virtual (VMWare ESX & VCenter)
   * Acted as company Security Administrator, responsible for parts of PCI-DSS
     compliance, assist in writing policies, review all security incidents
-  * Co-wrote and deployed reporting REST API on Amazon EC2 using Node.js and
-    Nginx
 
 **IT Infrastructure Consultant**; 2/2011 — 10/2011
 
@@ -133,10 +129,7 @@ infrastructure projects and was responsible for platform and service stability.
 ### Sophos - Burlington, MA
 **Technical Support Engineer**; 7/2010 — 1/2011
 
-  * Developed support tools and procedures for new products, migrated existing
-    tools to work with new products
-  * Provided customers with SQL and VB scripts based on specific needs to
-    supplement software functionality
+  * Developed support tools and procedures for new products
   * Worked to discover and resolve bugs and defects
   * Completed a variety of testing to recreate and resolve customer issues
   * Implemented enterprise-level software solutions in many environments from
