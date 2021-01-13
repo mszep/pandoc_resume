@@ -1,7 +1,7 @@
-% Brad Clark
+% Bradford Clark
 
-Brad Clark
-==========
+Bradford Clark
+==============
 
 ---------------------             ----------------------------------------------
 50 Manning Rd                                               <bdashrad@gmail.com>
@@ -11,9 +11,9 @@ Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad)
 
 ---
 
-If you're looking for someone to take a leadership role, shaping the
-infrastructure and the architectural decisions that drive your developers
-productivity, let's talk.
+> If you're looking for someone to take a leadership role, shaping the
+> infrastructure and the architectural decisions that drive your developers
+> productivity, let's talk.
 
 Summary
 -------
@@ -46,8 +46,9 @@ Other
 Experience
 ----------
 
-### Maxwell Health (Boston, MA)
+### Sun Life (Maxwell Health) - Boston, MA
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — Present
+
 As team lead for the infrastructure team, I work with the other engineering
 teams to advise on architecture and platform decisions, and provide direction
 to the infrastructure team.
@@ -60,9 +61,11 @@ to the infrastructure team.
   * Create a production readiness review document to standardize monitoring,
     logging, metrics, and process for deploying and maintaining services
 
+### Maxwell Health - Boston, MA
 **Infrastructure Engineer**; 8/2016 — 1/2019
+
 As a senior member of the infrastructure team, I led some of our long term
-infrastructure projects and helped with platform and service stability
+infrastructure projects and was responsible for platform and service stability.
 
   * Led project to use Terraform to manage infrastructure on AWS, allowing
     for disaster recovery and easier deployment
@@ -72,14 +75,14 @@ infrastructure projects and helped with platform and service stability
   * Deployed new services in Docker onto Kubernetes using helm
   * Maintained highly available SaaS application in a 24x7 environment
 
-### Curriculum Associates (Billerica, MA)
+### Curriculum Associates - Billerica, MA
 **Senior Operations Engineer**; 5/2016 — 8/2016
 
   * Designed a scalable, easily deployable, centralized log management and
     processing system using Terraform, Puppet, Logstash, Elasticsearch, and
     Kibana on Amazon Web Services.
 
-### Acquia (Boston, MA)
+### Acquia - Boston, MA
 **Site Reliability Engineer**; 8/2014 — 5/2016
 
   * Developed tools for auditing and automation
@@ -105,7 +108,7 @@ infrastructure projects and helped with platform and service stability
   * Maintain Highly Available LAMP infrastructure for Acquia Hosting
   * Troubleshoot, maintain and create configuration files for Varnish
 
-### PlumChoice (Lowell, MA)
+### PlumChoice - Lowell, MA
 **Linux Systems Administrator**; 10/2011 — 7/2013
 
   * Centralized management configuration and security updates for Red Hat,
@@ -129,7 +132,7 @@ infrastructure projects and helped with platform and service stability
   * Assisted in the design and implementation of escalation procedures for
     operations to development
 
-### Sophos (Burlington, MA)
+### Sophos - Burlington, MA
 **Technical Support Engineer**; 7/2010 — 1/2011
 
   * Developed support tools and procedures for new products, migrated existing
@@ -141,7 +144,7 @@ infrastructure projects and helped with platform and service stability
   * Implemented enterprise-level software solutions in many environments from
     extremely large (20,000+) to single workstations.
 
-### Constant Contact (Waltham, MA)
+### Constant Contact - Waltham, MA
 **Tier II Technical Support**; 05/2008 – 06/2009
 
   * Assisted QA and engineering by testing products before live release
@@ -152,7 +155,7 @@ infrastructure projects and helped with platform and service stability
   * Created web-based interface for support to view current issues and
     troubleshooting steps
 
-### Larry's Comics (Lowell, MA)
+### Larry's Comics - Lowell, MA
 **IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
 
   * Provided all levels of IT/helpdesk support
