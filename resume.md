@@ -1,5 +1,3 @@
-% Bradford Clark
-
 Bradford Clark
 ==============
 
