@@ -27,15 +27,12 @@ Relevant Skills
 
 Core
 :   Performance and Capacity Planning, Code Review, AWS, Linux, Bash, git,
-    Terraform, Helm, Kubernetes, Elasticsearch, Docker, Nginx, Ansible, Apache,
+    Terraform, Helm, Kubernetes, Elasticsearch, Docker, Nginx, Ansible,
     Logstash
 
 Familiar
 :   MySQL, PostgreSQL, MongoDB, Vault, Nagios, Hubot, Graphite, Puppet,
-    RegEx, Python, Ruby, OSSEC, Vagrant, HIPAA, PCI-DSS
-
-OS
-:   Linux (Ubuntu, Debian, CentOS/Redhat), OSX
+    RegEx, Apache httpd, Python, Ruby, OSSEC, Vagrant, HIPAA, PCI-DSS
 
 Other
 :   Mediawiki, markdown, Jira, kanban, scrum, node.js, CoffeeScript
@@ -47,114 +44,93 @@ Experience
 ### Sun Life (Maxwell Health) - Boston, MA
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — Present
 
-As team lead for the infrastructure team, I work with the other engineering
-teams to advise on architecture and platform decisions, and provide direction
-to the infrastructure team.
-
-  * Ensure the infrastructure team provides well documented, well maintained,
-    highly available services that ease developer pain
-  * Maintain a standardized deployment pipeline built with github actions,
-    docker, and helm and multiple Kubernetes environments
-  * Make proper technical choices based on business needs
-  * Create a production readiness review document to standardize monitoring,
-    logging, metrics, and process for deploying and maintaining services
+As the technical lead for the infrastructure team, I worked with engineering
+teams to advise on platform and architecture decisions. With the infrastructure
+team, I acted as a technical resource and mentor, helping the team maintain our
+internal services and the build pipeline. Our team provided well documented,
+maintainable, and highly available services, following our revised production
+readiness process that for all of the Maxwell Health engineering teams.
 
 ### Maxwell Health - Boston, MA
 **Infrastructure Engineer**; 8/2016 — 1/2019
 
 As a senior member of the infrastructure team, I led some of our long term
 infrastructure projects and was responsible for platform and service stability.
-
-  * Led project to use Terraform to manage infrastructure on AWS, allowing
-    for disaster recovery and easier deployment
-  * Designed event message store using Elasticsearch and Logstash
-  * Redesigned MongoDB deployment for rapid, automated recovery of lost nodes
-  * Migrated services from legacy systems into Kubernetes
-  * Deployed new services in Docker onto Kubernetes using helm
-  * Maintained highly available SaaS application in a 24x7 environment
+Moved infrastructure to terraform, improving service deployment time and
+allowing for faster disaster recovery. Designed event message store backed by
+Elasticsearch and Logstash. Migrated services from Elastic Beanstalk to 
+kubernetes using helm and a standardized build pipeline.
 
 ### Curriculum Associates - Billerica, MA
 **Senior Operations Engineer**; 5/2016 — 8/2016
 
-  * Designed a scalable, easily deployable, centralized log management and
-    processing system using Terraform, Puppet, Logstash, Elasticsearch, and
-    Kibana on Amazon Web Services.
+Designed a scalable, easily deployable, centralized log management and
+processing system using Terraform, Puppet, Logstash, Elasticsearch, and
+Kibana on Amazon Web Services.
 
 ### Acquia - Boston, MA
 **Site Reliability Engineer**; 8/2014 — 5/2016
 
-  * Developed tools for auditing and automation
-  * Maintained high availability infrastructure for customer sites and ensured
-    uptime during high traffic events
-  * Dedicated operations resource for large enterprise customer
-  * Ensured site availability during some of the world's largest events: The
-    Olympics, The Superbowl, and more.
-  * Functioned as a technical and strategic contact and partner
-  * Worked in a high-touch relationship with the customer, including regular
-    calls and on-site visits
-  * Improved platform monitoring and create auditing tools to improve stability
-  * Built tooling to use metrics to provide proactive notifications of pending
-    issues before they occur
+At Acquia, I spent my time between acting as a dedicated resource for a large
+customer, ensuring site availability during some of the world's largest events,
+including the Olympics, the Super Bowl, and more. Working as a strategic contact
+and partner, I had regular calls and on-site visits to ensure site availability
+and performance was maintained at a high level, during standard operations and
+high traffic events. I used this experience to develop auditing and automation
+tools, to lower our mean time to resolve customer issues, as well as predict
+and address them before they occur.
 
 **Senior Cloud Systems Engineer**; 7/2013 — 8/2014
 
-  * Manage and maintain 13,000+ Linux Systems on Amazon EC2.
-  * Assist in the redesign of the monitoring system to accommodate 10,000+
-    systems and 300,000+ services
-  * Develop command-line tool for automating ticket creation in ZenDesk
-  * Create a standardized development environment using Vagrant
-  * Maintain Highly Available LAMP infrastructure for Acquia Hosting
-  * Troubleshoot, maintain and create configuration files for Varnish
+As an engineer at Acquia, I helped maintain a fleet of 13,000+ systems on EC2,
+and helped redesign the monitoring system to accommodate thousands of
+simultaneous checks. I developed tooling to streaming the creation of support
+tickets from the operations team, improving site stability for customers. I
+created a standardized development environment using Vagrant to enable
+consistent local testing.
 
 ### PlumChoice - Lowell, MA
 **Linux Systems Administrator**; 10/2011 — 7/2013
 
-  * Centralized management configuration and security updates for Red Hat,
-    CentOS, and Ubuntu Servers
-  * Architected system and network monitoring across multiple sites worldwide
-  * Used Nagios, Icinga, Splunk, Logstash, rrdtool, and others for
-    performance and monitoring
-  * Wrote scripts using bash/perl/python for system tasks and monitoring
-  * Configured and deployed Linux and Windows systems, both physical and
-    virtual (VMWare ESX & VCenter)
-  * Acted as company Security Administrator, responsible for parts of PCI-DSS
-    compliance, assist in writing policies, review all security incidents
+As a Systems Administrator at PlumChoice I brought all linux systems under
+centralized configuration management and ensure they were always fully patched.
+I architected our system and network monitoring, across sites worldwide,
+using Nagios/Icinga, Logstash, Splunk, and custom scripts for system tasks and
+monitoring. I was responsible for deploying and managing linux and Windows
+systems, both virtual (VMWare ESX & VCenter) and bare-metal. Configured and
+maintained our web application firewall and load balancers for our core
+applications. I acted as our company Security Administrator, responsible for
+parts of PCI-DSS compliance, policies, and reviewing security incidents.
 
 **IT Infrastructure Consultant**; 2/2011 — 10/2011
 
-  * Created PC cloning and imaging solution using Clonezilla and DRBL
-  * Assisted in the design and implementation of escalation procedures for
-    operations to development
+Created a PC cloning and imaging solution for the rapid deployment of employee
+systems using Clonezilla and DRBL. Assisted in the design and implementation
+of escalation procedures for operations to development. Took over as sole Linux
+systems administrator and became a full-time employee.
 
 ### Sophos - Burlington, MA
 **Technical Support Engineer**; 7/2010 — 1/2011
 
-  * Developed support tools and procedures for new products
-  * Worked to discover and resolve bugs and defects
-  * Completed a variety of testing to recreate and resolve customer issues
-  * Implemented enterprise-level software solutions in many environments from
-    extremely large (20,000+) to single workstations.
+Developed tools and recreated customer issues in test environments to aid in
+bug and defect discovery. Acted as liaison between customer and dev team.
+Implemented software in environments from single user to large enterprises.
 
 ### Constant Contact - Waltham, MA
 **Tier II Technical Support**; 05/2008 – 06/2009
 
-  * Assisted QA and engineering by testing products before live release
-  * Handled technical escalations submitted by Tier I customer support
-  * Created training material and provided instruction in a classroom environment
-  * Assisted mail operations and deliverability team in resolving issues and
-    delivery problems
-  * Created web-based interface for support to view current issues and
-    troubleshooting steps
+Handled technical escalations for complex problems. Assisted engineering with
+user acceptance testing. Aided mail operations team in resolving deliverability
+issues. Created training material and provided instruction in a classroom
+environment. Created web-based internal tool for viewing current issues and
+troubleshooting steps.
 
 ### Larry's Comics - Lowell, MA
 **IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
 
-  * Provided all levels of IT/helpdesk support
-  * Web server configuration and maintenance. Web design and online storefront
-    programming.
-  * Created and managed customer Access database for marketing
-  * Managed day-to-day store operations, managed a small team of employees
-
+Provided all levels of IT helpdesk support. Maintained web hosting. Designed
+and maintained online storefront and website. Managed customer database for
+marketing. Managed day-to-day store operations and managed a team of employees.
 
 Education
 ---------
