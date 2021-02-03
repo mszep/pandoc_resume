@@ -16,11 +16,10 @@ Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad)
 Summary
 -------
 
-* Fixing a problem correctly the first time is preferable to leaving it to
-  resurface later.
 * Automation is always better than repetition.
-* Monitoring and metrics are key to making smart decisions.
-* Getting things done is the most important part.
+* Information is key to making smart decisions.
+* Fixing a problem correctly the first time is preferable to leaving it to
+  resurface later, but getting things done is the most important part.
 
 Relevant Skills
 ---------------
