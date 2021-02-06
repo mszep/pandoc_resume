@@ -1,165 +1,112 @@
-% Brad Clark
+Bradford Clark
+==============
 
-Brad Clark
-==========
-
----------------------             ----------------------------------------------
-50 Manning Rd                                               <bdashrad@gmail.com>
-Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad) 
-+1 978 822-0077                    GitHub:[bdashrad](http://github.com/bdashrad)
----------------------             ----------------------------------------------
+---------------------        --------------------------------------------------
+50 Manning Rd                                              <bdashrad@gmail.com>
+Chelmsford, MA 01824              [GitHub:bdashrad](http://github.com/bdashrad)
++1 978.822.0077              [LinkedIn](https://linkedin.com/in/bradfordclark/)
+---------------------        --------------------------------------------------
 
 ---
 
+> If you're looking for someone to take a leadership role, shaping the
+> infrastructure and the architectural decisions that drive your developers
+> productivity, let's talk.
+
 Summary
 -------
-* Fixing a problem correctly the first time is preferable to leaving it to
-  resurface later.
+
 * Automation is always better than repetition.
-* Monitoring and metrics are key to making smart decisions.
-* Getting things done is the most important part.
+* Information is key to making smart decisions.
+* Fixing a problem correctly the first time is preferable to leaving it to
+  resurface later, but getting things done is the most important part.
 
 Relevant Skills
 ---------------
 
 Core
-:   Linux, Bash, Terraform, git, Varnish, Nagios, Vagrant, Apache, Nginx, Ruby,
-    Puppet, Kibana, ElasticSearch, Performance and Capacity Planning
+:   Performance and Capacity Planning, Code Review, AWS, Linux, Bash, git,
+    Terraform, Helm, Kubernetes, Elasticsearch, Docker, Nginx, Ansible,
+    Logstash
 
 Familiar
-:   Logstash, MySQL, PostgreSQL, Graphite, Kubernetes, Docker, Helm, Hubot
-    Python, node.js, CoffeeScript, OSSEC, Ansible, MongoDB
-
-OS
-:   Linux (Ubuntu, CentOS/Redhat, Debian), OSX, Windows Server
-
-Cloud
-:   AWS, Digital Ocean, Rackspace, Softlayer
-
-
+:   MySQL, PostgreSQL, MongoDB, Vault, Nagios, Hubot, Graphite, Puppet,
+    RegEx, Apache httpd, Python, Ruby, OSSEC, Vagrant, HIPAA, PCI-DSS
 
 Other
-:   Mediawiki, markdown, Jira, kanban, scrum, regex
-
+:   Mediawiki, markdown, Jira, kanban, scrum, node.js, CoffeeScript
 :   Read and comprehend most C-Family languages
-
-:   Virtualization (VSphere/ESXi,Citrix,VirtualBox)
 
 Experience
 ----------
 
-### Maxwell Health (Boston, MA)
+### Sun Life (Maxwell Health) - Boston, MA
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — Present
 
-  * Team lead for the infrastructure team
-  * Met the needs of internal customers by providing well documented, well
-    maintained, highly available services.
-  * Make proper technical choices based on business needs
-  * Continuously improve logging and monitoring of services
-  * Migrated from KOPS to EKS for Kubernetes services
+As the technical lead for the infrastructure team, I worked with engineering
+teams to advise on platform and architecture decisions. With the infrastructure
+team, I acted as a technical resource and mentor, helping the team maintain our
+internal services and the build pipeline. Our team provided well documented,
+maintainable, and highly available services, following our revised production
+readiness process that for all of the Maxwell Health engineering teams.
 
+### Maxwell Health - Boston, MA
 **Infrastructure Engineer**; 8/2016 — 1/2019
 
-  * Lead project to use Terraform to manage infrastructure on AWS, allowing
-    for disaster recovery and easier deployment
-  * Designed event message store using elasticsearch and logstash
-  * Redesigned MongoDB deployment for rapid, automated recovery of lost nodes
-  * Migrate services from legacy systems into Kubernetes
-  * Deploy new services in Docker onto Kubernetes using helm
-  * Assist in the architecture of microservices and best practices
-  * Help teams make supportable, manageable services.
-  * Maintain highly available SaaS application in a 24x7 environment
+As a senior member of the infrastructure team, I led some of our long term
+infrastructure projects and was responsible for platform and service stability.
+Moved infrastructure to terraform, improving service deployment time and
+allowing for faster disaster recovery. Designed event message store backed by
+Elasticsearch and Logstash. Migrated services from Elastic Beanstalk to 
+kubernetes using helm and a standardized build pipeline.
 
-### Curriculum Associates (Billerica, MA)
+### Curriculum Associates - Billerica, MA
 **Senior Operations Engineer**; 5/2016 — 8/2016
 
-  * Designed a scalable, easily deployable, centralized log management and
-    processing system using Terraform, Puppet, Logstash, Elasticsearch, and
-    Kibana on Amazon Web Services.
+Designed a scalable, easily deployable, centralized log management and
+processing system using Terraform, Puppet, Logstash, Elasticsearch, and
+Kibana on Amazon Web Services.
 
-### Acquia (Boston, MA)
+### Acquia - Boston, MA
 **Site Reliability Engineer**; 8/2014 — 5/2016
 
-  * Developed tools for auditing and automation
-  * Maintained high availability infrastructure for customer sites and ensured
-    uptime during high traffic events
-  * Dedicated operations resource for large enterprise customer
-  * Ensured site availability during some of the world's largest events: The
-    Olympics, The Superbowl, and more.
-  * Functioned as a technical and strategic contact and partner
-  * Worked in a high-touch relationship with the customer, including regular
-    calls and on-site visits
-  * Improved platform monitoring and create auditing tools to improve stability
-  * Built tooling to use metrics to provide proactive notifications of pending
-    issues before they occur
+At Acquia, I spent my time between acting as a dedicated resource for a large
+customer, ensuring site availability during some of the world's largest events,
+including the Olympics, the Super Bowl, and more. Working as a strategic contact
+and partner, I had regular calls and on-site visits to ensure site availability
+and performance was maintained at a high level, during standard operations and
+high traffic events. I used this experience to develop auditing and automation
+tools, to lower our mean time to resolve customer issues, as well as predict
+and address them before they occur.
 
 **Senior Cloud Systems Engineer**; 7/2013 — 8/2014
 
-  * Manage and maintain 13,000+ Linux Systems on Amazon EC2.
-  * Assist in the redesign of the monitoring system to accommodate 10,000+
-    systems and 300,000+ services
-  * Develop command-line tool for automating ticket creation in ZenDesk
-  * Create a standardized development environment using Vagrant
-  * Maintain Highly Available LAMP infrastructure for Acquia Hosting
-  * Troubleshoot, maintain and create configuration files for Varnish
+As an engineer at Acquia, I helped maintain a fleet of 13,000+ systems on EC2,
+and helped redesign the monitoring system to accommodate thousands of
+simultaneous checks. I developed tooling to streaming the creation of support
+tickets from the operations team, improving site stability for customers. I
+created a standardized development environment using Vagrant to enable
+consistent local testing.
 
-### PlumChoice (Lowell, MA)
+### PlumChoice - Lowell, MA
 **Linux Systems Administrator**; 10/2011 — 7/2013
 
-  * Centralized management configuration and security updates for Red Hat,
-    CentOS, and Ubuntu Servers
-  * Architected system and network monitoring across multiple sites worldwide
-    (250+ servers running 800+ services)
-  * Used Nagios, Icinga, Orion, Splunk, Logstash, rrdtool, and others for
-    performance and monitoring
-  * Wrote scripts using bash/perl/python for system tasks and monitoring plugins
-  * Administered internal XMPP chat server
-  * Configured and deployed Linux and Windows systems, both physical and
-    virtual (VMWare ESX & VCenter)
-  * Acted as company Security Administrator, responsible for parts of PCI-DSS
-    compliance, assist in writing policies, review all security incidents
-  * Co-wrote and deployed reporting REST API on Amazon EC2 using Node.js and
-    Nginx
+As a Systems Administrator at PlumChoice I brought all linux systems under
+centralized configuration management and ensure they were always fully patched.
+I architected our system and network monitoring, across sites worldwide,
+using Nagios/Icinga, Logstash, Splunk, and custom scripts for system tasks and
+monitoring. I was responsible for deploying and managing linux and Windows
+systems, both virtual (VMWare ESX & VCenter) and bare-metal. Configured and
+maintained our web application firewall and load balancers for our core
+applications. I acted as our company Security Administrator, responsible for
+parts of PCI-DSS compliance, policies, and reviewing security incidents.
 
 **IT Infrastructure Consultant**; 2/2011 — 10/2011
 
-  * Created PC cloning and imaging solution using Clonezilla and DRBL
-  * Assisted in the design and implementation of escalation procedures for
-    operations to development
-
-### Sophos (Burlington, MA)
-**Technical Support Engineer**; 7/2010 — 1/2011
-
-  * Developed support tools and procedures for new products, migrated existing
-    tools to work with new products
-  * Provided customers with SQL and VB scripts based on specific needs to
-    supplement software functionality
-  * Worked to discover and resolve bugs and defects
-  * Completed a variety of testing to recreate and resolve customer issues
-  * Implemented enterprise-level software solutions in many environments from
-    extremely large (20,000+) to single workstations.
-
-### Constant Contact (Waltham, MA)
-**Tier II Technical Support**; 05/2008 – 06/2009
-
-  * Assisted QA and engineering by testing products before live release
-  * Handled technical escalations submitted by Tier I customer support
-  * Created training material and provided instruction in a classroom environment
-  * Assisted mail operations and deliverability team in resolving issues and
-    delivery problems
-  * Created web-based interface for support to view current issues and
-    troubleshooting steps
-  * Designed Mac/OS X support training curriculum
-
-### Larry's Comics (Lowell, MA)
-**IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
-
-  * Provided all levels of IT/helpdesk support
-  * Web server configuration and maintenance. Web design and online storefront
-    programming.
-  * Created and managed customer Access database for marketing
-  * Managed day-to-day store operations, managed a small team of employees
-
+Created a PC cloning and imaging solution for the rapid deployment of employee
+systems using Clonezilla and DRBL. Assisted in the design and implementation
+of escalation procedures for operations to development. Took over as sole Linux
+systems administrator and became a full-time employee.
 
 Education
 ---------
@@ -175,5 +122,5 @@ Education
 
 ----
 
-> <bdashrad@gmail.com> • +1 978 822-0077 \
+> <bdashrad@gmail.com> • +1 978.822.0077 \
 > 50 Manning Rd, Chelmsford, MA 01824
