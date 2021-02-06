@@ -1,11 +1,11 @@
 Bradford Clark
 ==============
 
----------------------             ----------------------------------------------
-50 Manning Rd                                               <bdashrad@gmail.com>
-Chelmsford, MA 01824                    @[bdashrad](http://twitter.com/bdashrad)
-+1 978.822.0077                    GitHub:[bdashrad](http://github.com/bdashrad)
----------------------             ----------------------------------------------
+---------------------        --------------------------------------------------
+50 Manning Rd                                              <bdashrad@gmail.com>
+Chelmsford, MA 01824              [GitHub:bdashrad](http://github.com/bdashrad)
++1 978.822.0077              [LinkedIn](https://linkedin.com/in/bradfordclark/)
+---------------------        --------------------------------------------------
 
 ---
 
@@ -107,29 +107,6 @@ Created a PC cloning and imaging solution for the rapid deployment of employee
 systems using Clonezilla and DRBL. Assisted in the design and implementation
 of escalation procedures for operations to development. Took over as sole Linux
 systems administrator and became a full-time employee.
-
-### Sophos - Burlington, MA
-**Technical Support Engineer**; 7/2010 — 1/2011
-
-Developed tools and recreated customer issues in test environments to aid in
-bug and defect discovery. Acted as liaison between customer and dev team.
-Implemented software in environments from single user to large enterprises.
-
-### Constant Contact - Waltham, MA
-**Tier II Technical Support**; 05/2008 – 06/2009
-
-Handled technical escalations for complex problems. Assisted engineering with
-user acceptance testing. Aided mail operations team in resolving deliverability
-issues. Created training material and provided instruction in a classroom
-environment. Created web-based internal tool for viewing current issues and
-troubleshooting steps.
-
-### Larry's Comics - Lowell, MA
-**IT/Webmaster/Graphic Design/Manager**; 06/1999 – 06/2012
-
-Provided all levels of IT helpdesk support. Maintained web hosting. Designed
-and maintained online storefront and website. Managed customer database for
-marketing. Managed day-to-day store operations and managed a team of employees.
 
 Education
 ---------
