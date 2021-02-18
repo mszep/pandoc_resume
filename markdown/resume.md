@@ -1,100 +1,103 @@
-Johnny Coder
+Otávio Pace
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Passionate developer with a lot of interest in Rust and Functional Programming,
+>  that worked mostly with back-end web development.
+>  On my free time I love to study about Computer Science in general,
+>  and create projects on Github to learn and practice.
 
 ----
 
-Education
----------
-
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+Skills
+----------------------------------------
+**Rust - JavaScript - Node.js - Git - Docker - PostgreSQL - MongoDB - AWS - SQS - Terraform**
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+Jul 2020 - Now
+:   **Senior Software Engineer, Magazine Luiza (Luizalabs)**
+\
+I am working at the digital account MagaluPay with the following technologies: JavaScript, Node.js, Docker, Git, PostgreSQL, MongoDB, RabbitMQ, Redis.
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Oct 2017 - Jun 2020
+:   **Software Engineer, Pagar.me**
+\
+- I worked at the core payments API developing features using: JavaScript, Node.js, Go, Docker, Git, PostgreSQL, MongoDB, SQS, Redis;
+\
+- I've also contributed to their open source projects that used: Python, Ruby and TypeScript;
+\
+- And I participated at a project that we had to interpret and parse payments terminal commands using: Rust, FFI, WASM, C#, Swift, Kotlin and TypeScript.
 
-* First item
+Oct 2017 - Jun 2020
+:   **Junior Software Engineer, FCamara**
+\
+I worked on LinkApi, a startup that is an application integration tool, much like [Zapier](https://zapier.com). We used Node.js, AngularJS, MongoDB, Docker and RabbitMQ.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+Education
+---------
 
-**That Other Job You Had**
+Feb 2020
+:   **College Course, Introduction to Reinforcement Learning**; USP (São Paulo)
 
-Also with a short description.
+Nov 2019
+:   **College Course, Purely Functional Data Structures with Haskell**; UFABC (Santo André)
 
-Technical Experience
---------------------
+Aug 2019
+:   **College Course, Category Theory**; UFABC (Santo André)
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Jan 2017
+:   **Online Course, The Complete Node.js Developer Course**; Udemy
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+Nov 2016
+:   **Online Course, Learn and Understand NodeJS**; Udemy
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Jan 2015 - Dec 2016
+:   **Associate Degree, Analysis and Systems Development**; FIAP (São Paulo)
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+    *Studied on a basic level these technologies: Java, JSP, JSF,
+    Android, iOS, C#, ASP.NET MVC, Arduino.*
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
+Extra-curricular Activities
 ----------------------------------------
 
-* Human Languages:
+Nov 2020
+:   **Podcast: Rust**; TOTVS (Brazil, remote)
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+    *Participated on a podcast about Rust with my friend Julia Naomi. We talked about
+    the advantages and disadvantages of the language and ecosystem. [Podcast link](https://www.buzzsprout.com/774398/6533485-totvs-developers-21-rust).*
 
-* Random tidbit
+Oct 2020
+:   **Talk: Transistor, a bitemporal database client**; Rust Lab (Italy, remote)
 
-* Other sort of impressive-sounding thing you did
+    *Talk about Transistor, a Rust Crux client, which is a Clojure Bitemporal Database.
+    We also had to develop a whole ecosystem to support Clojure's EDN. I did it with my friend
+    Julia Naomi. Github project links: [transistor](https://github.com/naomijub/transistor), [edn-rs](https://github.com/naomijub/edn-rs) and [edn-derive](https://github.com/otaviopace/edn-derive)*
+
+Mar 2019
+:   **Talk: Interop with Android, IOS and WASM in the same project**; Rust LATAM (Uruguay)
+
+    *Talk about how we did a Rust library at Pagar.me which had to be compiled to Android,
+    iOS and WASM at the same time. [YouTube video link](https://www.youtube.com/watch?v=W-HUyTwV4LA). [Github project link](https://github.com/otaviopace/doom-fire-interop)*
+
+Dec 2015
+:   **Christmas Volunteer Work**; FIAP (São Paulo)
+
+    *We took care of a large group of needy kids on Christmas, gave them
+    presents, snacks and played with them.*
+
+Languages
+----------------------------------------
+
+* Portuguese (native speaker)
+* English (highly proficient)
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <otaviopp8@gmail.com>\
+> +55 (11) 97136-6671\
+> [Github](https://github.com/otaviopace) • [LinkedIn](https://linkedin.com/in/otaviopace)\
+> 23 years old\
+> São Paulo, Brazil
