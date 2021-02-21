@@ -7,7 +7,7 @@ Otávio Pace
 
 >  Passionate developer with a lot of interest in Rust and Functional Programming,
 >  that worked mostly with back-end web development.
->  On my free time I love to study about Computer Science in general,
+>  In my free time I love to study about Computer Science in general,
 >  and create projects on Github to learn and practice.
 
 ----
@@ -22,7 +22,7 @@ Experience
 07/2020 - Now
 :   **Senior Software Engineer, Magazine Luiza (Luizalabs)**
 \
-I am working at MagaluPay, the company's digital account, that has over 2 million users. Took part on most of the new integration with the new government instant payments API.
+I am working at MagaluPay, the company's digital account, that has over 2 million users. Took part in most of the new integration with the new government instant payments API.
 
 10/2017 - 07/2020
 :   **Software Engineer, Pagar.me**
@@ -31,12 +31,12 @@ I am working at MagaluPay, the company's digital account, that has over 2 millio
 \
 - Developed the payment link product;
 \
-- Took front on a project that we had to interpret and parse payments terminal commands using Rust, FFI and WebAssembly.
+- Took front in a project that we had to interpret and parse payments terminal commands using Rust, FFI and WebAssembly.
 
 10/2017 - 07/2017
 :   **Junior Software Engineer, FCamara**
 \
-I worked on LinkApi, a startup that is an application integration tool, much like [Zapier](https://zapier.com). I did a lot of integration with multiple third party APIs, mostly REST and SOAP.
+I worked at LinkApi, a startup that is an application integration tool, much like [Zapier](https://zapier.com). I did a lot of integration with multiple third party APIs, mostly REST and SOAP.
 
 Extra-curricular Activities
 ----------------------------------------
@@ -63,7 +63,7 @@ Extra-curricular Activities
 12/2015
 :   **Christmas Volunteer Work**; FIAP (São Paulo)
 
-    *We took care of a large group of needy kids on Christmas, gave them
+    *We took care of a large group of needy kids at Christmas, gave them
     presents, snacks and played with them.*
 
 Education
