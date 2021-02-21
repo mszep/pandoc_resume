@@ -33,7 +33,7 @@ I am working at MagaluPay, the company's digital account, that has over 2 millio
 \
 - Took front in a project that we had to interpret and parse payments terminal commands using Rust, FFI and WebAssembly.
 
-10/2017 - 07/2017
+04/2017 - 09/2017
 :   **Junior Software Engineer, FCamara**
 \
 I worked at LinkApi, a startup that is an application integration tool, much like [Zapier](https://zapier.com). I did a lot of integration with multiple third party APIs, mostly REST and SOAP.
