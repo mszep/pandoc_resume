@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install packages and build resume
-        run: docker-compose up -d
+        run: docker-compose up --abort-on-container-exit --exit-code-from resume-make
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
