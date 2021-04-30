@@ -15,9 +15,9 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    env:
-      DOCKER_HOST: tcp://docker:2375/
-      DOCKER_DRIVER: overlay2
+    #env:
+      #DOCKER_HOST: tcp://docker:2375/
+      #DOCKER_DRIVER: overlay2
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     container:
