@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: docker/compose:1.22.0
-      options: --entrypoint ["/bin/sh", "-c"]
+      options: --entrypoint "/bin/sh -c"
     services:
       dind:
         image: docker:dind
