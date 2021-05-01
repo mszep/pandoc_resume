@@ -31,6 +31,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - name: Test directory contents
+        run: ls -al
 
       - name: Install packages and build resume
         run: docker-compose up --abort-on-container-exit --exit-code-from resume-make
