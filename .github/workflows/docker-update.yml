@@ -25,15 +25,9 @@ jobs:
       packages: write
       contents: read
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Check out the repo
-        uses: actions/checkout@v2
       - name: Build and push Docker images to Github Packages
         uses: docker/build-push-action@v2.4.0
         with:
           file: .docker/resume.dockerfile
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
-          repository: mszep/pandoc_resume/resume_builder
-          tag_with_ref: true
+          tag: pandoc_resume/resume_builder:latest
+          push: true
