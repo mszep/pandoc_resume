@@ -1,0 +1,39 @@
+# This workflow updates the docker container which has context and
+# pandoc installed, and on which the resume documents are built. The
+# workflow runs whenever the dockerfile is changed, and updates the
+# container image in the Github Packages registry.
+
+name: Publish Docker Image
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push events but only for the master branch
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job which does both the building and the pushing
+  push-to-registry:
+    name: Build and Push resume builder docker image
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Build and push Docker images to Github Packages
+        uses: docker/build-push-action@v2.4.0
+        with:
+          file: .docker/resume.dockerfile
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: mszep/pandoc_resume/resume_builder
+          tag_with_ref: true
