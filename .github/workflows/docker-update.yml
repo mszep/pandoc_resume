@@ -14,20 +14,23 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
   # This workflow contains a single job which does both the building and the pushing
-  push-to-registry:
-    name: Build and Push resume builder docker image
-    # The type of runner that the job will run on
+jobs:
+  push_to_registry:
+    name: Push Docker image to GitHub Packages
     runs-on: ubuntu-latest
     permissions:
       packages: write
       contents: read
     steps:
-      - name: Build and push Docker images to Github Packages
-        uses: docker/build-push-action@v2.4.0
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Push to GitHub Packages
+        uses: docker/build-push-action@v1
         with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: my-org/my-repo/my-image
+          tag_with_ref: true
           file: .docker/resume.dockerfile
-          tags: pandoc_resume/resume_builder:latest
-          push: true
