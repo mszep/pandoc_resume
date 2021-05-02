@@ -29,5 +29,5 @@ jobs:
         uses: docker/build-push-action@v2.4.0
         with:
           file: .docker/resume.dockerfile
-          tag: pandoc_resume/resume_builder:latest
+          tags: pandoc_resume/resume_builder:latest
           push: true
