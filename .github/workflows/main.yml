@@ -11,23 +11,12 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    #env:
-      #DOCKER_HOST: tcp://docker:2375/
-      #DOCKER_DRIVER: overlay2
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
     container:
-      image: docker/compose:1.22.0
-      options: --entrypoint "/bin/sh -c"
-    services:
-      dind:
-        image: docker:dind
+      image: docker.pkg.github.com/mszep/pandoc_resume/resume_builder:latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -35,8 +24,8 @@ jobs:
       - name: Test directory contents
         run: ls -al
 
-      - name: Install packages and build resume
-        run: docker-compose up --abort-on-container-exit --exit-code-from resume-make
+      - name: Build resume
+        run: make
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
