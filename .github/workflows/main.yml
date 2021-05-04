@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: docker.pkg.github.com/mszep/pandoc_resume/resume_builder:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
