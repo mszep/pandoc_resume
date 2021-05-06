@@ -61,7 +61,7 @@ sudo pacman -S pandoc texlive-core
 #### OSX
 ```bash
 brew install pandoc
-brew cask install mactex
+brew install --cask mactex
 ```
 
 Make sure to add the directory `/Library/TeX/texbin/` to your path or `context` and `mtxrun` will not be found.
