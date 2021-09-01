@@ -24,6 +24,8 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
         volumes:
           - ${{ github.workspace }}:${{ github.workspace }}
+        ports:
+          - 22:22
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
