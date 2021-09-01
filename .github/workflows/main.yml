@@ -22,7 +22,8 @@ jobs:
         credentials:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-        options: -v $GITHUB_WORKSPACE:$GITHUB_WORKSPACE
+        volumes:
+          - ${{ github.workspace }}:${{ github.workspace }}
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
