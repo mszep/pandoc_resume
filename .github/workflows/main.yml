@@ -22,18 +22,18 @@ jobs:
         credentials:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-        volumes:
-          - $GITHUB_WORKSPACE:$GITHUB_WORKSPACE
+        options:
+          - '-v $GITHUB_WORKSPACE:$GITHUB_WORKSPACE'
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
       - name: Test directory contents
-        run: ls -al
+        run: 'ls -al'
 
       - name: Build resume
-        run: ssh buildhost pwd #make
+        run: 'ssh buildhost pwd #make'
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
