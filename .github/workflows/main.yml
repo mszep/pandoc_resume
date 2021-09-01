@@ -14,13 +14,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-resume:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/mszep/pandoc_resume/resume_builder:latest
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+    services:
+      buildhost:
+        image: ghcr.io/mszep/pandoc_resume/resume_builder:latest
+        credentials:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+        volumes:
+          - $GITHUB_WORKSPACE:$GITHUB_WORKSPACE
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -30,7 +33,7 @@ jobs:
         run: ls -al
 
       - name: Build resume
-        run: make
+        run: ssh buildhost pwd #make
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
