@@ -25,7 +25,7 @@ jobs:
         volumes:
           - ${{ github.workspace }}:${{ github.workspace }}
         ports:
-          - 22:22
+          - 32001:22
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -35,7 +35,7 @@ jobs:
         run: 'ls -al'
 
       - name: Build resume
-        run: 'ssh buildhost pwd #make'
+        run: 'ssh -p 32001 buildhost pwd #make'
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
