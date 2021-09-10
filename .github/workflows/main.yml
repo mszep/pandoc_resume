@@ -16,16 +16,16 @@ on:
 jobs:
   build-resume:
     runs-on: ubuntu-latest
-    services:
-      buildhost:
-        image: ghcr.io/mszep/pandoc_resume/resume_builder:latest
-        credentials:
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-        volumes:
-          - ${{ github.workspace }}:${{ github.workspace }}
-        ports:
-          - 32001:22
+#   services:
+#     buildhost:
+#       image: ghcr.io/mszep/pandoc_resume/resume_builder:latest
+#       credentials:
+#         username: ${{ github.actor }}
+#         password: ${{ secrets.GITHUB_TOKEN }}
+#       volumes:
+#         - ${{ github.workspace }}:${{ github.workspace }}
+#       ports:
+#         - 32001:22
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -35,7 +35,10 @@ jobs:
         run: 'ls -al'
 
       - name: Build resume
-        run: 'ssh -p 32001 localhost pwd #make'
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: output/resume.txt
+          compiler: mtxrun
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
