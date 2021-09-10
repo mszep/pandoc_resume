@@ -35,10 +35,7 @@ jobs:
         run: 'ls -al'
 
       - name: Build resume
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: output/resume.txt
-          compiler: mtxrun
+        uses: docker://ghcr.io/mszep/pandoc_resume/resume_builder:latest
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
