@@ -32,3 +32,5 @@ USER app
 WORKDIR $HOME/$APP_NAME
 
 RUN make clean
+
+ENTRYPOINT make pdf
