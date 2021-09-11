@@ -1,0 +1,7 @@
+# action.yml
+name: 'Texlive Build'
+description: 'Build a document using texlive'
+runs:
+  using: 'docker'
+  image: 'docker://pandoc/latex:2.9'
+  entrypoint: 'make pdf'
