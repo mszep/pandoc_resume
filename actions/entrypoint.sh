@@ -1,3 +1,3 @@
 #!/bin/sh
 
-make pdf
+sh -c make pdf
