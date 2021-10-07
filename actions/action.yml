@@ -1,0 +1,7 @@
+# action.yml
+name: 'Texlive Build'
+description: 'Build a document using texlive'
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/mszep/pandoc_resume:master'
+  entrypoint: '/entrypoint.sh'

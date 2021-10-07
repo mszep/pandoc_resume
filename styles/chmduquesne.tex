@@ -6,8 +6,8 @@
 % This CSS document is delivered to you under the CC BY-SA 3.0 License.
 % https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
-\startmode[*mkivi]
-  \enableregime[utf-8]
+\startmode[*mkii]
+  \enableregime[utf-8]  
   \setupcolors[state=start]
 \stopmode
 $if(mainlang)$
@@ -15,9 +15,9 @@ $if(mainlang)$
 $endif$
 
 \setupcolor[hex]
-\definecolor[titlegrey][h=653496]
-\definecolor[sectioncolor][h=471871]
-\definecolor[rulecolor][h=7B52AE]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
 
 % Enable hyperlinks
 \setupinteraction[state=start, color=sectioncolor]
@@ -40,7 +40,7 @@ $endif$
 \setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
 \setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
                           before={\leavevmode\blackrule\hspace}]
-\setuphead[subsubsection][style=\bfa, color=black, before={\blank}]
+\setuphead[subsubsection][style=\bf]
 
 $if(number-sections)$
 $else$
@@ -61,6 +61,7 @@ $endif$
 \setupfloat[table][default={here,nonumber}]
 
 \setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
 
 \setupthinrules[width=15em] % width of horizontal rules
 
