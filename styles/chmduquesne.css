@@ -1,0 +1,95 @@
+<style type="text/css">
+/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 55px;
+    color: #757575;
+    text-align:center;
+    margin-bottom:15px;
+}
+/* h1:hover { */
+/*     background-color: #757575; */
+/*     color: #FFFFFF; */
+/*     text-shadow: 1px 1px 1px #333; */
+/* } */
+
+/* Titles of categories */
+h2 {
+    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+    color: #397249;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    /* This is called "rulecolor" in the ConTeXt stylesheet. */
+    background-color: #9CB770;
+}
+/* h2:hover { */
+/*     background-color: #397249; */
+/*     color: #FFFFFF; */
+/*     text-shadow: 1px 1px 1px #333; */
+/* } */
+
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 17%;
+    margin-bottom:7px;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #397249;
+}
+a:hover, a:active {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
+}
+
+table {
+    width: 100%;
+}
+</style>
