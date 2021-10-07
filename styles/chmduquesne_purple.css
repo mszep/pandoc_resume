@@ -41,11 +41,11 @@ h2:before {
     /* This is called "rulecolor" in the ConTeXt stylesheet. */
     background-color: #7B52AE;
 }
-h2:hover {
+/* h2:hover {
     background-color: #471871;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #333;
-}
+} */
 h3:hover {
     background-color: #653496;
     color: #FFFFFF;
@@ -57,10 +57,11 @@ dt {
     float: left;
     clear: left;
     width: 17%;
-    /*font-weight: bold;*/
+    font-weight: bold;
 }
 dd {
     margin-left: 17%;
+    margin-bottom:7px;
 }
 p {
     margin-top:0;
