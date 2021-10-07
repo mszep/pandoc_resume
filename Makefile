@@ -3,7 +3,7 @@
 OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
-STYLE=chmduquesne
+STYLE=chmduquesne_purple
 
 all: html pdf docx rtf
 
