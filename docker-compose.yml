@@ -10,4 +10,4 @@ services:
     container_name: resume-make
     image: resume-make
     volumes:
-      - .:/home/code/pandoc_resume
+      - .:/data

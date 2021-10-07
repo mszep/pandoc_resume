@@ -1,44 +1,60 @@
-SHELL := /bin/bash
+# SHELL := /bin/bash
 
 OUT_DIR=output
 IN_DIR=markdown
-STYLES_DIR=templates
+STYLES_DIR=styles
 STYLE=chmduquesne
 
-all: context docx html pdf rtf
+all: html pdf docx rtf
 
-context: resume.tex
-resume.tex: resume.md
-	pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
-	--from markdown --to context \
-	-V papersize=letter \
-	-o $(OUT_DIR)/resume.tex resume.md
+pdf: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.pdf; \
+		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+			--from markdown --to context \
+			--variable papersize=letter \
+			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+	done
 
-pdf: context resume.pdf
-resume.pdf:
-	pushd $(OUT_DIR); \
-	context resume.tex; \
-	popd
+html: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.html; \
+		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
+			--lua-filter=pdc-links-target-blank.lua \
+			--from markdown --to html \
+			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
+			--metadata pagetitle=$$FILE_NAME;\
+	done
 
-html: resume.html
-resume.html: $(STYLES_DIR)/template.html5 $(STYLES_DIR)/$(STYLE).css resume.md
-	pandoc --standalone -H $(STYLES_DIR)/$(STYLE).css \
-        --from markdown --to html5 --template $(STYLES_DIR)/template.html5 \
-        -o $(OUT_DIR)/resume.html resume.md
+docx: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.docx; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.docx; \
+	done
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o $(OUT_DIR)/resume.docx
+rtf: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.rtf; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
+	done
 
-rtf: resume.rtf
-resume.rtf: resume.md
-	pandoc -s -S resume.md -o $(OUT_DIR)/resume.rtf
+init: dir version
+
+dir:
+	mkdir -p $(OUT_DIR)
+
+version:
+	PANDOC_VERSION=`pandoc --version | head -1 | cut -d' ' -f2 | cut -d'.' -f1`; \
+	if [ "$$PANDOC_VERSION" -eq "2" ]; then \
+		SMART=-smart; \
+	else \
+		SMART=--smart; \
+	fi \
 
 clean:
-	rm -f $(OUT_DIR)/resume.docx
-	rm -f $(OUT_DIR)/resume.html
-	rm -f $(OUT_DIR)/resume.pdf
-	rm -f $(OUT_DIR)/resume.rtf
-	rm -f $(OUT_DIR)/resume.tex
-	rm -f $(OUT_DIR)/resume.tuc
-	rm -f $(OUT_DIR)/resume.log
+	rm -f $(OUT_DIR)/*
