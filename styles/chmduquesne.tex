@@ -57,6 +57,9 @@ $endif$
 \setupitemize[autointro, packed]    % prevent orphan list intro
 \setupitemize[indentnext=no]
 
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
 \setupfloat[figure][default={here,nonumber}]
 \setupfloat[table][default={here,nonumber}]
 
