@@ -14,7 +14,7 @@ Otávio Pace
 
 Skills
 ----------------------------------------
-**Rust - JavaScript - Node.js - Git - Docker - PostgreSQL - MongoDB - AWS - SQS - Terraform**
+**Rust - JavaScript - Node.js - WebAssembly - Ethereum - PostgreSQL - MongoDB - Docker - AWS - SQS - Terraform**
 
 Experience
 ----------
