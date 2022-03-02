@@ -19,10 +19,27 @@ Skills
 Experience
 ----------
 
-07/2020 - Now
+04/2021 - Now
+:   **Rust Engineer, Edge & Node**
+\
+I'm working to make The Graph move forward in the decentralization of public data. Delivered features such as:
+\
+- Integration of our first non-EVM compatible chain, NEAR Protocol;
+\
+- Update of our AssemblyScript version, from the oldest to the newest (~2 year change) that required a lot of ABI changes in our runtime code (WASM).
+\
+Most of the code I make here is open source:
+\
+- [Rust node that indexes blockchain data and serves it via GraphQL](https://github.com/graphprotocol/graph-node);
+\
+- [JS CLI tool for creating subgraphs](https://github.com/graphprotocol/graph-cli);
+\
+- [Our AssemblyScript standard library](https://github.com/graphprotocol/graph-ts).
+
+07/2020 - 03/2021
 :   **Senior Software Engineer, Magazine Luiza (Luizalabs)**
 \
-I am working at MagaluPay, the company's digital account, that has over 2 million users. Took part in most of the new integration with the new government instant payments API.
+I worked at MagaluPay, the company's digital account, that has over 2 million users. Took part in most of the new integration with the new government instant payments API (PIX).
 
 10/2017 - 07/2020
 :   **Software Engineer, Pagar.me**
