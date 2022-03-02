@@ -57,6 +57,12 @@ I worked at LinkApi, a startup that is an application integration tool, much lik
 Extra-curricular Activities
 ----------------------------------------
 
+12/2021
+:   **Talk: How allocating zero bytes can be useful to remove lazyness**; GambiConf (Brazil, remote)
+
+    *Talk about a workaround done at The Graph to make an AssemblyScript compiler internal lazy variable
+    be evaluated eagerly. [Slides link](https://github.com/otaviopace/gambi-talk).*
+
 11/2020
 :   **Podcast: Rust**; TOTVS (Brazil, remote)
 
