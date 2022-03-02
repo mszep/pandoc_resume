@@ -5,10 +5,9 @@ Otávio Pace
 
 ----
 
->  Passionate developer with a lot of interest in Rust and Functional Programming,
->  that worked mostly with back-end web development.
->  In my free time I love to study about Computer Science in general,
->  and create projects on Github to learn and practice.
+>  Web3 Software Engineer, working mostly with Rust.
+>  Very passionate about Computer Science, whenever possible
+>  I'm studying the subject and building projects on Github.
 
 ----
 
