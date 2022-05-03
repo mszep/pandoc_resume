@@ -13,12 +13,15 @@ Education
 ---------
 
 2022-2025 (expected)
-:   **MS, Computer Science**; Georgia Institutue of Technology
+:   **MS, Computer Science**; Georgia Institutue of Technology**
 
 
-12/2019
+2019
 :   **BSc, Computer Science**; Texas A&M University-San Antonio (San Antonio, TX)
-
+2017
+:   **ASc, Computer Science**; St. Phillips College (San Antonio, TX)
+2017
+:   **ASc, Mathematics**; St. Phillips College (San Antonio, TX)
 
 
 Experience
@@ -71,12 +74,9 @@ Programming Languages
     reference elsewhere in the document to reduce clutter (see source
     file). 
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   Basic knowledge of **C**, **Java**, **forth**, **Common Lisp**
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
+[ref]: https://github.com/harrystaley
 
 Extra Section, Call it Whatever You Want
 ----------------------------------------
@@ -93,5 +93,5 @@ Extra Section, Call it Whatever You Want
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <staley@gmail.com> • +1 (330) 718 1876
+> address - 8884 Staghorn Mill, Converse, TX 78109
