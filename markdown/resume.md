@@ -15,15 +15,21 @@ Education
 2022-2025 (expected)
 :   **MS, Computer Science**; Georgia Institutue of Technology**
 
-
 2019
 :   **BSc, Computer Science**; Texas A&M University-San Antonio (San Antonio, TX)
+
 2017
 :   **ASc, Computer Science**; St. Phillips College (San Antonio, TX)
+
 2017
 :   **ASc, Mathematics**; St. Phillips College (San Antonio, TX)
 
-
+2009
+:   **AAS, Business and Marketing**; Ozarks Technical Community College (Springfield, MO)
+ 
+2007
+:   **BA, Youth Ministry/Bible**; Central Bible College (Springfield, MO)
+ 
 Experience
 ----------
 
