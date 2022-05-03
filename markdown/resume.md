@@ -1,4 +1,4 @@
-Johnny Coder
+Harry Staley
 ============
 
 ----
@@ -12,17 +12,14 @@ Johnny Coder
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2022-2025 (expected)
+:   **MS, Computer Science**; Georgia Institutue of Technology
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+12/2019
+:   **BSc, Computer Science**; Texas A&M University-San Antonio (San Antonio, TX)
 
-    *Minor: Awesomeology*
+
 
 Experience
 ----------
