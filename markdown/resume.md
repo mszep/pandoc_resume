@@ -13,7 +13,7 @@ Education
 ---------
 
 2022-2025 (expected)
-:   **MS, Computer Science**; Georgia Institutue of Technology**
+:   **MS, Computer Science**; Georgia Institute of Technology**
 
 2019
 :   **BSc, Computer Science**; Texas A&M University-San Antonio (San Antonio, TX)
