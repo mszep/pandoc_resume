@@ -31,20 +31,40 @@ Education
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**Data Team Lead:**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Utilized knowledge of Army procurement systems such as  VCE to develop data analytics and procurement decision support products leveraging Army and DoD business intelligence and data pipelining platforms such as VCE-BI,  Army Vantage, and other tools and techniques.
 
-* First item
+Routinely delivered ad-hoc and recurring reports supporting senior leadership (SPE, HCAs, AAE, PDEP) and external organizations alike (DOJ, OSD, DUSA, GAO), including automation of report delivery for recurring requirements.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+Provide expertise in planning and conducting critical projects vital to the enhancement of procurement analytics. Some examples are the development of systems interfaces between data warehouses and analytics platforms, the development of new analytics/reporting capabilities, and selecting the proper analytics tool given stakeholder requirements.
 
-**That Other Job You Had**
+* As the interim team lead for the Data Team, I constructed a team charter supporting our mission across the Army Contracting Enterprise, aligning the team charter with Army Contracting Enterprise Lines of Effort.
+* Developed relationships championing new tools, techniques, and processes to streamline the analytics process, improve data quality, and enhance our analytics capabilities.
+* Collaborated with other senior Data Scientists to develop an enterprise solution to track acquisitions in support of the conflict in Ukraine before the addition of a National Interest Action (NIA) code.
+* Collaborated with General Officer/SES level leaders across the ACE to solve data acquisition challenges.
+* Developed and delivered Contour 101 (Army Vantage) training to members of FORSCOM, ACC, and DASA(P).
+* Developed a cross-functional architectural diagram documenting the data pipeline from the point of collection to data warehousing and arrival at analytics platforms.
+* Planned and developed data pipelines using Python (PySpark) to pre-process and clean Department of the Army level data.
+* Refactored existing pipeline processes utilizing computationally efficient algorithms to ensure performance within acceptable standards.
+* Developed a Python program to capture and parse text from Defense.gov to turn unstructured text capturing acquisition data in support of category management efforts.
+* Utilized Army Vantage and PySpark to create data visualizations for tactical and strategic leader consumption.
+* Worked with data owners to facilitate the ingestion of new data sources into Palantir Foundry a.k.a. Army Vantage.
+* Acted as the technical POC on several other projects developing/procuring software solutions and solving business problems such as Streamlining Acquisition Requirements, Market Research and Proposal Ingestion, Category Management spend plan Data Pipeline, Product Service Code Clustering, Contractor Digital Signatures on Contracting Documents.
+* Championed Agile methodologies as a best practice to foster a culture of continuous delivery to achieve optimal results.
+* Mentor and collaborate with other Data Scientists, Data Engineers, and Data Analysts across the Army footprint to drive knowledge sharing and up-skilling/re-skilling efforts, conducting monthly technical workshops and developed pathways for budding technologists to discover new skills and abilities through the Data Science and Data Analytics communities of interest.
+* Invited to attend and contribute to the executive steering session and weekly production meetings for Business Health Metrics by the Office of Business Transformation. 
 
-Also with a short description.
+**Lead Instructor - Cyber Security and Software Development**
+
+Act as a Lead Instructor for Cyber Security and Software Development and act as a point of contact with the operations team.
+Teach Cyber and Network Security with a focus on preparing students to build the skills and knowledge base to take and pass certification exams such as the CompTIA Network+, CompTIA Security +, and CEH. Teach Software Development focusing students on learning and applying Agile methodologies while developing Full Stack software solutions that meet or exceed technical and user experience requirements.
+
+* Teach in a highly interactive and engaging style, analyze and synthesize complex technical information and present it simply and clearly.
+* Responsible for classroom management and pedagogy, scaffolded learning, and checks for understanding and knowledge.
+* Lead Lab Activities.
+* Field questions and assist students on Zoom/Slack/Canvas.
+
 
 Technical Experience
 --------------------
@@ -65,7 +85,7 @@ Open Source
     your idea...
 
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
+:   **Python 3:** Here, we have an itemization, where we only want
     to add descriptions to the first few items, but still want to
     mention some others together at the end. A format that works well
     here is a description list where the first few items have their
