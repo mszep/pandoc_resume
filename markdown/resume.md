@@ -14,13 +14,13 @@ Education
 :   **MS, Computer Science**; Georgia Institute of Technology
 
 2019
-:   **BSc, Computer Science**; Texas A&M University-San Antonio (San Antonio, TX)
+:   **BS, Computer Science**; Texas A&M University-San Antonio (San Antonio, TX)
 
 2017
-:   **ASc, Computer Science**; St. Phillips College (San Antonio, TX)
+:   **AS, Computer Science**; St. Phillips College (San Antonio, TX)
 
 2017
-:   **ASc, Mathematics**; St. Phillips College (San Antonio, TX)
+:   **AS, Mathematics**; St. Phillips College (San Antonio, TX)
 
 2009
 :   **AAS, Business and Marketing**; Ozarks Technical Community College (Springfield, MO)
