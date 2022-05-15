@@ -97,4 +97,4 @@ Honors and Awards
 
 ----
 
-<staley@gmail.com> | +1 (330) 718 1876 | 8884 Staghorn Mill, Converse, TX 78109
+<staley@gmail.com> | +1 (330) 718-1876 | 8884 Staghorn Mill, Converse, TX 78109
