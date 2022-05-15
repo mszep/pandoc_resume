@@ -12,7 +12,7 @@ Experience
 
 **Interim Data Team Lead, Data Scientist (ORSA)** | U.S. Army - ODASA(P) | May 2021 - Present
 
-* Delivered decision support tools for global scope senior executive leadership.
+* Delivered decision support tools for senior executive leadership with global scope.
 * Developed a cross-functional architectural diagram documenting the data pipeline from the point of collection to data warehousing and arrival at analytics platforms.
 * Championed Agile methodologies as a best practice to foster a culture of continuous delivery to achieve mission objectives.
 * Constructed a team charter aligning it with strategic lines of effort.
