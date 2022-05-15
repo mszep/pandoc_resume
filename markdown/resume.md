@@ -44,7 +44,7 @@ Experience
 
 **Full Stack Web Developer (Freelance)** | CraftedTech | Aug 2016 - Oct 2021
 
-1-2 bullets
+* Consult with clients developing solutions from ideation to deployment. 
 
 **Computer Science and Math Tutor** | Parliament Tutors | Aug 2019 - Apr 2022
 
@@ -56,26 +56,19 @@ Experience
 
 **Research Assistant** | Texas A&M University-San Antonio - Cybersecurity | Nov 2017 - May 2018
 
-1-2 bullets
+* Identify additional research that could help minimize attack vectors in secure clouds.
+* Assisted with research on "Risk-aware Multi-Objectives Optimized Virtual Machine Placement in Cloud” under a grant from the Army Research Office.
 
 **Full Stack Web Developer (Volunteer)** | Benetech - Code Alliance | Aug 2016 - Dec 2017
 
 * Lead on a high-impact volunteer project helping develop a mature responsive web prototype for the Benetech labs team.
 * Improve the web presence of Techtonica.org including the use of Flask, and Jinja for templating.
 
-**Business Intelligence Developer (Internship)** - USAA
+**Business Intelligence Developer (Internship)** | USAA | May 2017 - Aug 2017
 
-**Software Engineer / Data Analytics Consultant** - Scholastic
+**Software Engineer / Data Analytics Consultant** | Scholastic | Jun 2009 - Jan 2011
 
-**HP Laptop Support Technician** - Teletech
-
-
-
-
-
-**Full Stack Web Developer**
-
-He was involved in all phases of the software development lifecycle, from assisting with project scope to deployment and testing of deliverables.  Developed web application using HTML5, CSS3, Python, Flask, Jinja, Postgres SQL, Google App Engine, GitHub, Ect. Developed E-Commerce solutions for small businesses. Website templating and optimization including CyberSecurity, privacy, and compliance concerns such as GDPR, PCI-DSS, etc.
+**HP Laptop Support Technician** | Teletech | Jun 2008 - May 2009
 
 Education
 ---------
@@ -104,5 +97,4 @@ Honors and Awards
 
 ----
 
-> <staley@gmail.com> • +1 (330) 718 1876
-> address - 8884 Staghorn Mill, Converse, TX 78109
+<staley@gmail.com> | +1 (330) 718 1876 | 8884 Staghorn Mill, Converse, TX 78109
