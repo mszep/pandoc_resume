@@ -24,9 +24,9 @@ Experience
 
 **Associate Instructor** | ThriveDX | Sep 2021 - Apr 2022
 
-* Teach for several colleges/universities in a highly interactive style to distill technical topics for learners.
+* Teaching for several colleges/universities in a highly interactive style to distill technical topics for learners.
 * Responsible for classroom management and pedagogy, scaffolded learning, and checks for understanding and knowledge.
-* Focus on building career ready cyber security and software development professionals.
+* Focused on building career ready cybersecurity and Python software development professionals.
 
 **Team Member - Acquisition Innovation Through Technology** | U.S. Army - ODASA(P) | Oct 2020 - Apr 2021
 
