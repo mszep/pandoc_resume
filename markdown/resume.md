@@ -46,15 +46,13 @@ Experience
 
 **Full Stack Web Developer (Freelance)** | CraftedTech | Aug 2016 - Oct 2021
 
-* Consult with clients developing solutions from ideation to deployment. 
-
 **Computer Science and Math Tutor** | Parliament Tutors | Aug 2019 - Apr 2022
 
 **Project Reviewer & Mentor** | Udacity | Aug 2016 - Sep 2018
 
-* Review and adjudicate project submissions based on project rubrics.
-* Provide constructive feedback on project submissions.
-* Memtor students as they implement their projects.
+* Reviewed and adjudicated project submissions based on project rubrics.
+* Provided constructive feedback on project submissions.
+* Mentored students as they implemented their projects.
 
 **Research Assistant** | Texas A&M University-San Antonio - Cybersecurity | Nov 2017 - May 2018
 
