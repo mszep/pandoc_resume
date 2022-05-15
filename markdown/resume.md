@@ -30,10 +30,10 @@ Experience
 
 **Team Member - Acquisition Innovation Through Technology** | U.S. Army - ODASA(P) | Oct 2020 - Apr 2021
 
-* Develop business cases to apply new and emerging technologies such as machine learning, artificial intelligence, and robotic process automation to existing acquisition processes.
-* Lead the project to provide an enterprise analytics capability for the Armys' Government Purchase Card program.
-* Conducted research and evaluated technologies ucture to unstructured data.
-* Worked with data owners to procure new data sources enterprise analytics use.
+* Developed business cases to apply new and emerging technologies such as machine learning, artificial intelligence, and robotic process automation to existing acquisition processes.
+* Led the project to provide an enterprise analytics capability for the Armys' Government Purchase Card program.
+* Conducted research and evaluated technologies to bring structre to unstructured data.
+* Worked with data owners to procure new data sources for enterprise analytics to use.
 
 **Procurement Systems Analyst, Business Intelligence** | U.S. Army - MICC | May 2011 - May 2021
 
