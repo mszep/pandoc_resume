@@ -56,12 +56,12 @@ Experience
 
 **Research Assistant** | Texas A&M University-San Antonio - Cybersecurity | Nov 2017 - May 2018
 
-* Identifed additional research that could help minimize attack vectors in secure clouds.
+* Identified additional research that could help minimize attack vectors in secure clouds.
 * Assisted with research on "Risk-aware Multi-Objectives Optimized Virtual Machine Placement in Cloud” under a grant from the Army Research Office.
 
 **Full Stack Web Developer (Volunteer)** | Benetech - Code Alliance | Aug 2016 - Dec 2017
 
-* Technial Lead on a high-impact volunteer project helping develop a mature responsive web prototype for Benetech labs.
+* Technical Lead on a high-impact volunteer project helping develop a mature responsive web prototype for Benetech labs.
 * Improved the web presence of Techtonica.org thorugh the use of Python Flask and Jinja templating.
 
 **Business Intelligence Developer (Internship)** | USAA | May 2017 - Aug 2017
