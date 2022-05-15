@@ -54,13 +54,14 @@ Experience
 * Provide constructive feedback on project submissions.
 * Memtor students as they implement their projects.
 
-**Research Assistant** | Harry Staley is a life-long learner with a love for data and the democratization of information that has come to the world with the advent of the Internet.  His passion for technology began in 2004 with the development of a database project during a summer internship while working on his first Bachelor’s Degree.  Since that time, he has grown that passion for technology and for how data fuels the engine of modern innovations such as IDS, voice assistants, and autonomous vehicles.  Through his journey he has engaged in self-directed learning using tools like MIT Open Courseware, Khan Academy, and Coursera to grow his toolkit of skills and knowledge, and now gives back to others by teaching Python and Cyber Security through Udacity and ThriveDX.  As part of Harry’s vision for the democratization of information online, he engages in community volunteer efforts working on open source software, working with organizations like Code Alliance and Techtonica, and mentoring students. For the last 12 years, Harry has applied his skills in data science and data engineering to serve the public through advancing the efficiency of US Army & DoD procurement systems - TAMUSA | 
+**Research Assistant** | Texas A&M University-San Antonio - Cybersecurity | Nov 2017 - May 2018
 
 1-2 bullets
 
-**Full Stack Web Developer (Volunteer)** - Code Alliance Benetech
+**Full Stack Web Developer (Volunteer)** | Benetech - Code Alliance | Aug 2016 - Dec 2017
 
-1-2
+* Lead on a high-impact volunteer project helping develop a mature responsive web prototype for the Benetech labs team.
+* Improve the web presence of Techtonica.org including the use of Flask, and Jinja for templating.
 
 **Business Intelligence Developer (Internship)** - USAA
 
