@@ -20,6 +20,7 @@ Experience
 * Collaborated with other senior Data Scientists to develop an enterprise solution to track acquisitions in support of the conflict in Ukraine before the addition of a National Interest Action (NIA) code.
 
 **Lead Instructor** - ThriveDX
+
 **Associate Instructor** - ThriveDX
 
 * Teach in a highly interactive style to distill technical topics for learners.
