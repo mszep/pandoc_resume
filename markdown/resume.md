@@ -10,7 +10,7 @@ Harry Staley is a life-long learner with a love for data and the democratization
 Experience
 ----------
 
-**Interim Data Team Lead, Data Scientist (ORSA)** | U.S. Army | ODASA(P)
+**Interim Data Team Lead, Data Scientist (ORSA)** - U.S. Army - ODASA(P)
 
 * Delivered decision support products for global scope senior executive leaders.
 * Developed a cross-functional architectural diagram documenting the data pipeline from the point of collection to data warehousing and arrival at analytics platforms.
@@ -19,36 +19,20 @@ Experience
 * Cultivated relationships to acquire new data sources.
 * Collaborated with other senior Data Scientists to develop an enterprise solution to track acquisitions in support of the conflict in Ukraine before the addition of a National Interest Action (NIA) code.
 
-**Lead Instructor - Cyber Security and Software Development**
+**Lead Instructor** - ThriveDX
+**Associate Instructor** - ThriveDX
 
-Act as a Lead Instructor for Cyber Security and Software Development and act as a point of contact with the operations team.
-Teach Cyber and Network Security with a focus on preparing students to build the skills and knowledge base to take and pass certification exams such as the CompTIA Network+, CompTIA Security +, and CEH. Teach Software Development focusing students on learning and applying Agile methodologies while developing Full Stack software solutions that meet or exceed technical and user experience requirements.
-
-* Teach in a highly interactive and engaging style, analyze and synthesize complex technical information and present it simply and clearly.
+* Teach in a highly interactive style to distill technical topics for learners.
 * Responsible for classroom management and pedagogy, scaffolded learning, and checks for understanding and knowledge.
-* Lead Lab Activities.
-* Field questions and assist students on Zoom/Slack/Canvas.
+* Focus on building career ready cyber security and software development professionals.
 
-**Associate Instructor - Cyber Security and Software Development**
+**Team Member - Acquisition Innovation Through Technology** - U.S. Army - ODASA(P)
 
-Act as an Associate Instructor and as a point of contact with the operations team. Teach Cyber & Network Security with a focus on preparing students to build the skills and knowledge base to take and pass certification exams such as the CompTIA Network+ and CompTIA Security +. My main area of instruction is Python for Security, Network Security, and Introduction to Cybersecurity.
-
-**Acquisition Innovation Through Technology - Team Member (Developmental Assignment)**
-
-Leveraging advanced technologies, modern data analytics, and transformational commercial business practices to create a friction-free environment that drives: increased efficiency, better customer experience, and improved employee engagement in support of the Army's Acquisition mission.
-
-Develop use cases and business cases to apply new and emerging technologies such as machine learning, artificial intelligence, and robotic process automation to existing acquisition and contracting business processes in order to: save time, deliver operational efficiencies, improve compliance, and automate low-value tasks.
-
-Communicate use cases, technical capabilities, and gaps to DA level senior leadership in verbal and written form to drive innovation, improve  results, and support strategic and tactical missions for the Army enterprise.
-
-* Lead the team with the mission of streamlining the Government Purchase card program for the Department of the Army and provide an enterprise analytics capability.
-* Planned and developed a data pipeline using Python (PySpark) to pre-process and clean DA level Government Purchase card data.
-* Refactored existing pipeline processes utilizing computationally efficient algorithms in order to ensure that the pipeline performed within acceptable performance standards.
-* Conducted research and evaluated open and closed source libraries and models in order to process receipts and invoices providing structure to unstructured data.
-* Utilized Palantir Foundry and PySpark to create data visualizations for tactical and strategic leader consumption.
-* Worked with data owners to facilitate the ingestion of new data sources into Palantir Foundry a.k.a. Army Vantage.
-* Acted as the technical lead on several other projects developing/procuring software solutions solving business problems such as Streamlining Acquisition Requirements, Market Research and Proposal Ingestion, Category Management spend plan Data Pipeline, Product Service Code Clustering, Contractor Digital Signatures on Contracting Documents.
-* Championed Agile methodologies as a best practice in order to foster a culture of continuous delivery to achieve optimal results.
+* Develop business cases to apply new and emerging technologies such as machine learning, artificial intelligence, and robotic process automation to existing acquisition processes.
+* Lead the project to provide an enterprise analytics capability for the Armys' Government Purchase Cared program.
+* Conducted research and evaluated technologies ucture to unstructured data.
+* Worked with data owners to procure new data sources enterprise analytics use.
+* Championed Agile methodologies as a best practice to foster a culture of continuous delivery.
 
 **Procurement Systems Analyst**
 
