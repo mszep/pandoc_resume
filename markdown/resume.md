@@ -23,7 +23,7 @@ Experience
 
 **Associate Instructor** | ThriveDX | Sep 2021 - Apr 2022
 
-* Teach in a highly interactive style to distill technical topics for learners.
+* Teach for several colleges/universities in a highly interactive style to distill technical topics for learners.
 * Responsible for classroom management and pedagogy, scaffolded learning, and checks for understanding and knowledge.
 * Focus on building career ready cyber security and software development professionals.
 
