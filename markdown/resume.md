@@ -89,7 +89,16 @@ Education
 **AAS, Business and Marketing** |  Ozarks Technical Community College | 2009
  
 **BA, Youth Ministry/Bible** | Central Bible College | 2007
- 
+
+Certifications
+--------------
+
+**DAWIA Engineering & Technial Management (Practitioner)** | Feb 2022
+
+**CompTIA Security+** | License COMP001003566872 | Aug 2019
+
+**CompTIA Network+** | License COMP001003566872 | July 2006
+
 Honors and Awards
 -----------------
 
