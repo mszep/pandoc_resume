@@ -39,9 +39,7 @@ Experience
 
 * Delivered decision support tools for executive leadership with US wide scope.
 * Developed analytics tools to analyze the largest and most complex Government Purchase Card program in the Army.
-
- - Awarded the Civilian Service Achievement Medal for this project.
-
+    - Awarded the Civilian Service Achievement Medal for this project.
 * Mentored ORSA team members on computer science concepts.
 * Regularly briefed senior leaders as a metrics champion.
 * Change control board member for several procurement systems.
