@@ -32,13 +32,14 @@ Experience
 
 * Developed business cases to apply new and emerging technologies such as machine learning, artificial intelligence, and robotic process automation to existing acquisition processes.
 * Led the project to provide an enterprise analytics capability for the Armys' Government Purchase Card program.
-* Conducted research and evaluated technologies to bring structre to unstructured data.
+* Conducted research and evaluated technologies to bring structure to unstructured data.
 * Worked with data owners to procure new data sources for enterprise analytics to use.
 
 **Procurement Systems Analyst, Business Intelligence** | U.S. Army - MICC | May 2011 - May 2021
 
-* Delivered decision support tools for U.S. scope executive leadership.
-* Developed analytics tools to analyze the largest and most complex government purchase card program in the Army.
+* Delivered decision support tools for executive leadership with US wide scope.
+* Developed analytics tools to analyze the largest and most complex Government Purchase Card program in the Army.
+- Awarded the Civilian Service Achievement Medal for this project.
 * Mentored ORSA team members on computer science concepts.
 * Regularly briefed senior leaders as a metrics champion.
 * Change control board member for several procurement systems.
