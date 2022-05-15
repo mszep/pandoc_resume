@@ -93,7 +93,7 @@ Education
 Certifications
 --------------
 
-**DAWIA Engineering & Technial Management (Practitioner)** | Feb 2022
+**DAWIA Engineering & Technical Management (Practitioner)** | Feb 2022
 
 **CompTIA Security+** | License COMP001003566872 | Aug 2019
 
