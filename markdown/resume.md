@@ -15,9 +15,10 @@ Experience
 * Delivered decision support tools for senior executive leadership with global scope.
 * Developed a cross-functional architectural diagram documenting the data pipeline from the point of collection to data warehousing and arrival at analytics platforms.
 * Championed Agile methodologies as a best practice to foster a culture of continuous delivery to achieve mission objectives.
-* Constructed a team charter aligning it with strategic lines of effort.
-* Cultivated relationships to acquire new data sources.
-* Collaborated with other senior Data Scientists to develop an enterprise solution to track acquisitions in support of the conflict in Ukraine before the addition of a National Interest Action (NIA) code.
+* Constructed a data team charter aligned to strategic lines of effort.
+* Cultivated cross-functional relationships with data owners across the DoD to acquire new data sources.
+* Collaborated with senior Data Scientists to develop an enterprise solution to track acquisitions in support of the conflict in Ukraine before the addition of a National Interest Action (NIA) code.
+* Co-leading the Army Data Science Community of Interest.
 
 **Lead Instructor** | ThriveDX | Apr 2022 - Present
 
