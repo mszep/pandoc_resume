@@ -61,7 +61,7 @@ Experience
 
 **Full Stack Web Developer (Volunteer)** | Benetech - Code Alliance | Aug 2016 - Dec 2017
 
-* Lead on a high-impact volunteer project helping develop a mature responsive web prototype for the Benetech labs team.
+* Lead on a high-impact volunteer project helping develop a mature responsive web prototype for Benetech labs.
 * Improve the web presence of Techtonica.org including the use of Flask, and Jinja for templating.
 
 **Business Intelligence Developer (Internship)** | USAA | May 2017 - Aug 2017
