@@ -88,7 +88,8 @@ Education
 Publications
 ------------
 
- **A Practice of Detecting Insider Threats within a Network** | Advances in Security, Networks, and the Internet of Things
+ **A Practice of Detecting Insider Threats within a Network**
+ Advances in Security, Networks, and the Internet of Things | Feb 2021
 
 Certifications
 --------------
