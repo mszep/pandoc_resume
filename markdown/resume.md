@@ -70,11 +70,6 @@ Experience
 
 **HP Laptop Support Technician** | Teletech | Jun 2008 - May 2009
 
-Publications
-------------
-
- **A Practice of Detecting Insider Threats within a Network** | 2020 Springer Nature - Research Book Series Transactions on Computational Science & Computational Intelligence: Advances in Security, Networks, and the Internet of Things | Feb 1, 2021
-
 Education
 ---------
 
@@ -89,6 +84,11 @@ Education
 **AAS, Business and Marketing** |  Ozarks Technical Community College | 2009
  
 **BA, Youth Ministry/Bible** | Central Bible College | 2007
+
+Publications
+------------
+
+ **A Practice of Detecting Insider Threats within a Network** | Advances in Security, Networks, and the Internet of Things
 
 Certifications
 --------------
