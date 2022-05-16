@@ -39,7 +39,7 @@ Experience
 
 * Delivered decision support tools for executive leadership with US wide scope.
 * Developed analytics tools to analyze the largest and most complex Government Purchase Card program in the Army.
-    - Awarded the Civilian Service Achievement Medal for this project.
+    - Awarded the Civilian Service Commendation Medal for this project.
 * Mentored ORSA team members on computer science concepts.
 * Regularly briefed senior leaders as a metrics champion.
 * Change control board member for several procurement systems.
@@ -103,10 +103,9 @@ Honors and Awards
 
 * Star Note from DASA(P)
 * Certifcate of Appreciation from Gen. Christine Beeler
-* Civilian Service Achievement Medal
-* Achievement Medal for Civilian Service
+* Achievement Medal for Civilian Service x 2
+* Civilian Service Commendation Medal
 * Challenge Coin from the ASA(ALT)
-* Commanders’ Award for Civilian Service
 
 ----
 
