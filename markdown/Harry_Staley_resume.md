@@ -77,9 +77,7 @@ Education
 
 **BS, Computer Science (Summa Cum Laude)** | Texas A&M University-San Antonio | 2019
 
-**AS, Computer Science (Summa Cum Laude)** | St. Phillips College | 2017
-
-**AS, Mathematics (Summa Cum Laude)** | St. Phillips College | 2017
+**AS, Computer Science/Mathematics (Summa Cum Laude)** | St. Phillips College | 2017
 
 **AAS, Business and Marketing** |  Ozarks Technical Community College | 2009
  
