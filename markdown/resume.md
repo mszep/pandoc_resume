@@ -1,11 +1,11 @@
-Otávio Pace
+Eva Pace
 ============
 
-> <otaviopp8@gmail.com> • +55 (11) 97136-6671 • [https://github.com/otaviopace](https://github.com/otaviopace) • [https://linkedin.com/in/otaviopace](https://linkedin.com/in/otaviopace) • 24 years old • São Paulo, Brazil
+> <eba.pachi@gmail.com> • +55 (11) 97136-6671 • [https://github.com/evaporei](https://github.com/evaporei) • [https://linkedin.com/in/evapace](https://linkedin.com/in/evapace) • 24 years old • São Paulo, Brazil
 
 ----
 
->  Web3 Software Engineer, working mostly with Rust.
+>  Rust Software Engineer.
 >  Very passionate about Computer Science, whenever possible
 >  I'm studying the subject and building projects on Github.
 
@@ -21,7 +21,7 @@ Experience
 04/2021 - Now
 :   **Rust Engineer, Edge & Node**
 \
-I'm working to make The Graph move forward in the decentralization of public data. Delivered features such as:
+I'm working to make [The Graph](https://thegraph.com) move forward in the decentralization of public data. Delivered features such as:
 \
 - Integration of our first non-EVM compatible chain, NEAR Protocol;
 \
@@ -61,7 +61,7 @@ Extra-curricular Activities
 :   **Talk: How allocating zero bytes can be useful to remove lazyness**; GambiConf (Brazil, remote)
 
     *Talk about a workaround done at The Graph to make an AssemblyScript compiler internal lazy variable
-    be evaluated eagerly. [Slides link](https://github.com/otaviopace/gambi-talk).*
+    be evaluated eagerly. [Slides link](https://github.com/evaporei/gambi-talk).*
 
 11/2020
 :   **Podcast: Rust**; TOTVS (Brazil, remote)
@@ -74,13 +74,13 @@ Extra-curricular Activities
 
     *Talk about Transistor, a Rust Crux client, which is a Clojure Bitemporal Database.
     We also had to develop a whole ecosystem to support Clojure's EDN. I did it with my friend
-    Julia Naomi. Github project links: [transistor](https://github.com/naomijub/transistor), [edn-rs](https://github.com/naomijub/edn-rs) and [edn-derive](https://github.com/otaviopace/edn-derive)*
+    Julia Naomi. Github project links: [transistor](https://github.com/naomijub/transistor), [edn-rs](https://github.com/naomijub/edn-rs) and [edn-derive](https://github.com/evaporei/edn-derive)*
 
 03/2019
 :   **Talk: Interop with Android, IOS and WASM in the same project**; Rust LATAM (Uruguay)
 
     *Talk about how we did a Rust library at Pagar.me which had to be compiled to Android,
-    iOS and WASM at the same time. [YouTube video link](https://www.youtube.com/watch?v=W-HUyTwV4LA). [Github project link](https://github.com/otaviopace/doom-fire-interop)*
+    iOS and WASM at the same time. [YouTube video link](https://www.youtube.com/watch?v=W-HUyTwV4LA). [Github project link](https://github.com/evaporei/doom-fire-interop)*
 
 12/2015
 :   **Christmas Volunteer Work**; FIAP (São Paulo)
