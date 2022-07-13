@@ -1,4 +1,4 @@
 *.log
 *.swo
 *.swp
-output/
+# output/
