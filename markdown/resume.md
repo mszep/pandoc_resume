@@ -1,13 +1,13 @@
 Eva Pace
 ============
 
-> <eba.pachi@gmail.com> • +55 (11) 97136-6671 • [https://github.com/evaporei](https://github.com/evaporei) • [https://linkedin.com/in/evapace](https://linkedin.com/in/evapace) • 24 years old • São Paulo, Brazil
+> **she/they** • <eba.pachi@gmail.com> • [GitHub](https://github.com/evaporei) • [LinkedIn](https://linkedin.com/in/evapace) • +55 (11) 97136-6671 • 24 years old • São Paulo, Brazil
 
 ----
 
->  Rust Software Engineer.
->  Very passionate about Computer Science, whenever possible
->  I'm studying the subject and building projects on Github.
+> Software Engineer with 5 years of experience, currently working with Rust.
+> I'm very passionate about Computer Science,
+> whenever possible I'm studing the subject in my free time.
 
 ----
 
