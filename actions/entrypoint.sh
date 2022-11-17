@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sh -c make pdf
+sh -c "cd /home/app/resume && make pdf"
