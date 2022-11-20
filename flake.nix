@@ -32,7 +32,8 @@
     in {
       packages = perSystem (system:
         let
-          resume = buildResumeFor system;
+          pkgs = pkgsFor system;
+          resume = pkgs.pandocResume.buildResume { inDir = "${self}/markdown"; };
         in
         {
           inherit resume;
