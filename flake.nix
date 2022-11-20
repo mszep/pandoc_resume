@@ -30,13 +30,21 @@
           make OUT_DIR="$out"
         '';
     in {
-      packages = perSystem (system: {
-        resume = buildResumeFor system;
+      packages = perSystem (system:
+        let
+          resume = buildResumeFor system;
+        in
+        {
+          inherit resume;
+          default = resume;
+        });
+
+      devShells = perSystem (system: {
+        default = import ./shell.nix { pkgs = pkgsFor system; };
       });
 
-      devShell =
-        perSystem (system: import ./shell.nix { pkgs = pkgsFor system; });
+      devShell = perSystem (system: self.devShells.${system}.default);
 
-      defaultPackage = perSystem (system: self.packages.${system}.resume);
+      defaultPackage = perSystem (system: self.packages.${system}.default);
     };
 }
