@@ -3,7 +3,21 @@
 
   outputs = { self, nixpkgs }:
     let
-      supportedSystems = nixpkgs.lib.systems.flakeExposed;
+      supportedSystems =
+        let
+          unsupportedSystems = [
+            # GHC not supported
+            "armv5tel-linux"
+            "armv6l-linux"
+            "powerpc64le-linux"
+            "riscv64-linux"
+
+            # "error: attribute 'busybox' missing" when building
+            # `bootstrap-tools`
+            "mipsel-linux"
+          ];
+        in nixpkgs.lib.subtractLists unsupportedSystems nixpkgs.lib.systems.flakeExposed;
+
       perSystem = nixpkgs.lib.genAttrs supportedSystems;
       pkgsFor = system: import nixpkgs { inherit system; };
 
