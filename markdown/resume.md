@@ -1,39 +1,39 @@
 Eva Pace
 ============
 
-> **she/they** • <eba.pachi@gmail.com> • [GitHub](https://github.com/evaporei) • [LinkedIn](https://linkedin.com/in/evapace) • +55 (11) 97136-6671 • 24 years old • São Paulo, Brazil
+> **she/her** • <eba.pachi@gmail.com> • [GitHub](https://github.com/evaporei) • [LinkedIn](https://linkedin.com/in/evapace) • +55 (11) 97136-6671 • 25 years old • São Paulo, Brazil
 
 ----
 
-> Software Engineer with 5 years of experience, currently working with Rust.
-> I'm very passionate about Computer Science,
-> whenever possible I'm studing the subject in my free time.
+> Software Engineer with 6 years of experience.
+> Worked with Web, FFI, WebAssembly, Blockchain.
+> Currently looking for a role in compilers or distributed systems.
 
 ----
 
 Skills
 ----------------------------------------
-**Rust - JavaScript - Node.js - WebAssembly - Ethereum - PostgreSQL - MongoDB - Docker - AWS - SQS - Terraform**
+**Rust - Compilers - FFI - WebAssembly - PostgreSQL - JavaScript - Node.js**
 
 Experience
 ----------
 
-04/2021 - Now
+04/2021 - 02/2023
 :   **Rust Engineer, Edge & Node**
 \
-I'm working to make [The Graph](https://thegraph.com) move forward in the decentralization of public data. Delivered features such as:
+I've worked to make [The Graph](https://thegraph.com) move forward in the decentralization of public data. Delivered features such as:
 \
 - Integration of our first non-EVM compatible chain, NEAR Protocol;
 \
 - Update of our AssemblyScript version, from the oldest to the newest (~2 year change) that required a lot of ABI changes in our runtime code (WASM).
 \
-Most of the code I make here is open source:
+Most of the code I made here is open source:
 \
 - [Rust node that indexes blockchain data and serves it via GraphQL](https://github.com/graphprotocol/graph-node);
 \
 - [JS CLI tool for creating subgraphs](https://github.com/graphprotocol/graph-cli);
 \
-- [Our AssemblyScript standard library](https://github.com/graphprotocol/graph-ts).
+- [AssemblyScript standard library](https://github.com/graphprotocol/graph-ts).
 
 07/2020 - 03/2021
 :   **Senior Software Engineer, Magazine Luiza (Luizalabs)**
@@ -52,7 +52,7 @@ I worked at MagaluPay, the company's digital account, that has over 2 million us
 04/2017 - 09/2017
 :   **Junior Software Engineer, FCamara**
 \
-I worked at LinkApi, a startup that is an application integration tool, much like [Zapier](https://zapier.com). I did a lot of integration with multiple third party APIs, mostly REST and SOAP.
+I worked at LinkApi, a start up that is an application integration tool, much like [Zapier](https://zapier.com). I did a lot of integration with multiple third party APIs, mostly REST and SOAP.
 
 Extra-curricular Activities
 ----------------------------------------
@@ -82,20 +82,17 @@ Extra-curricular Activities
     *Talk about how we did a Rust library at Pagar.me which had to be compiled to Android,
     iOS and WASM at the same time. [YouTube video link](https://www.youtube.com/watch?v=W-HUyTwV4LA). [Github project link](https://github.com/evaporei/doom-fire-interop)*
 
-12/2015
-:   **Christmas Volunteer Work**; FIAP (São Paulo)
-
-    *We took care of a large group of needy kids at Christmas, gave them
-    presents, snacks and played with them.*
-
 Education
 ---------
 
+09/2022 - 11/2022
+:   **Software Systems: Behind the Abstractions**; Bradfield CS (remote)
+
 11/2019
-:   **College Course, Purely Functional Data Structures**; UFABC (Santo André)
+:   **Purely Functional Data Structures**; UFABC (Santo André)
 
 08/2019
-:   **College Course, Category Theory**; UFABC (Santo André)
+:   **Category Theory**; UFABC (Santo André)
 
 01/2015 - 12/2016
 :   **Associate Degree, Analysis and Systems Development**; FIAP (São Paulo)
@@ -104,6 +101,6 @@ Languages
 ----------------------------------------
 
 * Portuguese (native speaker)
-* English (highly proficient)
+* English (fluent)
 
 ----
