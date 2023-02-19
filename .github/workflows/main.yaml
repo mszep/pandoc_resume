@@ -17,8 +17,6 @@ jobs:
       working-directory: .docker
     - name: Build the Resume
       run: docker run --rm -v ${PWD}:/home/app/resume ${{env.IMAGE_NAME}}
-    - name: See if it worked?
-      run: ls -alh output
     - name: Upload PDF
       uses: actions/upload-artifact@v3
       with:
