@@ -1,27 +1,30 @@
 Harry Staley
 ============
 
+staleyh@gmail.com> | +1 (330) 718-1876
+--------------------------------------
+
 ----
 
-Harry Staley is a life-long learner with a love for data and the democratization of information that has come to the world with the advent of the Internet.  His passion for technology began in 2004 with the development of a database project during a summer internship while working on his first Bachelor’s Degree.  Since that time, he has grown that passion for technology and for how data fuels the engine of modern innovations such as IDS, voice assistants, and autonomous vehicles.  Through his journey he has engaged in self-directed learning using tools like MIT Open Courseware, Khan Academy, and Coursera to grow his toolkit of skills and knowledge, and now gives back to others by teaching Python and Cyber Security through Udacity and ThriveDX.
+I am a life-long learner with a love for data and the democratization of information that has come to the world with the advent of the Internet.  My passion for technology began in 2004 with the development of a database project during a summer internship while finishing my first Bachelor’s Degree.  Since that time, I have grown that passion for technology and for how data fuels the engine of modern innovations such as IDS, voice assistants, and autonomous vehicles.  Through this journey I have engaged in self-directed learning using tools like MIT Open Courseware, Khan Academy, and Coursera to grow my toolkit of knowlege, skills and abilities. I give back to others by teaching Python and Cyber Security through Udacity and ThriveDX.
 
-As part of Harry’s vision for the democratization of information online, he engages in community volunteer efforts working on open source software, working with organizations like Code Alliance and Techtonica, and mentoring students. For the last 12 years, Harry has applied his skills in data science and data engineering to serve the public through advancing the efficiency of US Army & DoD procurement systems.
+As part of my vision for the democratization of information online, I volunteer on open source software, working with organizations like Benetech: Code Alliance and Techtonica, and mentoring students. For the last 12 years, I have applied my data science and data engineering skills to serve the public through advancing the efficiency of US Army & DoD procurement systems and processes.
 
 ----
 
 Experience
 ----------
 
-**U.S. Army Civilian Service** | May 2011 - Present
+**U.S. Army - Civilian Service** | May 2011 - Present
 
 ***Interim Data Team Lead, Data Scientist (ORSA)*** | ODASA(P) | May 2021 - Present
 
 * Delivered decision support tools for senior executive leadership with global scope.
-* Developed a cross-functional architectural diagram documenting the data pipeline from the point of collection to data warehousing and arrival at analytics platforms.
+* Developed a cross-functional architectural diagram documenting the data pipeline from the point of collection to data warehousing and arrival at analytics platforms in diagrams.net.
 * Championed Agile methodologies as a best practice to foster a culture of continuous delivery to achieve mission objectives.
 * Constructed a data team charter aligned to strategic lines of effort.
 * Cultivated cross-functional relationships with data owners across the DoD to acquire new data sources.
-* Collaborated with senior Data Scientists to develop an enterprise solution to track acquisitions in support of the conflict in Ukraine before the addition of a National Interest Action (NIA) code.
+* Collaborated with senior Data Scientists to develop an enterprise solution to track acquisitions in support of dynamic OCONUS missions before the addition of a National Interest Action (NIA) code.
 * Co-leading the Army Data Science Community of Interest.
 
 ***Team Member - Acquisition Innovation Through Technology*** | ODASA(P) | Oct 2020 - Apr 2021
@@ -35,7 +38,7 @@ Experience
 
 * Delivered decision support tools for executive leadership with US wide scope.
 * Developed analytics tools to analyze the largest and most complex Government Purchase Card program in the Army.
-    - Awarded the Civilian Service Commendation Medal for this project.
+    - Awarded the Civilian Service Achievement Medal for this project.
 * Mentored ORSA team members on computer science concepts.
 * Regularly briefed senior leaders as a metrics champion.
 * Change control board member for several procurement systems.
@@ -100,26 +103,11 @@ Certifications
 
 **CompTIA Network+** | License COMP001003566872 | July 2006
 
-Security Clearance
-------------------
-
-**SECRET** | ACTIVE | Adjudicated Oct. 2015
-
 Honors and Awards
 -----------------
 
 * Star Note from DASA(P)
-<<<<<<< Updated upstream
-* Certifcate of Appreciation from Gen. Christine Beeler
-* Achievement Medal for Civilian Service x 2
-* Civilian Service Commendation Medal
-=======
 * Certificate of Appreciation from Gen. Christine Beeler
 * Civilian Service Achievement Medal
 * Achievement Medal for Civilian Service x 2
->>>>>>> Stashed changes
 * Challenge Coin from the ASA(ALT)
-
-----
-
-<staleyh@gmail.com> | +1 (330) 718-1876 | 8884 Staghorn Mill, Converse, TX 78109
