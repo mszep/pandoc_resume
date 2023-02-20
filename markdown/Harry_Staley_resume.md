@@ -111,9 +111,15 @@ Honors and Awards
 * Star Note from DASA(P)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 * Certifcate of Appreciation from Gen. Christine Beeler
 * Achievement Medal for Civilian Service x 2
 * Civilian Service Commendation Medal
+=======
+* Certificate of Appreciation from Gen. Christine Beeler
+* Civilian Service Achievement Medal
+* Achievement Medal for Civilian Service x 2
+>>>>>>> Stashed changes
 =======
 * Certificate of Appreciation from Gen. Christine Beeler
 * Civilian Service Achievement Medal
