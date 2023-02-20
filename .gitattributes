@@ -772,7 +772,7 @@ Cargo.lock text
 *.physicsMaterial    merge=unityyamlmerge eol=lf
 
 # Using Git LFS
-# Add diff=lfs merge=lfs to the binary files
+#Add diff=lfs merge=lfs to the binary files
 
 # Unity LFS
 *.cubemap            binary
