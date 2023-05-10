@@ -70,6 +70,16 @@ Make sure to add the directory `/Library/TeX/texbin/` to your path or `context` 
 export PATH=$PATH:/Library/TeX/texbin/
 ```
 
+#### Nix
+
+Make sure to enable flakes, see [this](https://nixos.wiki/wiki/Flakes).
+
+```bash
+nix build
+```
+
+The built resume will end up in `./result`.
+
 ### Troubleshooting
 
 #### Get versions
