@@ -2,6 +2,8 @@ Igor Kaplounenko
 ================
 
 > **senior software engineer**
+> **author of [pytest-patch](https://pypi.org/project/pytest-patch/) and
+  [modulemeta](https://pypi.org/project/modulemeta/)**
 
 -------------------------------------------------------	----------------------
 <https://github.com/megawidget>													<megawidget@gmail.com>
@@ -14,26 +16,41 @@ Special Qualifications
 
 *	Python with Tornado, Flask + Connexion
 *	C++17 with STL and Boost
-* CoffeeScript, LiveScript with React, Redux, Immutable.js, Lodash, Bootstrap
+*	CoffeeScript, LiveScript with React or Vue
 
 **Other Technologies**
 
-* TensorFlow, neon
-* OpenAPI
-* Docker, Kubernetes
+*	TensorFlow, neon, nGraph
+*	OpenAPI
+*	Docker, Kubernetes
 *	elliptic curve cryptography, NaCl
 *	SQLite, MySQL, PostgreSQL, Redis
 *	Linux, FreeBSD
-*	AWS S3 and EC2
-* Git
+*	AWS S3, EC2, Lambda
+*	Git
 
 I am familiar with a variety of other languages and technologies as well, but am
-primarily a LiveScript, Python, and C++14 aficionado.
+primarily a LiveScript, Python, and C++17 aficionado.
 
 Work Experience
 ---------------
 
-2016-current
+2020-2023
+:	**Senior Software Engineer** at **Lambda Labs**
+
+* Maintained the web store by adding features and fixing bugs as requested by
+  the sales and finance teams. (*Python*, *PostgreSQL*. *JavaScript*)
+* Refactored the codebase and extended it with tests, style checks, and type
+  hints. (*Python*, *pytest*, *mypy*, *Nox*)
+* Designed and implemented a customizable web-based GUI wrapper for arbitrary
+  command line tools on behalf of **South Park Studios** that was used for
+  their deepfake YouTube series. (*LiveScript*, *Vue*, *Pug*)
+* Implemented lambda cloud monitoring. (*AWS Lambda*, *Python*)
+* Implemented the DGX store pages. (*JavaScript*)
+* Added minor features to the Deep Learning as a Service cloud platform.
+  (*Elixir*)
+
+2016-2020
 :	**Cloud Software Engineer** at **Nervana / Intel**
 
 * Designed and implemented a profiler for Intel's proprietary machine learning
@@ -76,7 +93,7 @@ Work Experience
 * As part of the uTorrent Core team, helped fix bugs in the uTorrent codebase.
 	(*C++*)
 * Implemented features for the SoShare product on both client and server-side.
-	(*C++*, *Javascript*, *Python*, *Tornado*)
+	(*C++*, *JavaScript*, *Python*, *Tornado*)
 * Was one of the core contributors to the daemon component of the chat client
 	Bleep, which functions as a SIP server with a cryptography layer. (*C++11*,
 	*NaCl*, *curve25519*, *ed25519*, *SQLite*)
@@ -97,7 +114,7 @@ Work Experience
 	device. (*ALSA*, *MPG123*, *C*, *C++*)
 *	Ported frotz (a Z-Machine implementation) to an embedded device and
 	implemented a WebKit plugin to interface with it. (*C++*)
-*	Designed and developed a New York Times crossword engine. (*Javascript*)
+*	Designed and developed a New York Times crossword engine. (*JavaScript*)
 *	Engineered a library to dynamically insert ads into publications as they are
 	displayed. (*C++*, *SQLite*)
 *	Collaborated with other teams to integrate libraries and plugins.
@@ -153,7 +170,7 @@ Yahoo Photos
 *	Worked as an embedded devices developer for mipsel architecture routers
 	running a modified version of OpenWRT.
 *	Designed and implemented a buffered HTML parser and editor to be used as a
-	proxy module. (*C*, *Javascript*)
+	proxy module. (*C*, *JavaScript*)
 *	Designed and implemented a URL redirector to be used as a proxy module. (*C*)
 *	Tweaked and optimized an existing proxy. (*C*)
 *	Maintained a Subversion repository as well as a Bugzilla installation.
