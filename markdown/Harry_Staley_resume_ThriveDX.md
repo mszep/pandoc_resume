@@ -14,7 +14,7 @@ Experience
 
 **U.S. Army Civilian Service** | May 2011 - Present
 
-***Interim Data Team Lead, Data Scientist (ORSA)*** | ODASA(P) | May 2021 - Present
+***Data Team Technical Lead, Data Scientist (ORSA)*** | ODASA(P) | May 2021 - Present
 
 * Delivered decision support tools for senior executive leadership with global scope.
 * Developed a cross-functional architectural diagram documenting the data pipeline from the point of collection to data warehousing and arrival at analytics platforms.
@@ -35,7 +35,7 @@ Experience
 
 * Delivered decision support tools for executive leadership with US wide scope.
 * Developed analytics tools to analyze the largest and most complex Government Purchase Card program in the Army.
-    - Awarded the Civilian Service Commendation Medal for this project.
+    - Awarded the Civilian Service Achievement Medal for this project.
 * Mentored ORSA team members on computer science concepts.
 * Regularly briefed senior leaders as a metrics champion.
 * Change control board member for several procurement systems.
@@ -47,6 +47,24 @@ Experience
 * Teaching for several colleges/universities in a highly interactive style to distill technical topics for learners.
 * Responsible for classroom management, pedagogy, scaffolded learning, and understanding checks.
 * Focused on building career ready cybersecurity and Python software development professionals.
+
+Lead Instructor:
+
+* Introduction to Full Stack Web Development
+* Principles of Programming with Python
+* Python for Cyber Security
+* CompTIA Security+ & Cisco CyberOps Certificaiton Prep
+
+Associate Instructor:
+
+* Cyber Infrastructure & Technology
+* DFIR
+* Ethical Hacking
+* Game Theory
+* Introduction to Cyber Security
+* Introduction to Full Stack Development
+* Network Security
+* Python for Security
 
 **Full Stack Web Developer (Freelance)** | CraftedTech | Aug 2016 - Oct 2021
 
@@ -109,15 +127,9 @@ Honors and Awards
 -----------------
 
 * Star Note from DASA(P)
-<<<<<<< Updated upstream
-* Certifcate of Appreciation from Gen. Christine Beeler
-* Achievement Medal for Civilian Service x 2
-* Civilian Service Commendation Medal
-=======
 * Certificate of Appreciation from Gen. Christine Beeler
 * Civilian Service Achievement Medal
 * Achievement Medal for Civilian Service x 2
->>>>>>> Stashed changes
 * Challenge Coin from the ASA(ALT)
 
 ----
