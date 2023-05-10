@@ -1,21 +1,21 @@
 Harry Staley
 ============
 
-staleyh@gmail.com> | +1 (330) 718-1876
---------------------------------------
-
-----
+San Antonio, TX | <staleyh@gmail.com> | +1 (330) 718-1876
+----------------------------------------------------------------------------------
 
 I am a life-long learner with a love for data and the democratization of information that has come to the world with the advent of the Internet.  My passion for technology began in 2004 with the development of a database project during a summer internship while finishing my first Bachelor’s Degree.  Since that time, I have grown that passion for technology and for how data fuels the engine of modern innovations such as IDS, voice assistants, and autonomous vehicles.  Through this journey I have engaged in self-directed learning using tools like MIT Open Courseware, Khan Academy, and Coursera to grow my toolkit of knowlege, skills and abilities. I give back to others by teaching Python and Cyber Security through Udacity and ThriveDX.
 
 As part of my vision for the democratization of information online, I volunteer on open source software, working with organizations like Benetech: Code Alliance and Techtonica, and mentoring students. For the last 12 years, I have applied my data science and data engineering skills to serve the public through advancing the efficiency of US Army & DoD procurement systems and processes.
 
-----
-
 Experience
 ----------
 
-**U.S. Army - Civilian Service** | May 2011 - Present
+**Software Engineer/Data Scientist** | Global Infotek Inc. | Aug 2022 - Present
+
+
+
+**U.S. Army - Civilian Service** | SECRET | May 2011 - August 2022
 
 ***Interim Data Team Lead, Data Scientist (ORSA)*** | ODASA(P) | May 2021 - Present
 
@@ -34,15 +34,14 @@ Experience
 * Conducted research and evaluated technologies to bring structure to unstructured data.
 * Worked with data owners to procure new data sources for enterprise analytics to use.
 
-***Procurement Systems Analyst, Business Intelligence*** | MICC | May 2011 - May 2021
+***Procurement Systems Analyst, Business Intelligence*** | MICC |  Secret | May 2011 - May 2021
 
 * Delivered decision support tools for executive leadership with US wide scope.
 * Developed analytics tools to analyze the largest and most complex Government Purchase Card program in the Army.
-    - Awarded the Civilian Service Achievement Medal for this project.
+  * Awarded the Civilian Service Achievement Medal for this project.
 * Mentored ORSA team members on computer science concepts.
 * Regularly briefed senior leaders as a metrics champion.
 * Change control board member for several procurement systems.
-
 
 **Lead Instructor** | ThriveDX | Sep 2021 - Present
 
@@ -85,7 +84,7 @@ Education
 **AS, Computer Science/Mathematics (Summa Cum Laude)** | St. Phillips College | 2017
 
 **AAS, Business and Marketing** |  Ozarks Technical Community College | 2009
- 
+
 **BA, Youth Ministry/Bible** | Central Bible College | 2007
 
 Publications
@@ -97,11 +96,9 @@ Publications
 Certifications
 --------------
 
-**DAWIA Engineering & Technical Management (Practitioner)** | Feb 2022
-
-**CompTIA Security+** | License COMP001003566872 | Aug 2019
-
-**CompTIA Network+** | License COMP001003566872 | July 2006
+* **DAWIA Engineering & Technical Management (Practitioner)** | Feb 2022
+* **CompTIA Security+** | License COMP001003566872 | Aug 2019
+* **CompTIA Network+** | License COMP001003566872 | July 2006
 
 Honors and Awards
 -----------------
