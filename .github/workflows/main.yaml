@@ -1,0 +1,35 @@
+name: Build inside docker image
+on:
+  create:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+    paths:
+      - 'markdown/**'
+env:
+  IMAGE_NAME: resume-image:${{github.sha}}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker build . --tag ${{env.IMAGE_NAME}}
+      working-directory: docker
+    - name: Build the Resume
+      run: docker run --rm -v ${PWD}:/home/app/resume ${{env.IMAGE_NAME}}
+    - name: Upload PDF
+      uses: actions/upload-artifact@v3
+      with:
+        # Artifact name
+        name: Resume PDF # optional, default is artifact
+        # A file, directory or wildcard pattern that describes what to upload
+        path: output/*.pdf
+    - name: Upload HTML
+      uses: actions/upload-artifact@v3
+      with:
+        # Artifact name
+        name: Resume HTML # optional, default is artifact
+        # A file, directory or wildcard pattern that describes what to upload
+        path: output/*.html
