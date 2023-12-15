@@ -1,0 +1,205 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\startsectionlevel[title={Johnny Coder},reference={johnny-coder}]
+
+\thinrule
+
+\startblockquote
+In this style, the resume starts with a blockquote, where you can
+briefly list your specialties, or include a salient quote. Ending a line
+with a backslash forces a line break.
+\stopblockquote
+
+\thinrule
+
+\startsectionlevel[title={Education},reference={education}]
+
+\startdescription{2010-2014 (expected)}
+  {\bf PhD, Computer Science}; Awesome University (MyTown)
+
+  {\em Thesis title: Deep Learning Approaches to the Self-Awesomeness
+  Estimation Problem}
+\stopdescription
+
+\startdescription{2007-2010}
+  {\bf BSc, Computer Science and Electrical Engineering}; University of
+  HomeTown (HomeTown)
+
+  {\em Minor: Awesomeology}
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Experience},reference={experience}]
+
+{\bf Your Most Recent Work Experience:}
+
+Short text containing the type of work done, results obtained, lessons
+learned and other remarks. Can also include lists and links:
+
+\startitemize
+\item
+  First item
+\item
+  Item with \goto{link}[url(http://www.example.com)]. Links will work
+  both in the html and pdf versions.
+\stopitemize
+
+{\bf That Other Job You Had}
+
+Also with a short description.
+
+\stopsectionlevel
+
+\startsectionlevel[title={Technical
+Experience},reference={technical-experience}]
+
+\startdescription{My Cool Side Project}
+  For items which don't have a clear time ordering, a definition list
+  can be used to have named items.
+
+  \startitemize[packed]
+  \item
+    These items can also contain lists, but you need to mind the
+    indentation levels in the markdown source.
+  \item
+    Second item.
+  \stopitemize
+\stopdescription
+
+\startdescription{Open Source}
+  List open source contributions here, perhaps placing emphasis on the
+  project names, for example the {\bf Linux Kernel}, where you
+  implemented multithreading over a long weekend, or {\bf node.js} (with
+  \goto{link}[url(http://nodejs.org)]) which was actually totally your
+  idea\ldots{}
+\stopdescription
+
+\startdescription{Programming Languages}
+  {\bf first-lang:} Here, we have an itemization, where we only want to
+  add descriptions to the first few items, but still want to mention
+  some others together at the end. A format that works well here is a
+  description list where the first few items have their first word
+  emphasized, and the last item contains the final few emphasized terms.
+  Notice the reasonably nice page break in the pdf version, which
+  wouldn't happen if we generated the pdf via html.
+
+  {\bf second-lang:} Description of your experience with second-lang,
+  perhaps again including a {[}link{]}
+  \goto{ref}[url(https://github.com/githubuser/superlongprojectname)],
+  this time placing the url reference elsewhere in the document to
+  reduce clutter (see source file).
+
+  {\bf obscure-but-impressive-lang:} We both know this one's pushing it.
+
+  Basic knowledge of {\bf C}, {\bf x86 assembly}, {\bf forth}, {\bf
+  Common Lisp}
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Extra Section, Call it Whatever You
+Want},reference={extra-section-call-it-whatever-you-want}]
+
+\startitemize
+\item
+  Human Languages:
+
+  \startitemize[packed]
+  \item
+    English (native speaker)
+  \item
+    ???
+  \item
+    This is what a nested list looks like.
+  \stopitemize
+\item
+  Random tidbit
+\item
+  Other sort of impressive-sounding thing you did
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\goto{email@example.com}[url(mailto:email@example.com)] • +00 (0)00 000
+0000 • XX years old\crlf
+address - Mytown, Mycountry
+\stopblockquote
+
+\stopsectionlevel
+
+\stopsectionlevel
+
+\stoptext

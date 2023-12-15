@@ -1,0 +1,322 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\startsectionlevel[title={Harry Staley},reference={harry-staley}]
+
+\startsectionlevel[title={Security Clearance \letterbar{} San Antonio,
+TX \letterbar{} \goto{staleyh@gmail.com}[url(mailto:staleyh@gmail.com)]
+\letterbar{} +1 (330)
+718-1876},reference={security-clearance-san-antonio-tx-staleyhgmail.com-1-330-718-1876}]
+
+Harry Staley is a life-long learner with a love for data and the
+democratization of information that has come to the world with the
+advent of the Internet. His passion for technology began in 2004 with
+the development of a database project during a summer internship while
+working on his first Bachelor's Degree. Since that time, he has grown
+that passion for technology and for how data fuels the engine of modern
+innovations such as IDS, voice assistants, and autonomous vehicles.
+Through his journey he has engaged in self-directed learning using tools
+like MIT Open Courseware, Khan Academy, and Coursera to grow his toolkit
+of skills and knowledge, and now gives back to others by teaching Python
+and Cyber Security through Udacity and ThriveDX.
+
+As part of Harry's vision for the democratization of information online,
+he engages in community volunteer efforts working on open source
+software, working with organizations like Code Alliance and Techtonica,
+and mentoring students. For the last 12 years, Harry has applied his
+skills in data science and data engineering to serve the public through
+advancing the efficiency of US Army & DoD procurement systems.
+
+\thinrule
+
+\stopsectionlevel
+
+\startsectionlevel[title={Experience},reference={experience}]
+
+{\bf U.S. Army Civilian Service} \letterbar{} SECRET \letterbar{} May
+2011 - Present
+
+{\bf {\em Interim Data Team Lead, Data Scientist (ORSA)}} \letterbar{}
+ODASA(P) \letterbar{} SECRET \letterbar{} May 2021 - Present
+
+\startitemize[packed]
+\item
+  Delivered decision support tools for senior executive leadership with
+  global scope.
+\item
+  Developed a cross-functional architectural diagram documenting the
+  data pipeline from the point of collection to data warehousing and
+  arrival at analytics platforms.
+\item
+  Championed Agile methodologies as a best practice to foster a culture
+  of continuous delivery to achieve mission objectives.
+\item
+  Constructed a data team charter aligned to strategic lines of effort.
+\item
+  Cultivated cross-functional relationships with data owners across the
+  DoD to acquire new data sources.
+\item
+  Collaborated with senior Data Scientists to develop an enterprise
+  solution to track acquisitions in support of the conflict in Ukraine
+  before the addition of a National Interest Action (NIA) code.
+\item
+  Co-leading the Army Data Science Community of Interest.
+\stopitemize
+
+{\bf {\em Team Member - Acquisition Innovation Through Technology}}
+\letterbar{} ODASA(P) \letterbar{} SECRET \letterbar{} Oct 2020 - Apr
+2021
+
+\startitemize[packed]
+\item
+  Developed business cases to apply new and emerging technologies such
+  as machine learning, artificial intelligence, and robotic process
+  automation to existing acquisition processes.
+\item
+  Led the project to provide an enterprise analytics capability for the
+  Armys' Government Purchase Card program.
+\item
+  Conducted research and evaluated technologies to bring structure to
+  unstructured data.
+\item
+  Worked with data owners to procure new data sources for enterprise
+  analytics to use.
+\stopitemize
+
+{\bf {\em Procurement Systems Analyst, Business Intelligence}}
+\letterbar{} MICC \letterbar{} SECRET \letterbar{} May 2011 - May 2021
+
+\startitemize[packed]
+\item
+  Delivered decision support tools for executive leadership with US wide
+  scope.
+\item
+  Developed analytics tools to analyze the largest and most complex
+  Government Purchase Card program in the Army.
+  \startitemize[packed]
+  \item
+    Awarded the Civilian Service Commendation Medal for this project.
+  \stopitemize
+\item
+  Mentored ORSA team members on computer science concepts.
+\item
+  Regularly briefed senior leaders as a metrics champion.
+\item
+  Change control board member for several procurement systems.
+\stopitemize
+
+{\bf Lead Instructor} \letterbar{} ThriveDX \letterbar{} Sep 2021 -
+Present
+
+\startitemize[packed]
+\item
+  Promoted from Associate to Lead in April 2022
+\item
+  Teaching for several colleges/universities in a highly interactive
+  style to distill technical topics for learners.
+\item
+  Responsible for classroom management, pedagogy, scaffolded learning,
+  and understanding checks.
+\item
+  Focused on building career ready cybersecurity and Python software
+  development professionals.
+\stopitemize
+
+{\bf Full Stack Web Developer (Freelance)} \letterbar{} CraftedTech
+\letterbar{} Aug 2016 - Oct 2021
+
+{\bf Computer Science and Math Tutor} \letterbar{} Parliament Tutors
+\letterbar{} Aug 2019 - Apr 2022
+
+{\bf Project Reviewer & Mentor} \letterbar{} Udacity \letterbar{} Aug
+2016 - Sep 2018
+
+\startitemize[packed]
+\item
+  Reviewed and adjudicated project submissions based on project rubrics.
+\item
+  Provided constructive feedback on project submissions.
+\item
+  Mentored students as they implemented their projects.
+\stopitemize
+
+{\bf Research Assistant} \letterbar{} Texas A&M University-San Antonio -
+Cybersecurity \letterbar{} Nov 2017 - May 2018
+
+\startitemize[packed]
+\item
+  Identified additional research that could help minimize attack vectors
+  in secure clouds.
+\item
+  Assisted with research on \quotation{Risk-aware Multi-Objectives
+  Optimized Virtual Machine Placement in Cloud} under a grant from the
+  Army Research Office.
+\stopitemize
+
+{\bf Full Stack Web Developer (Volunteer)} \letterbar{} Benetech - Code
+Alliance \letterbar{} Aug 2016 - Dec 2017
+
+\startitemize[packed]
+\item
+  Technical Lead on a high-impact volunteer project helping develop a
+  mature web prototype for Benetech labs.
+\item
+  Improved web presence of Techtonica.org through the use of Python
+  Flask & Jinja templating.
+\stopitemize
+
+{\bf Business Intelligence Developer (Internship)} \letterbar{} USAA
+\letterbar{} May 2017 - Aug 2017
+
+{\bf Software Engineer / Data Analytics Consultant} \letterbar{}
+Scholastic \letterbar{} Jun 2009 - Jan 2011
+
+\stopsectionlevel
+
+\startsectionlevel[title={Education},reference={education}]
+
+{\bf MS, Computer Science} \letterbar{} Georgia Institute of Technology
+\letterbar{} 2022-Present
+
+{\bf BS, Computer Science (Summa Cum Laude)} \letterbar{} Texas A&M
+University-San Antonio \letterbar{} 2019
+
+{\bf AS, Computer Science/Mathematics (Summa Cum Laude)} \letterbar{}
+St.~Phillips College \letterbar{} 2017
+
+{\bf AAS, Business and Marketing} \letterbar{} Ozarks Technical
+Community College \letterbar{} 2009
+
+{\bf BA, Youth Ministry/Bible} \letterbar{} Central Bible College
+\letterbar{} 2007
+
+\stopsectionlevel
+
+\startsectionlevel[title={Publications},reference={publications}]
+
+{\bf A Practice of Detecting Insider Threats within a Network} Advances
+in Security, Networks, and the Internet of Things \letterbar{} Feb 2021
+
+\stopsectionlevel
+
+\startsectionlevel[title={Certifications},reference={certifications}]
+
+{\bf DAWIA Engineering & Technical Management (Practitioner)}
+\letterbar{} Feb 2022
+
+{\bf CompTIA Security+} \letterbar{} License COMP001003566872
+\letterbar{} Aug 2019
+
+{\bf CompTIA Network+} \letterbar{} License COMP001003566872
+\letterbar{} July 2006
+
+\stopsectionlevel
+
+\startsectionlevel[title={Security
+Clearance},reference={security-clearance}]
+
+{\bf TOP SECRET/SCI} \letterbar{} ACTIVE \letterbar{} Adjudicated
+Sep.~2022
+
+{\bf POLYGRAPH} \letterbar{} FULL SCOPE \letterbar{} Aug.~2020
+
+{\bf SECRET} \letterbar{} ACTIVE \letterbar{} Adjudicated Oct.~2015
+
+\stopsectionlevel
+
+\startsectionlevel[title={Honors and
+Awards},reference={honors-and-awards}]
+
+\startitemize[packed]
+\item
+  Star Note from DASA(P)
+\item
+  Certificate of Appreciation from Gen.~Christine Beeler
+\item
+  Civilian Service Achievement Medal
+\item
+  Achievement Medal for Civilian Service x 2
+\item
+  Challenge Coin from the ASA(ALT)
+\stopitemize
+
+\thinrule
+
+\goto{staleyh@gmail.com}[url(mailto:staleyh@gmail.com)] \letterbar{} +1
+(330) 718-1876 \letterbar{} 8884 Staghorn Mill, Converse, TX 78109
+
+\stopsectionlevel
+
+\stopsectionlevel
+
+\stoptext
