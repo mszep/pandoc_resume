@@ -3,7 +3,7 @@ IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
 
-all: html pdf docx rtf
+all: html pdf docx rtf txt
 
 pdf: init
 	for f in $(IN_DIR)/*.md; do \
@@ -39,6 +39,13 @@ rtf: init
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.rtf; \
 		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
+	done
+
+txt: init
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.txt; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.txt; \
 	done
 
 init: dir version
