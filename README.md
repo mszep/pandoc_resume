@@ -80,6 +80,76 @@ nix build
 
 The built resume will end up in `./result`.
 
+Additionally, this project's flake overlay output exposes the function
+`pandocResume.buildResume` for building a resume stored somewhere other than
+[the default location](#instructions):
+
+```nix
+{
+  description = "Flake for building my resume";
+
+  inputs = { pandoc_resume.url = "github:mszep/pandoc_resume"; };
+
+  outputs = { self, nixpkgs, pandoc_resume }:
+    {
+      packages.x86_64-linux =
+        let
+          pkgs = import nixpkgs { system = "x86_64-linux"; overlays = [ pandoc_resume.overlays.pandocResume ]; };
+
+          myResume = pkgs.pandocResume.buildResume {
+            # Mandatory.
+            #
+            # Must specify a directory containing a resume whose basename
+            # includes the extension `.md`.
+            inDir = "${self}/my-resume";
+
+            # Optional.
+            #
+            # The specified directory must contain the files `<style>.css` and
+            # `<style>.tex` for each supported style `<style>`.
+            #
+            # Defaults to "${pandoc_resume}/styles".
+            stylesDir = "${self}/my-styles";
+
+            # Optional.
+            #
+            # Given "my-style", `stylesDir` must contain `my-style.css` and
+            # `my-style.tex`.
+            #
+            # Defaults to "chmduquesne".
+            style = "my-style";
+          };
+        in
+        {
+          inherit myResume;
+          default = myResume;
+        };
+    };
+}
+```
+
+In the example above, you can build your resume by running the following from
+your flake's top-level directory (assuming you are on an `x86_64-linux`
+system):
+
+```
+nix build
+```
+
+Or, equivalently:
+
+```
+nix build '.#myResume'
+```
+
+Or via any valid [flake reference](https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html#flake-references).
+For instance, if the flake containing your resume is hosted at
+`https://my.git.host/my-flake`, you can build it with:
+
+```
+nix build 'git+https://my.git.host/my-flake#myResume'
+```
+
 ### Troubleshooting
 
 #### Get versions

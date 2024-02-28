@@ -18,21 +18,47 @@
           ];
         in nixpkgs.lib.subtractLists unsupportedSystems nixpkgs.lib.systems.flakeExposed;
 
-      perSystem = nixpkgs.lib.genAttrs supportedSystems;
-      pkgsFor = system: import nixpkgs { inherit system; };
+      overlay = final: prev: {
+        pandocResume.buildResume =
+          {
+            inDir
+          , stylesDir ? null
+          , style ? null
+          }@args: let
+            overrides = prev.lib.filterAttrs (_: value: value != null) args;
 
-      buildResumeFor = system:
-        let pkgs = pkgsFor system;
-        in pkgs.runCommand "build-resume" {
-          nativeBuildInputs = with pkgs; [ pandoc texlive.combined.scheme-context ];
-        } ''
-          cd ${self}
-          make OUT_DIR="$out"
-        '';
+            arg2env = {
+              inDir = "IN_DIR";
+              stylesDir = "STYLES_DIR";
+              style = "STYLE";
+            };
+
+            env =
+              let
+                quoteIfNecessary = value: if builtins.isPath value then value else prev.lib.escapeShellArg value;
+                assign = name: "${arg2env.${name}}=${quoteIfNecessary overrides.${name}}";
+              in builtins.foldl' (a: name: a ++ [ (assign name) ]) [] (builtins.attrNames overrides);
+
+          in final.runCommand "build-resume" {
+            nativeBuildInputs = with final; [ pandoc texlive.combined.scheme-context ];
+          } ''
+            cd ${self}
+            make OUT_DIR="$out" ${toString env}
+          '';
+      };
+
+      perSystem = nixpkgs.lib.genAttrs supportedSystems;
+      pkgsFor = system: import nixpkgs { inherit system; overlays = [ self.overlays.default ]; };
     in {
+      overlays = {
+        pandocResume = overlay;
+        default = overlay;
+      };
+
       packages = perSystem (system:
         let
-          resume = buildResumeFor system;
+          pkgs = pkgsFor system;
+          resume = pkgs.pandocResume.buildResume { inDir = "${self}/markdown"; };
         in
         {
           inherit resume;
